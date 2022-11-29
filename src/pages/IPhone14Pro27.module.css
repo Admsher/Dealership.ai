@@ -1,0 +1,165 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+.rectangleDiv,
+.rectangleDiv1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-400);
+  width: 393px;
+  height: 852px;
+}
+.rectangleDiv1 {
+  top: 115px;
+  left: 8px;
+  background-color: var(--color-black);
+  box-shadow: -10px 10px 20px rgba(255, 255, 255, 0.25) inset,
+    10px 10px 20px rgba(255, 255, 255, 0.25) inset;
+  width: 379px;
+  height: 737px;
+}
+.image1Icon {
+  position: absolute;
+  top: 337px;
+  left: 31px;
+  width: 332px;
+  height: 178px;
+  object-fit: cover;
+  opacity: 0;
+}
+.image1Icon.animate {
+  animation: 2s ease 0s 1 normal forwards fade-in;
+}
+.rectangleTextarea {
+  border: 3px solid var(--color-white);
+  background-color: var(--color-gray-300);
+  position: absolute;
+  top: 794px;
+  left: 23px;
+  border-radius: var(--br-md);
+  box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
+  box-sizing: border-box;
+  width: 349px;
+  height: 53px;
+}
+.rectangleTextarea:active {
+  animation: 1s ease 0s infinite normal none scale-down-center;
+  opacity: 1;
+}
+.rectangleIcon {
+  position: absolute;
+  top: 77px;
+  left: 8px;
+  width: 115px;
+  height: 32px;
+}
+.fFFCollection {
+  position: absolute;
+  top: 84px;
+  left: 17px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-weight: 700;
+}
+.rectangleDiv2 {
+  position: absolute;
+  top: 41px;
+  left: 5px;
+  background-color: #030303;
+  width: 33px;
+  height: 36px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconChevronLeft {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 3.29%;
+  width: 7.12%;
+  top: 5.05%;
+  right: 90.84%;
+  bottom: 91.67%;
+  left: 2.04%;
+}
+.rectangleDiv3 {
+  position: absolute;
+  top: 254px;
+  left: 174px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-300);
+  box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
+  width: 198px;
+  height: 95px;
+}
+.helloIWas {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.helloIWasWonderingIfYou {
+  position: absolute;
+  top: 265px;
+  left: 196px;
+  display: inline-block;
+  font-weight: 700;
+  width: 154px;
+  height: 75px;
+}
+.rectangleDiv4 {
+  position: absolute;
+  top: 376px;
+  left: 22px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-300);
+  box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
+  width: 198px;
+  height: 80px;
+}
+.sorryWeJustSoldTheRideB {
+  position: absolute;
+  top: 396px;
+  left: 26px;
+  display: inline-block;
+  font-weight: 700;
+  width: 181px;
+}
+.iPhone14Pro27 {
+  position: relative;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  width: 100%;
+  height: 852px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-lato);
+}

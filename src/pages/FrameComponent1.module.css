@@ -1,0 +1,159 @@
+.rectangleButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-400);
+  position: absolute;
+  top: 0;
+  left: 12px;
+  border-radius: var(--br-lg);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
+    -10px -10px 70px rgba(125, 125, 125, 0.25);
+  width: 364px;
+  height: 235px;
+}
+.nissan {
+  position: absolute;
+  top: 175px;
+  left: 20px;
+  display: inline-block;
+  font-weight: 700;
+}
+.rectangleButton1,
+.rectangleButton2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-400);
+  position: absolute;
+  top: 503px;
+  left: 12px;
+  border-radius: var(--br-lg);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
+    -10px -10px 70px rgba(125, 125, 125, 0.25);
+  width: 364px;
+  height: 235px;
+}
+.rectangleButton2 {
+  top: 256px;
+}
+.teslaI,
+.volkswagonI {
+  position: absolute;
+  top: 439px;
+  left: 20px;
+  display: inline-block;
+  font-weight: 700;
+}
+.volkswagonI {
+  top: 671px;
+  left: 25px;
+}
+.rectangleButton3,
+.rectangleButton4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-400);
+  position: absolute;
+  top: 753px;
+  left: 2px;
+  border-radius: var(--br-lg);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
+    -10px -10px 70px rgba(125, 125, 125, 0.25);
+  width: 364px;
+  height: 235px;
+}
+.rectangleButton4 {
+  top: 1006px;
+  left: 12px;
+}
+.mercedesI,
+.toyotaI {
+  position: absolute;
+  top: 1181px;
+  left: 25px;
+  display: inline-block;
+  font-weight: 700;
+}
+.toyotaI {
+  top: 903px;
+  left: 20px;
+}
+.rectangleButton5 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-400);
+  position: absolute;
+  top: 1259px;
+  left: 12px;
+  border-radius: var(--br-lg);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
+    -10px -10px 70px rgba(125, 125, 125, 0.25);
+  width: 364px;
+  height: 235px;
+}
+.bMWI {
+  position: absolute;
+  top: 1434px;
+  left: 20px;
+  display: inline-block;
+  font-weight: 700;
+}
+.screenshot181Icon,
+.screenshot182Icon {
+  position: absolute;
+  top: 1277px;
+  left: 46px;
+  border-radius: var(--br-xs);
+  width: 302px;
+  height: 157px;
+  object-fit: cover;
+}
+.screenshot181Icon {
+  top: 520px;
+  height: 137.35px;
+}
+.screenshot180Icon,
+.screenshot186Icon,
+.screenshot190Icon,
+.screenshot191Icon {
+  position: absolute;
+  top: 773px;
+  left: 33px;
+  border-radius: var(--br-xs);
+  width: 302px;
+  height: 133px;
+  object-fit: cover;
+}
+.screenshot180Icon,
+.screenshot190Icon,
+.screenshot191Icon {
+  top: 276px;
+  left: 46px;
+  height: 148px;
+}
+.screenshot190Icon,
+.screenshot191Icon {
+  top: 19px;
+  left: 40px;
+  width: 297.39px;
+  height: 144px;
+}
+.screenshot190Icon {
+  top: 1023px;
+  left: 46px;
+  width: 302px;
+  height: 158px;
+}
+.frameDiv {
+  position: relative;
+  width: 100%;
+  height: 1494px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-lato);
+}

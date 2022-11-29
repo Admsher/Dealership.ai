@@ -1,0 +1,117 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.rectangleDiv {
+  position: absolute;
+  top: -75px;
+  left: -126px;
+  background-color: var(--color-gray-400);
+  width: 804px;
+  height: 927px;
+}
+.blankLineP {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.youAreIn {
+  margin: 0;
+}
+.youAreInTheRightPlace {
+  position: absolute;
+  top: 514px;
+  left: 28px;
+  display: inline-block;
+  font-weight: 700;
+  width: 284px;
+  height: 50px;
+  opacity: 0;
+}
+.youAreInTheRightPlace.animate {
+  animation: 1s ease 1.5s 1 normal forwards fade-in;
+}
+.rectangleDiv1 {
+  top: 3px;
+  left: 22px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-400);
+  box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
+  width: 135px;
+  height: 31px;
+  opacity: 0;
+}
+.rectangleDiv1.animate {
+  animation: 0s ease 11s 1 normal forwards fade-in;
+}
+.frameDiv1,
+.getStartedI,
+.rectangleDiv1 {
+  position: absolute;
+  cursor: pointer;
+}
+.getStartedI {
+  top: 10px;
+  left: 50px;
+  display: inline-block;
+  font-weight: 700;
+  background: linear-gradient(123.14deg, #06b0e5, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.frameDiv1 {
+  top: 671px;
+  left: 97px;
+  width: 179px;
+  height: 40px;
+  overflow: hidden;
+  opacity: 0;
+}
+.frameDiv1.animate {
+  animation: 1s ease 2s 1 normal forwards fade-in;
+}
+.wantToKnowAboutTheHottest {
+  position: absolute;
+  top: 424px;
+  left: 28px;
+  display: inline-block;
+  font-weight: 700;
+  width: 311px;
+  height: 103px;
+  opacity: 0;
+}
+.image1Icon.animate,
+.wantToKnowAboutTheHottest.animate {
+  animation: 2s ease 0s 1 normal forwards fade-in;
+}
+.iPhone14Pro6 {
+  position: absolute;
+  top: 0;
+  left: -2px;
+  border-radius: var(--br-md);
+  background: linear-gradient(180deg, #020202, rgba(255, 255, 255, 0));
+  width: 393px;
+  height: 852px;
+  overflow: hidden;
+}
+.image1Icon {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 381px;
+  height: 268px;
+  object-fit: cover;
+  opacity: 0;
+}
+.frameDiv {
+  position: relative;
+  width: 100%;
+  height: 852px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-lato);
+}
