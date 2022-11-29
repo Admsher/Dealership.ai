@@ -1,0 +1,137 @@
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-400);
+  width: 393px;
+  height: 852px;
+}
+.selectFilters {
+  position: absolute;
+  top: 104px;
+  left: 12px;
+  display: inline-block;
+  font-weight: 700;
+  width: 135px;
+  height: 27px;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.75);
+}
+.rectangleButton,
+.rectangleButton1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-400);
+  position: absolute;
+  top: 222px;
+  left: 33px;
+  border-radius: var(--br-md);
+  box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
+  width: 83px;
+  height: 29px;
+}
+.rectangleButton1 {
+  top: 296px;
+  width: 96px;
+}
+.exoticsP {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.exotics {
+  position: absolute;
+  top: 228px;
+  left: 49px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-weight: 700;
+  background: linear-gradient(123.14deg, #06b0e5, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 51px;
+  height: 17px;
+}
+.rectangleDiv1 {
+  position: absolute;
+  top: 376px;
+  left: 30px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-400);
+  box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
+  width: 122px;
+  height: 29px;
+}
+.aftermarketButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 382px;
+  left: 49px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-style: italic;
+  font-weight: 700;
+  font-family: var(--font-lato);
+  background: linear-gradient(123.14deg, #06b0e5, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+}
+.vectorIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconChevronLeft {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 3.29%;
+  width: 7.12%;
+  top: 5.05%;
+  right: 90.84%;
+  bottom: 91.67%;
+  left: 2.04%;
+}
+.everydayButton,
+.iPhone14Pro10 {
+  text-align: left;
+  font-family: var(--font-lato);
+}
+.everydayButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 302px;
+  left: 49px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-style: italic;
+  font-weight: 700;
+  background: linear-gradient(123.14deg, #06b0e5, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.iPhone14Pro10 {
+  position: relative;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  width: 100%;
+  height: 852px;
+  overflow: hidden;
+  font-size: var(--font-size-2xl);
+  color: var(--color-white);
+}

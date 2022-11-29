@@ -1,0 +1,300 @@
+.rectangleDiv,
+.rectangleDiv1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-400);
+  width: 393px;
+  height: 852px;
+}
+.rectangleDiv1 {
+  top: 316px;
+  left: 9px;
+  border-radius: var(--br-md);
+  width: 213px;
+  height: 31px;
+}
+.formula1I {
+  position: absolute;
+  top: 67px;
+  left: 22px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  font-weight: 700;
+  width: 200px;
+  height: 36px;
+  mix-blend-mode: normal;
+}
+.ellipseIcon,
+.iconUser {
+  position: absolute;
+  top: 14.25px;
+  left: 29.25px;
+  width: 54.5px;
+  height: 55.5px;
+}
+.iconUser {
+  height: 31.33%;
+  width: 23.42%;
+  top: 33.73%;
+  right: 37.84%;
+  bottom: 34.94%;
+  left: 38.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ellipseIcon1,
+.frameButton {
+  position: absolute;
+  top: 0;
+  left: 3.25px;
+  width: 107.75px;
+  height: 83px;
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 31px;
+  left: 272px;
+  width: 111px;
+  overflow: hidden;
+}
+.lM2568I {
+  position: absolute;
+  top: 106px;
+  left: 29px;
+  display: inline-block;
+  font-weight: 700;
+  color: var(--color-gray-200);
+  width: 103px;
+  height: 23px;
+  mix-blend-mode: normal;
+}
+.rectangleIframe {
+  border: 0;
+  position: absolute;
+  top: 151px;
+  left: 40px;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(160, 155, 155, 0.5),
+    rgba(57, 57, 57, 0)
+  );
+  width: 302px;
+  height: 144px;
+}
+.rectangleDiv2,
+.rectangleDiv3 {
+  position: absolute;
+  left: 24px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-400);
+}
+.rectangleDiv2 {
+  top: 364px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
+    -10px -10px 70px rgba(125, 125, 125, 0.25);
+  width: 333px;
+  height: 157px;
+}
+.rectangleDiv3 {
+  top: 549px;
+  width: 331px;
+  height: 237px;
+}
+.ellipseIcon2 {
+  position: absolute;
+  top: 322px;
+  left: 96px;
+  width: 18px;
+  height: 19px;
+}
+.racers111I,
+.specsAndPrice {
+  position: absolute;
+  display: inline-block;
+  font-weight: 700;
+}
+.racers111I {
+  top: 627px;
+  left: 27px;
+  opacity: 0.7;
+}
+.specsAndPrice {
+  top: 382px;
+  left: 30px;
+  width: 118px;
+  height: 15px;
+}
+.crRsI,
+.v6NosInjected {
+  font-size: var(--font-size-xs);
+  width: 135px;
+}
+.v6NosInjected {
+  position: absolute;
+  top: 426px;
+  left: 37px;
+  display: inline-block;
+  font-weight: 700;
+}
+.crRsI {
+  top: 425px;
+  left: 273px;
+  height: 12px;
+}
+.crRsI,
+.dealersNearYou,
+.inclusiveOfTaxes {
+  position: absolute;
+  display: inline-block;
+  font-weight: 700;
+}
+.inclusiveOfTaxes {
+  top: 443px;
+  left: 253px;
+  font-size: var(--font-size-xs);
+  background: linear-gradient(#807e7e, #807e7e),
+    linear-gradient(#807e7e, #807e7e), #807e7e;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dealersNearYou {
+  top: 579px;
+  left: 27px;
+  width: 127px;
+  height: 18px;
+}
+.rectangleDiv4,
+.rectangleDiv5 {
+  position: absolute;
+  top: 786px;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-gray-400);
+  width: 393px;
+  height: 66px;
+}
+.rectangleDiv5 {
+  top: 5px;
+  left: 25px;
+  border-radius: var(--br-md);
+  box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
+  width: 122px;
+  height: 31px;
+}
+.contactP {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.contactI {
+  position: absolute;
+  top: 11px;
+  left: 56px;
+  display: inline-block;
+  font-weight: 700;
+  background: linear-gradient(123.14deg, #06b0e5, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 56px;
+  height: 25px;
+}
+.frameDiv,
+.vectorIcon {
+  position: absolute;
+  top: 617px;
+  left: 197px;
+  width: 153px;
+  height: 41px;
+  overflow: hidden;
+}
+.vectorIcon {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.iconCommentSquare,
+.iconHomeButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 57.45%;
+  width: 8.03%;
+  top: 17.02%;
+  right: 48.12%;
+  bottom: 25.53%;
+  left: 43.85%;
+}
+.iconCommentSquare {
+  height: 63.83%;
+  width: 6%;
+  right: 85.69%;
+  bottom: 19.15%;
+  left: 8.31%;
+}
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4 {
+  position: absolute;
+  height: 10%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 90%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon3,
+.vectorIcon4 {
+  top: 46.54%;
+  bottom: 43.46%;
+}
+.vectorIcon4 {
+  top: 90%;
+  bottom: 0;
+}
+.iconMenuButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 50.29%;
+  width: 7.2%;
+  top: 17.02%;
+  right: 13.3%;
+  bottom: 32.69%;
+  left: 79.5%;
+}
+.frameDiv1 {
+  position: absolute;
+  top: 795px;
+  left: 10px;
+  width: 374px;
+  height: 47px;
+  overflow: hidden;
+}
+.iPhone14Pro22 {
+  position: relative;
+  border-radius: var(--br-md);
+  background: linear-gradient(180deg, #fff, rgba(255, 255, 255, 0));
+  width: 100%;
+  height: 852px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-lato);
+}
