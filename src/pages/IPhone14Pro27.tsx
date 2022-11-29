@@ -46,7 +46,7 @@ const IPhone14Pro27: FunctionComponent = () => {
       <img
         className={styles.image1Icon}
         alt=""
-        src="../image-12@2x.png"
+        src="../image-11@2x.png"
         data-animate-on-scroll
       />
       <textarea className={styles.rectangleTextarea} />

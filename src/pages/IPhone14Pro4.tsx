@@ -1,4 +1,13 @@
 import { FunctionComponent, useCallback } from "react";
+import {
+  Stack,
+  MenuButton,
+  Menu,
+  Button,
+  MenuList,
+  MenuItem,
+} from "@chakra-ui/react";
+import { ChevronDownIcon } from "@chakra-ui/icons";
 import { useNavigate } from "react-router-dom";
 import styles from "./IPhone14Pro4.module.css";
 
@@ -47,7 +56,7 @@ const IPhone14Pro4: FunctionComponent = () => {
       </button>
       <i className={styles.welcomeI}>Welcome</i>
       <img className={styles.rectangleIcon} alt="" src="../rectangle-23.svg" />
-      <i className={styles.locationChurchGate}>Location: ChurchGate</i>
+      <i className={styles.location}>Location:</i>
       <div className={styles.rectangleDiv1} />
       <div className={styles.rectangleDiv2} />
       <i className={styles.trending}> Trending</i>
@@ -108,6 +117,22 @@ const IPhone14Pro4: FunctionComponent = () => {
           <img className={styles.vectorIcon4} alt="" src="../vector88.svg" />
         </button>
       </div>
+      <Stack className={styles.dropdownDefaultStack}>
+        <Menu>
+          <MenuButton
+            as={Button}
+            rightIcon={<ChevronDownIcon />}
+            colorScheme="black12"
+          >
+            Please Select
+          </MenuButton>
+          <MenuList>
+            <MenuItem value="Churchgate">Churchgate</MenuItem>
+            <MenuItem value="BKC">BKC</MenuItem>
+            <MenuItem value="Powai">Powai</MenuItem>
+          </MenuList>
+        </Menu>
+      </Stack>
     </div>
   );
 };
