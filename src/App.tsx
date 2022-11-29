@@ -5,7 +5,6 @@ import {
   useLocation,
 } from "react-router-dom";
 import IPhone14Pro6 from "./pages/IPhone14Pro6";
-import FrameComponent from "./pages/FrameComponent";
 import IPhone14Pro27 from "./pages/IPhone14Pro27";
 import IPhone14Pro25 from "./pages/IPhone14Pro25";
 import IPhone14Pro26 from "./pages/IPhone14Pro26";
@@ -29,7 +28,6 @@ import IPhone14Pro4 from "./pages/IPhone14Pro4";
 import IPhone14Pro3 from "./pages/IPhone14Pro3";
 import IPhone14Pro2 from "./pages/IPhone14Pro2";
 import IPhone14Pro1 from "./pages/IPhone14Pro1";
-import FrameComponent1 from "./pages/FrameComponent1";
 import { useEffect } from "react";
 
 function App() {
@@ -50,10 +48,6 @@ function App() {
     //TODO: Update meta titles and descriptions below
     switch (pathname) {
       case "/":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/frame-18":
         title = "";
         metaDescription = "";
         break;
@@ -149,10 +143,6 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/frame-13":
-        title = "";
-        metaDescription = "";
-        break;
     }
 
     if (title) {
@@ -172,8 +162,6 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<IPhone14Pro6 />} />
-
-      <Route path="/frame-18" element={<FrameComponent />} />
 
       <Route path="/iphone-14-pro-27" element={<IPhone14Pro27 />} />
 
@@ -220,8 +208,6 @@ function App() {
       <Route path="/iphone-14-pro-2" element={<IPhone14Pro2 />} />
 
       <Route path="/iphone-14-pro-1" element={<IPhone14Pro1 />} />
-
-      <Route path="/frame-13" element={<FrameComponent1 />} />
     </Routes>
   );
 }

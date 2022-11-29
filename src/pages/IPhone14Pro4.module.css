@@ -61,13 +61,15 @@
   width: 83px;
   height: 39px;
 }
-.locationChurchGate {
+.location {
   position: absolute;
   top: 46px;
   left: 15px;
   font-size: var(--font-size-base);
   display: inline-block;
   font-weight: 700;
+  width: 73px;
+  height: 13px;
   text-shadow: 0 0 20px rgba(255, 255, 255, 0.75);
 }
 .rectangleDiv1 {
@@ -278,6 +280,11 @@
   width: 374px;
   height: 47px;
   overflow: hidden;
+}
+.dropdownDefaultStack {
+  position: absolute;
+  top: 39px;
+  left: 84px;
 }
 .iPhone14Pro4 {
   position: relative;

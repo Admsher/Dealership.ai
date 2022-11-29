@@ -65,7 +65,6 @@ const IPhone14Pro26: FunctionComponent = () => {
             alt=""
             src="../rectangle-21.svg"
           />
-          <i className={styles.locationChurchGate}>Location: ChurchGate</i>
           <div className={styles.rectangleDiv1} />
           <i className={styles.forSeriousCarCollectorsdri}>
             For serious car collectors/drivers with a nut loose.

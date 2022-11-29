@@ -47,13 +47,13 @@
   position: absolute;
   top: 106px;
   left: 10px;
-  font-size: var(--font-size-4xl);
   display: inline-block;
   font-weight: 700;
   width: 151px;
   height: 32px;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
+.rectangleDiv1,
 .rectangleIcon {
   position: absolute;
   top: 144px;
@@ -62,16 +62,7 @@
   width: 83px;
   height: 39px;
 }
-.locationChurchGate {
-  position: absolute;
-  top: 46px;
-  left: 15px;
-  display: inline-block;
-  font-weight: 700;
-  text-shadow: 0 0 20px rgba(255, 255, 255, 0.75);
-}
 .rectangleDiv1 {
-  position: absolute;
   top: 786px;
   left: 0;
   border-radius: var(--br-sm);
@@ -82,6 +73,7 @@
 .feelLikeBuyingGroceriesAtt,
 .filters {
   position: absolute;
+  font-size: var(--font-size-base);
   display: inline-block;
   font-weight: 700;
 }
@@ -96,7 +88,6 @@
 .filters {
   top: 1px;
   left: 5px;
-  font-size: var(--font-size-base);
   font-family: var(--font-lato);
   background: linear-gradient(123.14deg, #06b0e5, #fff);
   -webkit-background-clip: text;
@@ -370,7 +361,7 @@
   height: 852px;
   overflow: hidden;
   text-align: left;
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-4xl);
   color: var(--color-white);
   font-family: var(--font-lato);
 }
