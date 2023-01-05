@@ -1,12 +1,4 @@
-.rectangleDiv {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: var(--color-gray-400);
-  width: 393px;
-  height: 852px;
-}
-.ellipseIcon,
+.frameChild,
 .iconUser {
   position: absolute;
   top: 14.25px;
@@ -25,86 +17,185 @@
   overflow: hidden;
   max-height: 100%;
 }
-.ellipseIcon1,
-.frameButton {
+.ellipseParent,
+.frameItem {
   position: absolute;
+  height: 83px;
+}
+.frameItem {
   top: 0;
   left: 3.25px;
   width: 107.75px;
-  height: 83px;
 }
-.frameButton {
+.ellipseParent {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
-  top: 31px;
-  left: 272px;
+  top: 24px;
+  right: 0;
   width: 111px;
   overflow: hidden;
 }
-.aftermarketI {
+.aftermarket,
+.forSeriousCar {
   position: absolute;
   top: 106px;
-  left: 10px;
+  left: 0;
   display: inline-block;
   font-weight: 700;
   width: 194px;
   height: 32px;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
-.rectangleDiv1,
-.rectangleIcon {
-  position: absolute;
-  top: 144px;
-  left: 276px;
-  border-radius: var(--br-md);
-  width: 83px;
-  height: 39px;
-}
-.rectangleDiv1 {
-  top: 786px;
-  left: 0;
-  border-radius: var(--br-sm);
-  background-color: var(--color-gray-400);
-  width: 393px;
-  height: 66px;
-}
-.filters,
-.forSeriousCarCollectorsdri {
-  position: absolute;
-  font-size: var(--font-size-base);
-  display: inline-block;
-  font-weight: 700;
-}
-.forSeriousCarCollectorsdri {
+.forSeriousCar {
   top: 175px;
-  left: 0;
+  font-size: var(--font-size-base);
   text-align: center;
   width: 190px;
   height: 37px;
   text-shadow: 0 0 20px rgba(255, 255, 255, 0.75);
 }
+.frameInner {
+  position: absolute;
+  top: 127px;
+  right: 32px;
+  border-radius: var(--br-md);
+  width: 83px;
+  height: 39px;
+}
 .filters {
-  top: 1px;
-  left: 5px;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 134px;
+  right: 51px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-style: italic;
+  font-weight: 700;
   font-family: var(--font-lato);
   background: linear-gradient(123.14deg, #06b0e5, #fff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: left;
 }
-.frameButton1 {
+.frameParent {
+  align-self: stretch;
+  position: relative;
+  height: 267px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.frameChild1,
+.frameChild2,
+.frameChild3,
+.rectangleButton {
   cursor: pointer;
   border: 0;
   padding: 0;
-  background-color: transparent;
+  background-color: var(--color-gray-400);
   position: absolute;
-  top: 147px;
-  left: 290px;
-  width: 54px;
-  height: 18px;
-  overflow-x: auto;
+  left: 0;
+  border-radius: var(--br-lg);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
+    -10px -10px 70px rgba(125, 125, 125, 0.25);
+  height: 235px;
+}
+.rectangleButton {
+  top: 258px;
+  width: 364px;
+}
+.frameChild1 {
+  top: 5px;
+  width: 372px;
+}
+.frameChild2 {
+  top: 508px;
+  width: 364px;
+}
+.frameChild3 {
+  width: 364px;
+  top: 758px;
+}
+.alfaRomeo {
+  top: 180px;
+}
+.alfaRomeo,
+.audi,
+.lm2568,
+.nissan {
+  position: absolute;
+  left: 8px;
+  font-weight: 700;
+}
+.audi {
+  top: 444px;
+}
+.nissan {
+  top: 701px;
+}
+.lm2568 {
+  top: 937px;
+}
+.screenshot176Icon {
+  position: absolute;
+  top: 26px;
+  border-radius: var(--br-xs);
+  height: 154.38px;
+  object-fit: cover;
+}
+.screenshot176Icon,
+.screenshot177Icon,
+.screenshot179Icon {
+  left: 31px;
+  width: 302px;
+}
+.screenshot177Icon,
+.screenshot179Icon,
+.screenshot183Icon {
+  position: absolute;
+  border-radius: var(--br-xs);
+  object-fit: cover;
+}
+.screenshot177Icon {
+  top: 276px;
+  height: 163.41px;
+}
+.screenshot179Icon {
+  top: 525px;
+  height: 145.06px;
+}
+.screenshot183Icon {
+  top: 775px;
+  left: 28px;
+  width: 304px;
+  height: 149.72px;
+}
+.rectangleParent {
+  position: absolute;
+  top: calc(50% - 317px);
+  left: calc(50% - 199.5px);
+  width: 400px;
+  height: 644px;
+  overflow-y: auto;
+}
+.iphone14Pro26Inner {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-2xl);
+}
+.rectangleDiv {
+  position: absolute;
+  top: calc(50% - 31px);
+  left: calc(50% - 196.5px);
+  border-radius: var(--br-sm);
+  background-color: var(--color-gray-400);
+  width: 393px;
+  height: 66px;
 }
 .vectorIcon {
   position: absolute;
@@ -119,15 +210,17 @@
   max-height: 100%;
 }
 .iconCommentSquare,
-.iconHomeButton {
+.iconHome {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
   position: absolute;
+  top: 17.02%;
+}
+.iconHome {
   height: 57.45%;
   width: 8.03%;
-  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
@@ -139,22 +232,23 @@
   bottom: 19.15%;
   left: 8.31%;
 }
+.vectorIcon2 {
+  top: 0;
+  bottom: 90%;
+}
 .vectorIcon2,
 .vectorIcon3,
 .vectorIcon4 {
   position: absolute;
   height: 10%;
   width: 100%;
-  top: 0;
   right: 0;
-  bottom: 90%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vectorIcon3,
-.vectorIcon4 {
+.vectorIcon3 {
   top: 46.54%;
   bottom: 43.46%;
 }
@@ -162,7 +256,7 @@
   top: 90%;
   bottom: 0;
 }
-.iconMenuButton {
+.iconMenu {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -175,143 +269,35 @@
   bottom: 32.69%;
   left: 79.5%;
 }
-.frameDiv2 {
+.iconHomeParent {
   position: absolute;
-  top: 795px;
-  left: 10px;
+  bottom: 11px;
+  left: calc(50% - 186.5px);
   width: 374px;
   height: 47px;
-}
-.frameDiv1,
-.frameDiv2 {
   overflow: hidden;
 }
-.frameDiv,
-.frameDiv1,
-.rectangleButton {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 393px;
-  height: 852px;
+.rectangleGroup {
+  align-self: stretch;
+  position: relative;
+  height: 62px;
+  flex-shrink: 0;
+  overflow: hidden;
 }
-.rectangleButton {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: var(--color-gray-400);
-  left: 12px;
-  border-radius: var(--br-lg);
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
-    -10px -10px 70px rgba(125, 125, 125, 0.25);
-  width: 372px;
-  height: 235px;
-}
-.alfaRomeoI {
-  position: absolute;
-  top: 175px;
-  left: 20px;
-  display: inline-block;
-  font-weight: 700;
-}
-.rectangleButton1,
-.rectangleButton2 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: var(--color-gray-400);
-  position: absolute;
-  top: 503px;
-  left: 12px;
-  border-radius: var(--br-lg);
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
-    -10px -10px 70px rgba(125, 125, 125, 0.25);
-  width: 364px;
-  height: 235px;
-}
-.rectangleButton2 {
-  top: 253px;
-}
-.audi,
-.nissan {
-  position: absolute;
-  top: 439px;
-  left: 20px;
-  display: inline-block;
-  font-weight: 700;
-}
-.nissan {
-  top: 696px;
-}
-.rectangleButton3 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: var(--color-gray-400);
-  position: absolute;
-  top: 753px;
-  left: 12px;
-  border-radius: var(--br-lg);
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
-    -10px -10px 70px rgba(125, 125, 125, 0.25);
-  width: 364px;
-  height: 235px;
-}
-.lM2568I {
-  position: absolute;
-  top: 932px;
-  left: 20px;
-  display: inline-block;
-  font-weight: 700;
-}
-.screenshot176Icon,
-.screenshot177Icon,
-.screenshot179Icon,
-.screenshot183Icon {
-  position: absolute;
-  top: 17px;
-  left: 46px;
-  border-radius: var(--br-xs);
-  width: 302px;
-  height: 154.38px;
-  object-fit: cover;
-}
-.screenshot177Icon,
-.screenshot179Icon,
-.screenshot183Icon {
-  top: 271px;
-  left: 43px;
-  height: 163.41px;
-}
-.screenshot179Icon,
-.screenshot183Icon {
-  top: 520px;
-  height: 145.06px;
-}
-.screenshot183Icon {
-  top: 770px;
-  left: 40px;
-  width: 304px;
-  height: 149.72px;
-}
-.frameDiv3 {
-  position: absolute;
-  top: 266px;
-  left: 0;
-  width: 393px;
-  height: 529px;
-  overflow-y: auto;
-  font-size: var(--font-size-xl);
-}
-.iPhone14Pro26 {
+.iphone14Pro26 {
   position: relative;
   border-radius: var(--br-md);
-  background: linear-gradient(180deg, #fff, rgba(255, 255, 255, 0));
+  background-color: var(--color-black);
   width: 100%;
-  height: 852px;
-  overflow: hidden;
+  height: 983px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-md);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
   text-align: left;
-  font-size: var(--font-size-4xl);
+  font-size: 26px;
   color: var(--color-white);
   font-family: var(--font-lato);
 }

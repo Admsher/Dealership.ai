@@ -1,52 +1,32 @@
-.rectangleDiv,
-.rectangleDiv1 {
-  position: absolute;
-  top: 0;
+.honda {
+  top: 73px;
   left: 0;
-  background-color: var(--color-gray-400);
-  width: 393px;
-  height: 852px;
-}
-.rectangleDiv1 {
-  top: 316px;
-  left: 9px;
-  border-radius: var(--br-md);
-  width: 213px;
-  height: 31px;
-}
-.ellipseIcon {
-  position: absolute;
-  top: 322px;
-  left: 96px;
-  width: 18px;
-  height: 19px;
-}
-.eI,
-.hondaI {
-  position: absolute;
   display: inline-block;
   font-weight: 700;
-  mix-blend-mode: normal;
-}
-.hondaI {
-  top: 73px;
-  left: 21px;
-  font-size: var(--font-size-5xl);
   width: 117px;
   height: 36px;
+  mix-blend-mode: normal;
 }
-.eI {
+.e,
+.frameChild,
+.honda {
+  position: absolute;
+}
+.e {
   top: 110px;
-  left: 29px;
+  left: 0;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-weight: 700;
   color: var(--color-gray-200);
   width: 76px;
   height: 23px;
+  mix-blend-mode: normal;
 }
-.rectangleIframe {
+.frameChild {
   border: 0;
-  position: absolute;
-  top: 146px;
-  left: 40px;
+  top: calc(50% + 1px);
+  left: calc(50% - 150.5px);
   background: radial-gradient(
     50% 50%at 50% 50%,
     rgba(160, 155, 155, 0.5),
@@ -55,131 +35,7 @@
   width: 302px;
   height: 144px;
 }
-.rectangleDiv2,
-.rectangleDiv3,
-.rectangleDiv4 {
-  position: absolute;
-  left: 24px;
-  border-radius: var(--br-md);
-  background-color: var(--color-gray-400);
-}
-.rectangleDiv2 {
-  top: 364px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
-    -10px -10px 70px rgba(125, 125, 125, 0.25);
-  width: 333px;
-  height: 157px;
-}
-.rectangleDiv3,
-.rectangleDiv4 {
-  top: 549px;
-  width: 331px;
-  height: 246px;
-}
-.rectangleDiv4 {
-  top: 5px;
-  left: 25px;
-  box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
-  width: 122px;
-  height: 31px;
-}
-.contactP {
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-.contactI {
-  position: absolute;
-  top: 11px;
-  left: 56px;
-  font-size: var(--font-size-base);
-  display: inline-block;
-  font-weight: 700;
-  font-family: var(--font-lato);
-  background: linear-gradient(123.14deg, #06b0e5, #fff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: left;
-  width: 56px;
-  height: 25px;
-}
-.frameButton {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  position: absolute;
-  top: 617px;
-  left: 195px;
-  width: 155px;
-  height: 41px;
-  overflow: hidden;
-}
-.hondaHallmarkI,
-.specsAndPrice {
-  position: absolute;
-  display: inline-block;
-  font-weight: 700;
-}
-.hondaHallmarkI {
-  top: 627px;
-  left: 27px;
-  opacity: 0.7;
-}
-.specsAndPrice {
-  top: 382px;
-  left: 30px;
-  width: 118px;
-  height: 15px;
-}
-.crRsI,
-.cylinderDiesel {
-  font-size: var(--font-size-xs);
-  width: 135px;
-  height: 12px;
-}
-.cylinderDiesel {
-  position: absolute;
-  top: 426px;
-  left: 37px;
-  display: inline-block;
-  font-weight: 700;
-}
-.crRsI {
-  top: 425px;
-  left: 273px;
-}
-.crRsI,
-.dealersNearYou,
-.inclusiveOfTaxes {
-  position: absolute;
-  display: inline-block;
-  font-weight: 700;
-}
-.inclusiveOfTaxes {
-  top: 443px;
-  left: 253px;
-  font-size: var(--font-size-xs);
-  background: linear-gradient(#807e7e, #807e7e),
-    linear-gradient(#807e7e, #807e7e), #807e7e;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.dealersNearYou {
-  top: 579px;
-  left: 27px;
-  width: 127px;
-  height: 18px;
-}
-.rectangleDiv5 {
-  position: absolute;
-  top: 786px;
-  left: 1px;
-  border-radius: var(--br-sm);
-  background-color: var(--color-gray-400);
-  width: 393px;
-  height: 66px;
-}
-.ellipseIcon1,
+.frameItem,
 .iconUser {
   position: absolute;
   top: 14.25px;
@@ -198,48 +54,211 @@
   overflow: hidden;
   max-height: 100%;
 }
-.ellipseIcon2 {
+.frameInner {
   position: absolute;
   top: 0;
   left: 3.25px;
   width: 107.75px;
   height: 83px;
 }
-.frameButton1,
-.vectorIcon {
+.ellipseParent,
+.frameDiv {
   position: absolute;
   overflow: hidden;
 }
-.frameButton1 {
+.ellipseParent {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
-  top: 32px;
-  left: 273px;
+  top: 24px;
+  right: 0;
   width: 111px;
   height: 83px;
+}
+.frameDiv {
+  top: 290px;
+  left: 0;
+  width: 394px;
+  height: 265px;
+}
+.hondaParent {
+  align-self: stretch;
+  position: relative;
+  height: 290px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-400);
+  width: 213px;
+  height: 31px;
+}
+.ellipseIcon {
+  position: absolute;
+  top: 11px;
+  left: 85px;
+  width: 18px;
+  height: 19px;
+}
+.frameChild1 {
+  position: absolute;
+  top: calc(50% - 78.5px);
+  left: calc(50% - 167px);
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-400);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
+    -10px -10px 70px rgba(125, 125, 125, 0.25);
+  width: 333px;
+  height: 157px;
+}
+.cylinderDiesel,
+.specsAndPrice {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  font-weight: 700;
+}
+.specsAndPrice {
+  top: 18px;
+  font-size: var(--font-size-base);
+  width: 118px;
+  height: 15px;
+}
+.cylinderDiesel {
+  top: 62px;
+  width: 135px;
+  height: 12px;
+}
+.crRs,
+.inclusiveOfTaxes {
+  position: absolute;
+  right: 0;
+  font-weight: 700;
+}
+.inclusiveOfTaxes {
+  top: 79px;
+  background: linear-gradient(#807e7e, #807e7e),
+    linear-gradient(#807e7e, #807e7e), #807e7e;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.crRs {
+  top: 61px;
+  display: inline-block;
+  width: 66px;
+  height: 12px;
+}
+.rectangleGroup {
+  position: absolute;
+  top: calc(50% - 69px);
+  left: calc(50% - 159.5px);
+  width: 320px;
+  height: 157px;
+  overflow: hidden;
+}
+.rectangleParent {
+  align-self: stretch;
+  position: relative;
+  height: 244px;
+  flex-shrink: 0;
+  overflow: hidden;
+  font-size: var(--font-size-xs);
+}
+.frameChild2 {
+  position: absolute;
+  top: 5px;
+  left: 25px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-400);
+  box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
+  width: 122px;
+  height: 31px;
+}
+.contact1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.contact {
+  position: absolute;
+  top: 11px;
+  left: 56px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-weight: 700;
+  font-family: var(--font-lato);
+  background: linear-gradient(123.14deg, #06b0e5, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  width: 56px;
+  height: 25px;
+}
+.rectangleContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 62px;
+  right: 0;
+  width: 155px;
+  height: 41px;
+  overflow: hidden;
+}
+.dealersNearYou,
+.hondaHallmark {
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+}
+.hondaHallmark {
+  top: 72px;
+  opacity: 0.7;
+}
+.dealersNearYou {
+  top: 24px;
+  display: inline-block;
+  width: 127px;
+  height: 18px;
+}
+.frameChild3,
+.vectorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.frameChild3 {
+  border-radius: var(--br-sm);
+  background-color: var(--color-gray-400);
+  width: 393px;
+  height: 66px;
 }
 .vectorIcon {
   height: 100%;
   width: 100%;
-  top: 0;
   right: 0;
   bottom: 0;
-  left: 0;
   max-width: 100%;
+  overflow: hidden;
   max-height: 100%;
 }
 .iconCommentSquare,
-.iconHomeButton {
+.iconHome {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
   position: absolute;
+  top: 17.02%;
+}
+.iconHome {
   height: 57.45%;
   width: 8.03%;
-  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
@@ -251,22 +270,23 @@
   bottom: 19.15%;
   left: 8.31%;
 }
+.vectorIcon2 {
+  top: 0;
+  bottom: 90%;
+}
 .vectorIcon2,
 .vectorIcon3,
 .vectorIcon4 {
   position: absolute;
   height: 10%;
   width: 100%;
-  top: 0;
   right: 0;
-  bottom: 90%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vectorIcon3,
-.vectorIcon4 {
+.vectorIcon3 {
   top: 46.54%;
   bottom: 43.46%;
 }
@@ -274,7 +294,7 @@
   top: 90%;
   bottom: 0;
 }
-.iconMenuButton {
+.iconMenu {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -287,23 +307,45 @@
   bottom: 32.69%;
   left: 79.5%;
 }
-.frameDiv {
+.iconHomeParent,
+.rectangleParent1 {
   position: absolute;
-  top: 795px;
-  left: 10px;
+  bottom: 9px;
+  left: calc(50% - 187px);
   width: 374px;
   height: 47px;
   overflow: hidden;
 }
-.iPhone14Pro18 {
+.rectangleParent1 {
+  bottom: 7px;
+  left: calc(50% - 196.5px);
+  width: 392px;
+  height: 66px;
+}
+.frameParent,
+.iphone14Pro18 {
   position: relative;
-  border-radius: var(--br-md);
-  background: linear-gradient(180deg, #fff, rgba(255, 255, 255, 0));
-  width: 100%;
-  height: 852px;
   overflow: hidden;
-  text-align: left;
+}
+.frameParent {
+  align-self: stretch;
+  flex: 1;
   font-size: var(--font-size-base);
+}
+.iphone14Pro18 {
+  border-radius: var(--br-md);
+  background-color: var(--color-black);
+  width: 100%;
+  height: 952px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-md);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 11px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
   color: var(--color-white);
   font-family: var(--font-lato);
 }

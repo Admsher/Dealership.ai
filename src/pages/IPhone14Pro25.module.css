@@ -1,12 +1,4 @@
-.rectangleDiv {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: var(--color-gray-400);
-  width: 393px;
-  height: 852px;
-}
-.ellipseIcon,
+.frameChild,
 .iconUser {
   position: absolute;
   top: 14.25px;
@@ -25,91 +17,239 @@
   overflow: hidden;
   max-height: 100%;
 }
-.ellipseIcon1,
-.frameButton {
+.ellipseParent,
+.frameItem {
   position: absolute;
+  height: 83px;
+}
+.frameItem {
   top: 0;
   left: 3.25px;
   width: 107.75px;
-  height: 83px;
 }
-.frameButton {
+.ellipseParent {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
-  top: 31px;
-  left: 272px;
+  top: 24px;
+  right: 0;
   width: 111px;
   overflow: hidden;
 }
-.everydayI {
+.everyday {
   position: absolute;
-  top: 106px;
-  left: 10px;
+  top: 90px;
+  left: 1px;
   display: inline-block;
   font-weight: 700;
   width: 151px;
   height: 32px;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
-.rectangleDiv1,
-.rectangleIcon {
+.frameInner {
   position: absolute;
-  top: 144px;
-  left: 276px;
+  top: 128px;
+  right: 43px;
   border-radius: var(--br-md);
   width: 83px;
   height: 39px;
 }
-.rectangleDiv1 {
-  top: 786px;
-  left: 0;
-  border-radius: var(--br-sm);
-  background-color: var(--color-gray-400);
-  width: 393px;
-  height: 66px;
-}
-.feelLikeBuyingGroceriesAtt,
 .filters {
   position: absolute;
-  font-size: var(--font-size-base);
-  display: inline-block;
-  font-weight: 700;
-}
-.feelLikeBuyingGroceriesAtt {
-  top: 175px;
-  left: 0;
-  text-align: center;
-  width: 190px;
-  height: 37px;
-  text-shadow: 0 0 20px rgba(255, 255, 255, 0.75);
-}
-.filters {
-  top: 1px;
+  top: 4px;
   left: 5px;
+  font-size: var(--font-size-base);
+  font-weight: 700;
   font-family: var(--font-lato);
   background: linear-gradient(123.14deg, #06b0e5, #fff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: left;
 }
-.frameButton1,
-.vectorIcon {
-  position: absolute;
-  overflow: hidden;
-}
-.frameButton1 {
+.filtersWrapper {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
-  top: 147px;
-  left: 290px;
+  position: absolute;
+  top: 131px;
+  right: 58px;
   width: 54px;
   height: 18px;
+  overflow: hidden;
+}
+.feelLikeBuying {
+  position: absolute;
+  top: 164px;
+  left: -2px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-weight: 700;
+  text-align: center;
+  width: 190px;
+  height: 37px;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.75);
+}
+.frameGroup {
+  align-self: stretch;
+  position: relative;
+  height: 250px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.frameChild1 {
+  left: 0;
+}
+.frameChild1,
+.frameChild2,
+.frameChild3,
+.frameChild4,
+.frameChild5,
+.rectangleButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-400);
+  position: absolute;
+  border-radius: var(--br-lg);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
+    -10px -10px 70px rgba(125, 125, 125, 0.25);
+  width: 364px;
+  height: 235px;
+}
+.rectangleButton {
+  top: 1259px;
+  left: 0;
+}
+.frameChild1 {
+  top: 1006px;
+}
+.frameChild2 {
+  top: 753px;
+  left: -10px;
+}
+.frameChild3 {
+  top: 256px;
+  left: 0;
+}
+.frameChild4,
+.frameChild5 {
+  left: 0;
+}
+.frameChild4 {
+  top: 503px;
+}
+.frameChild5 {
+  top: 0;
+}
+.screenshot190Icon,
+.screenshot191Icon {
+  position: absolute;
+  top: 1023px;
+  left: 34px;
+  border-radius: var(--br-xs);
+  width: 302px;
+  height: 158px;
+  object-fit: cover;
+}
+.screenshot191Icon {
+  top: 19px;
+  left: 28px;
+  width: 297.39px;
+  height: 144px;
+}
+.screenshot180Icon {
+  top: 276px;
+  left: 34px;
+  height: 148px;
+}
+.screenshot180Icon,
+.screenshot181Icon,
+.screenshot182Icon,
+.screenshot186Icon {
+  position: absolute;
+  border-radius: var(--br-xs);
+  width: 302px;
+  object-fit: cover;
+}
+.screenshot186Icon {
+  top: 773px;
+  left: 21px;
+  height: 133px;
+}
+.screenshot181Icon {
+  top: 520px;
+  left: 34px;
+  height: 137.35px;
+}
+.screenshot182Icon {
+  left: 34px;
+  top: 1277px;
+  height: 157px;
+}
+.bmw {
+  top: 1434px;
+  left: 8px;
+}
+.bmw,
+.honda,
+.mercedes,
+.nissan,
+.tesla,
+.toyota {
+  position: absolute;
+  font-weight: 700;
+}
+.toyota {
+  left: 8px;
+  top: 903px;
+}
+.honda {
+  left: 13px;
+}
+.mercedes {
+  top: 1181px;
+  left: 13px;
+}
+.honda {
+  top: 671px;
+}
+.nissan,
+.tesla {
+  left: 8px;
+}
+.tesla {
+  top: 439px;
+}
+.nissan {
+  top: 175px;
+}
+.rectangleParent {
+  position: absolute;
+  top: calc(50% - 311px);
+  left: calc(50% - 199.5px);
+  width: 400px;
+  height: 621px;
+  overflow-y: auto;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-2xl);
+}
+.rectangleDiv {
+  position: absolute;
+  bottom: -1px;
+  left: calc(50% - 195.5px);
+  border-radius: var(--br-sm);
+  background-color: var(--color-gray-400);
+  width: 393px;
+  height: 66px;
 }
 .vectorIcon {
+  position: absolute;
   height: 100%;
   width: 100%;
   top: 0;
@@ -117,18 +257,21 @@
   bottom: 0;
   left: 0;
   max-width: 100%;
+  overflow: hidden;
   max-height: 100%;
 }
 .iconCommentSquare,
-.iconHomeButton {
+.iconHome {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
   position: absolute;
+  top: 17.02%;
+}
+.iconHome {
   height: 57.45%;
   width: 8.03%;
-  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
@@ -140,22 +283,23 @@
   bottom: 19.15%;
   left: 8.31%;
 }
+.vectorIcon2 {
+  top: 0;
+  bottom: 90%;
+}
 .vectorIcon2,
 .vectorIcon3,
 .vectorIcon4 {
   position: absolute;
   height: 10%;
   width: 100%;
-  top: 0;
   right: 0;
-  bottom: 90%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vectorIcon3,
-.vectorIcon4 {
+.vectorIcon3 {
   top: 46.54%;
   bottom: 43.46%;
 }
@@ -163,7 +307,7 @@
   top: 90%;
   bottom: 0;
 }
-.iconMenuButton {
+.iconMenu {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -176,190 +320,40 @@
   bottom: 32.69%;
   left: 79.5%;
 }
-.frameDiv2 {
+.iconHomeParent {
   position: absolute;
-  top: 795px;
-  left: 10px;
+  bottom: 11px;
+  left: calc(50% - 186.5px);
   width: 374px;
   height: 47px;
   overflow: hidden;
 }
-.rectangleButton {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: var(--color-gray-400);
-  position: absolute;
-  top: 0;
-  left: 12px;
-  border-radius: var(--br-lg);
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
-    -10px -10px 70px rgba(125, 125, 125, 0.25);
-  width: 364px;
-  height: 235px;
-}
-.nissan {
-  position: absolute;
-  top: 175px;
-  left: 20px;
-  display: inline-block;
-  font-weight: 700;
-}
-.rectangleButton1,
-.rectangleButton2 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: var(--color-gray-400);
-  position: absolute;
-  top: 503px;
-  left: 12px;
-  border-radius: var(--br-lg);
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
-    -10px -10px 70px rgba(125, 125, 125, 0.25);
-  width: 364px;
-  height: 235px;
-}
-.rectangleButton2 {
-  top: 256px;
-}
-.hondaI,
-.teslaI {
-  position: absolute;
-  top: 439px;
-  left: 20px;
-  display: inline-block;
-  font-weight: 700;
-}
-.hondaI {
-  top: 671px;
-  left: 25px;
-}
-.rectangleButton3,
-.rectangleButton4 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: var(--color-gray-400);
-  position: absolute;
-  top: 753px;
-  left: 2px;
-  border-radius: var(--br-lg);
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
-    -10px -10px 70px rgba(125, 125, 125, 0.25);
-  width: 364px;
-  height: 235px;
-}
-.rectangleButton4 {
-  top: 1006px;
-  left: 12px;
-}
-.mercedesI,
-.toyotaI {
-  position: absolute;
-  top: 1181px;
-  left: 25px;
-  display: inline-block;
-  font-weight: 700;
-}
-.toyotaI {
-  top: 903px;
-  left: 20px;
-}
-.rectangleButton5 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: var(--color-gray-400);
-  position: absolute;
-  top: 1259px;
-  left: 12px;
-  border-radius: var(--br-lg);
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
-    -10px -10px 70px rgba(125, 125, 125, 0.25);
-  width: 364px;
-  height: 235px;
-}
-.bMWI {
-  position: absolute;
-  top: 1434px;
-  left: 20px;
-  display: inline-block;
-  font-weight: 700;
-}
-.screenshot181Icon,
-.screenshot182Icon {
-  position: absolute;
-  top: 1277px;
-  left: 46px;
-  border-radius: var(--br-xs);
-  width: 302px;
-  height: 157px;
-  object-fit: cover;
-}
-.screenshot181Icon {
-  top: 520px;
-  height: 137.35px;
-}
-.screenshot180Icon,
-.screenshot186Icon,
-.screenshot190Icon,
-.screenshot191Icon {
-  position: absolute;
-  top: 773px;
-  left: 33px;
-  border-radius: var(--br-xs);
-  width: 302px;
-  height: 133px;
-  object-fit: cover;
-}
-.screenshot180Icon,
-.screenshot190Icon,
-.screenshot191Icon {
-  top: 276px;
-  left: 46px;
-  height: 148px;
-}
-.screenshot190Icon,
-.screenshot191Icon {
-  top: 19px;
-  left: 40px;
-  width: 297.39px;
-  height: 144px;
-}
-.screenshot190Icon {
-  top: 1023px;
-  left: 46px;
-  width: 302px;
-  height: 158px;
-}
-.frameDiv3 {
-  position: absolute;
-  top: 266px;
-  left: 0;
-  width: 393px;
-  height: 520px;
-  overflow-y: auto;
-  font-size: var(--font-size-xl);
-}
-.frameDiv1 {
+.rectangleGroup {
+  align-self: stretch;
+  position: relative;
+  height: 62px;
+  flex-shrink: 0;
   overflow: hidden;
 }
-.frameDiv,
-.frameDiv1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 393px;
-  height: 852px;
+.frameParent,
+.iphone14Pro25 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
-.iPhone14Pro25 {
+.frameParent {
+  align-self: stretch;
+  flex: 1;
+}
+.iphone14Pro25 {
   position: relative;
   border-radius: var(--br-md);
-  background: linear-gradient(180deg, #fff, rgba(255, 255, 255, 0));
+  background-color: var(--color-black);
   width: 100%;
-  height: 852px;
-  overflow: hidden;
+  height: 934px;
+  padding: 0 var(--padding-md);
+  box-sizing: border-box;
   text-align: left;
   font-size: var(--font-size-4xl);
   color: var(--color-white);

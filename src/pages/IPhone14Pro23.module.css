@@ -1,27 +1,4 @@
-.rectangleDiv,
-.rectangleIcon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 393px;
-  height: 852px;
-}
-.rectangleDiv {
-  top: 316px;
-  left: 9px;
-  border-radius: var(--br-md);
-  background-color: var(--color-gray-400);
-  width: 213px;
-  height: 31px;
-}
-.ellipseIcon {
-  position: absolute;
-  top: 322px;
-  left: 96px;
-  width: 18px;
-  height: 19px;
-}
-.ellipseIcon1,
+.frameChild,
 .iconUser {
   position: absolute;
   top: 14.25px;
@@ -40,29 +17,31 @@
   overflow: hidden;
   max-height: 100%;
 }
-.ellipseIcon2,
-.frameButton {
+.ellipseParent,
+.frameItem {
   position: absolute;
+  height: 83px;
+}
+.frameItem {
   top: 0;
   left: 3.25px;
   width: 107.75px;
-  height: 83px;
 }
-.frameButton {
+.ellipseParent {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
-  top: 31px;
-  left: 272px;
+  top: 19px;
+  right: 0;
   width: 111px;
   overflow: hidden;
 }
-.rectangleIframe {
+.frameInner {
   border: 0;
   position: absolute;
-  top: 146px;
-  left: 40px;
+  top: calc(50% - 18px);
+  left: calc(50% - 152px);
   background: radial-gradient(
     50% 50%at 50% 50%,
     rgba(160, 155, 155, 0.5),
@@ -70,164 +49,6 @@
   );
   width: 302px;
   height: 144px;
-}
-.rectangleDiv1,
-.rectangleDiv2 {
-  position: absolute;
-  left: 24px;
-  border-radius: var(--br-md);
-  background-color: var(--color-gray-400);
-}
-.rectangleDiv1 {
-  top: 364px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
-    -10px -10px 70px rgba(125, 125, 125, 0.25);
-  width: 333px;
-  height: 157px;
-}
-.rectangleDiv2 {
-  top: 562px;
-  width: 331px;
-  height: 240px;
-}
-.aMRI,
-.astonMartinIndia {
-  position: absolute;
-  top: 627px;
-  left: 27px;
-  display: inline-block;
-  font-weight: 700;
-  opacity: 0.7;
-}
-.aMRI {
-  top: 664px;
-  left: 24px;
-}
-.v10I {
-  top: 467px;
-  left: 37px;
-  font-size: var(--font-size-xs);
-  width: 135px;
-  height: 12px;
-}
-.crRsI,
-.specsAndPrice,
-.v10I,
-.v12I {
-  position: absolute;
-  display: inline-block;
-  font-weight: 700;
-}
-.specsAndPrice {
-  top: 382px;
-  left: 30px;
-  width: 118px;
-  height: 15px;
-}
-.crRsI,
-.v12I {
-  width: 135px;
-  height: 12px;
-}
-.v12I {
-  top: 426px;
-  left: 37px;
-  font-size: var(--font-size-xs);
-}
-.crRsI {
-  top: 425px;
-  left: 273px;
-}
-.crRsI,
-.crRsI1,
-.inclusiveOfTaxes {
-  font-size: var(--font-size-xs);
-}
-.crRsI1 {
-  position: absolute;
-  top: 468px;
-  left: 278px;
-  display: inline-block;
-  font-weight: 700;
-  width: 135px;
-  height: 12px;
-}
-.inclusiveOfTaxes {
-  top: 443px;
-  left: 253px;
-  background: linear-gradient(#807e7e, #807e7e),
-    linear-gradient(#807e7e, #807e7e), #807e7e;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.dealersNearYou,
-.inclusiveOfTaxes,
-.inclusiveOfTaxes1 {
-  position: absolute;
-  display: inline-block;
-  font-weight: 700;
-}
-.inclusiveOfTaxes1 {
-  top: 486px;
-  left: 247px;
-  font-size: var(--font-size-xs);
-  background: linear-gradient(#807e7e, #807e7e),
-    linear-gradient(#807e7e, #807e7e), #807e7e;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.dealersNearYou {
-  top: 579px;
-  left: 27px;
-  width: 127px;
-  height: 18px;
-}
-.rectangleDiv3,
-.rectangleDiv4 {
-  position: absolute;
-  top: 785px;
-  left: 0;
-  border-radius: var(--br-sm);
-  background-color: var(--color-gray-400);
-  width: 393px;
-  height: 66px;
-}
-.rectangleDiv4 {
-  top: 5px;
-  left: 25px;
-  border-radius: var(--br-md);
-  box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
-  width: 122px;
-  height: 31px;
-}
-.contactP {
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-.contactI {
-  position: absolute;
-  top: 11px;
-  left: 56px;
-  display: inline-block;
-  font-weight: 700;
-  background: linear-gradient(123.14deg, #06b0e5, #fff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  width: 56px;
-  height: 25px;
-}
-.frameDiv,
-.frameDiv1 {
-  position: absolute;
-  top: 617px;
-  left: 197px;
-  width: 153px;
-  height: 39px;
-  overflow: hidden;
-}
-.frameDiv1 {
-  top: 656px;
-  height: 40px;
 }
 .astonMartin,
 .vanquish {
@@ -248,19 +69,214 @@
   width: 76px;
   height: 23px;
 }
-.frameDiv2,
-.vectorIcon {
+.astonMartinParent {
   position: absolute;
-  overflow: hidden;
-}
-.frameDiv2 {
-  top: 73px;
-  left: 26px;
+  top: 61px;
+  left: 0;
   width: 223px;
   height: 59px;
-  font-size: var(--font-size-5xl);
+  overflow: hidden;
+}
+.frameParent {
+  align-self: stretch;
+  position: relative;
+  height: 304px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.frameChild1,
+.rectangleDiv {
+  position: absolute;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-400);
+}
+.rectangleDiv {
+  top: -1px;
+  left: 9px;
+  width: 213px;
+  height: 31px;
+}
+.frameChild1 {
+  top: calc(50% - 79px);
+  left: calc(50% - 167px);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
+    -10px -10px 70px rgba(125, 125, 125, 0.25);
+  width: 333px;
+  height: 157px;
+}
+.v10 {
+  top: 102px;
+  left: 18px;
+  width: 135px;
+  height: 12px;
+}
+.specsAndPrice,
+.v10,
+.v12 {
+  position: absolute;
+  display: inline-block;
+  font-weight: 700;
+}
+.specsAndPrice {
+  top: 17px;
+  left: 11px;
+  font-size: var(--font-size-base);
+  width: 118px;
+  height: 15px;
+}
+.v12 {
+  top: 61px;
+  left: 18px;
+  width: 135px;
+  height: 12px;
+}
+.inclusiveOfTaxes {
+  top: 78px;
+  background: linear-gradient(#807e7e, #807e7e),
+    linear-gradient(#807e7e, #807e7e), #807e7e;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.crRs,
+.crRs1,
+.inclusiveOfTaxes,
+.inclusiveOfTaxes1 {
+  position: absolute;
+  right: 0;
+  font-weight: 700;
+}
+.inclusiveOfTaxes1 {
+  top: 121px;
+  background: linear-gradient(#807e7e, #807e7e),
+    linear-gradient(#807e7e, #807e7e), #807e7e;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.crRs,
+.crRs1 {
+  top: 55px;
+  display: inline-block;
+  width: 59px;
+  height: 12px;
+}
+.crRs1 {
+  top: 107px;
+  width: 51px;
+}
+.rectangleGroup {
+  position: absolute;
+  top: calc(50% - 74.5px);
+  left: calc(50% - 160px);
+  width: 320px;
+  height: 156px;
+  overflow: hidden;
+}
+.ellipseIcon {
+  position: absolute;
+  top: 5px;
+  left: 96px;
+  width: 18px;
+  height: 19px;
+}
+.rectangleParent {
+  align-self: stretch;
+  position: relative;
+  height: 245px;
+  flex-shrink: 0;
+  overflow: hidden;
+  font-size: var(--font-size-xs);
+}
+.frameChild2 {
+  position: absolute;
+  top: calc(50% - 112px);
+  left: calc(50% - 173px);
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-400);
+  width: 331px;
+  height: 240px;
+}
+.astonMartinIndia {
+  top: 64px;
+  opacity: 0.7;
+}
+.amr,
+.astonMartinIndia,
+.dealersNearYou {
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+}
+.amr {
+  top: 101px;
+  opacity: 0.7;
+}
+.dealersNearYou {
+  top: 16px;
+  display: inline-block;
+  width: 127px;
+  height: 18px;
+}
+.rectangleButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-400);
+  position: absolute;
+  top: 5px;
+  left: 25px;
+  border-radius: var(--br-md);
+  box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
+  width: 122px;
+  height: 31px;
+}
+.contact1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.contact {
+  position: absolute;
+  top: 11px;
+  left: 56px;
+  display: inline-block;
+  font-weight: 700;
+  background: linear-gradient(123.14deg, #06b0e5, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 56px;
+  height: 25px;
+}
+.frameDiv,
+.rectangleParent1 {
+  position: absolute;
+  top: 54px;
+  right: 0;
+  width: 153px;
+  height: 39px;
+  overflow: hidden;
+}
+.rectangleParent1 {
+  top: 93px;
+  height: 40px;
+}
+.rectangleContainer {
+  align-self: stretch;
+  position: relative;
+  height: 222px;
+  flex-shrink: 0;
+  overflow: hidden;
+  font-size: var(--font-size-base);
+}
+.frameChild4 {
+  position: absolute;
+  top: calc(50% - 35px);
+  left: calc(50% - 197px);
+  border-radius: var(--br-sm);
+  background-color: var(--color-gray-400);
+  width: 393px;
+  height: 66px;
 }
 .vectorIcon {
+  position: absolute;
   height: 100%;
   width: 100%;
   top: 0;
@@ -268,18 +284,21 @@
   bottom: 0;
   left: 0;
   max-width: 100%;
+  overflow: hidden;
   max-height: 100%;
 }
 .iconCommentSquare,
-.iconHomeButton {
+.iconHome {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
   position: absolute;
+  top: 17.02%;
+}
+.iconHome {
   height: 57.45%;
   width: 8.03%;
-  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
@@ -291,22 +310,23 @@
   bottom: 19.15%;
   left: 8.31%;
 }
+.vectorIcon2 {
+  top: 0;
+  bottom: 90%;
+}
 .vectorIcon2,
 .vectorIcon3,
 .vectorIcon4 {
   position: absolute;
   height: 10%;
   width: 100%;
-  top: 0;
   right: 0;
-  bottom: 90%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vectorIcon3,
-.vectorIcon4 {
+.vectorIcon3 {
   top: 46.54%;
   bottom: 43.46%;
 }
@@ -314,7 +334,7 @@
   top: 90%;
   bottom: 0;
 }
-.iconMenuButton {
+.iconMenu {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -327,23 +347,35 @@
   bottom: 32.69%;
   left: 79.5%;
 }
-.frameDiv3 {
+.iconHomeParent {
   position: absolute;
-  top: 794px;
-  left: 10px;
+  top: calc(50% - 26px);
+  left: calc(50% - 188px);
   width: 374px;
   height: 47px;
   overflow: hidden;
 }
-.iPhone14Pro23 {
+.rectangleParent2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.iphone14Pro23 {
   position: relative;
   border-radius: var(--br-md);
-  background: linear-gradient(180deg, #fff, rgba(255, 255, 255, 0));
+  background-color: var(--color-black);
   width: 100%;
-  height: 851px;
+  height: 833px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-md);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
   text-align: left;
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-5xl);
   color: var(--color-white);
   font-family: var(--font-lato);
 }

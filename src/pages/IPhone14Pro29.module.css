@@ -1,0 +1,374 @@
+.alfaRomeo {
+  position: absolute;
+  top: 67px;
+  left: 0;
+  display: inline-block;
+  font-weight: 700;
+  width: 200px;
+  height: 36px;
+  mix-blend-mode: normal;
+}
+.frameChild,
+.iconUser {
+  position: absolute;
+  top: 14.25px;
+  left: 29.25px;
+  width: 54.5px;
+  height: 55.5px;
+}
+.iconUser {
+  height: 31.33%;
+  width: 23.42%;
+  top: 33.73%;
+  right: 37.84%;
+  bottom: 34.94%;
+  left: 38.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ellipseParent,
+.frameItem {
+  position: absolute;
+  height: 83px;
+}
+.frameItem {
+  top: 0;
+  left: 3.25px;
+  width: 107.75px;
+}
+.ellipseParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 31px;
+  right: 0;
+  width: 111px;
+  overflow: hidden;
+}
+.v6Ti {
+  position: absolute;
+  top: 106px;
+  left: 0;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-weight: 700;
+  color: var(--color-gray-200);
+  width: 76px;
+  height: 23px;
+  mix-blend-mode: normal;
+}
+.frameInner {
+  border: 0;
+  position: absolute;
+  top: calc(50% - 7px);
+  left: calc(50% - 151px);
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(160, 155, 155, 0.5),
+    rgba(57, 57, 57, 0)
+  );
+  width: 302px;
+  height: 144px;
+}
+.alfaRomeoParent {
+  align-self: stretch;
+  position: relative;
+  height: 316px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.frameChild1,
+.rectangleDiv {
+  position: absolute;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-400);
+}
+.rectangleDiv {
+  top: -1px;
+  left: 0;
+  width: 225px;
+  height: 31px;
+}
+.frameChild1 {
+  top: calc(50% - 75.5px);
+  left: calc(50% - 177px);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
+    -10px -10px 70px rgba(125, 125, 125, 0.25);
+  width: 352px;
+  height: 157px;
+}
+.v10 {
+  position: absolute;
+  top: 143px;
+  left: 31px;
+  display: inline-block;
+  font-weight: 700;
+  width: 142px;
+  height: 12px;
+}
+.specsAndPrice {
+  top: 58px;
+  left: 23px;
+  font-size: var(--font-size-base);
+  width: 125px;
+  height: 15px;
+}
+.inclusiveOfTaxes,
+.inclusiveOfTaxes1,
+.specsAndPrice,
+.v12 {
+  position: absolute;
+  display: inline-block;
+  font-weight: 700;
+}
+.v12 {
+  top: 102px;
+  left: 31px;
+  width: 142px;
+  height: 12px;
+}
+.inclusiveOfTaxes,
+.inclusiveOfTaxes1 {
+  top: 119px;
+  left: 259px;
+  background: linear-gradient(#807e7e, #807e7e),
+    linear-gradient(#807e7e, #807e7e), #807e7e;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 103px;
+}
+.inclusiveOfTaxes1 {
+  top: 162px;
+  left: 253px;
+  width: 102px;
+}
+.crRs,
+.crRs1,
+.ellipseIcon {
+  position: absolute;
+}
+.ellipseIcon {
+  top: 4px;
+  left: 93px;
+  width: 19px;
+  height: 19px;
+}
+.crRs,
+.crRs1 {
+  top: 101px;
+  left: 271px;
+  display: inline-block;
+  font-weight: 700;
+  width: 135px;
+  height: 12px;
+}
+.crRs1 {
+  top: 142px;
+  left: 278px;
+}
+.rectangleParent {
+  align-self: stretch;
+  position: relative;
+  height: 231px;
+  flex-shrink: 0;
+  overflow: hidden;
+  font-size: var(--font-size-xs);
+}
+.frameChild2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-400);
+  width: 387px;
+  height: 246px;
+}
+.alfaRomeo1 {
+  position: absolute;
+  top: 83px;
+  left: 12px;
+  font-weight: 700;
+  opacity: 0.7;
+}
+.dealersNearYou,
+.royaltyExotics {
+  position: absolute;
+  left: 12px;
+  display: inline-block;
+  font-weight: 700;
+}
+.royaltyExotics {
+  top: 122px;
+  width: 105px;
+  height: 22px;
+  opacity: 0.7;
+}
+.dealersNearYou {
+  top: 35px;
+  width: 127px;
+  height: 18px;
+}
+.frameChild3 {
+  position: absolute;
+  top: 5px;
+  left: 25px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-400);
+  box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
+  width: 122px;
+  height: 31px;
+}
+.contact1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.contact {
+  position: absolute;
+  top: 11px;
+  left: 56px;
+  display: inline-block;
+  font-weight: 700;
+  background: linear-gradient(123.14deg, #06b0e5, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 56px;
+  height: 25px;
+}
+.frameDiv,
+.rectangleContainer {
+  position: absolute;
+  right: 0;
+  width: 153px;
+  overflow: hidden;
+}
+.rectangleContainer {
+  top: 73px;
+  height: 39px;
+}
+.frameDiv {
+  top: 112px;
+  height: 40px;
+}
+.rectangleGroup {
+  align-self: stretch;
+  position: relative;
+  height: 237px;
+  flex-shrink: 0;
+  overflow: hidden;
+  font-size: var(--font-size-base);
+}
+.frameChild5 {
+  position: absolute;
+  top: -8px;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-gray-400);
+  width: 393px;
+  height: 66px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconCommentSquare,
+.iconHome {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 17.02%;
+}
+.iconHome {
+  height: 57.45%;
+  width: 8.03%;
+  right: 48.12%;
+  bottom: 25.53%;
+  left: 43.85%;
+}
+.iconCommentSquare {
+  height: 63.83%;
+  width: 6%;
+  right: 85.69%;
+  bottom: 19.15%;
+  left: 8.31%;
+}
+.vectorIcon2 {
+  top: 0;
+  bottom: 90%;
+}
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4 {
+  position: absolute;
+  height: 10%;
+  width: 100%;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon3 {
+  top: 46.54%;
+  bottom: 43.46%;
+}
+.vectorIcon4 {
+  top: 90%;
+  bottom: 0;
+}
+.iconMenu {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 50.29%;
+  width: 7.2%;
+  top: 17.02%;
+  right: 13.3%;
+  bottom: 32.69%;
+  left: 79.5%;
+}
+.iconHomeParent {
+  position: absolute;
+  bottom: 4px;
+  left: calc(50% - 189px);
+  width: 377px;
+  height: 47px;
+  overflow: hidden;
+}
+.rectangleParent1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.iphone14Pro29 {
+  position: relative;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-400);
+  width: 100%;
+  height: 836px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-md);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-lato);
+}

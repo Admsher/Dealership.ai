@@ -18,16 +18,18 @@ import IPhone14Pro18 from "./pages/IPhone14Pro18";
 import IPhone14Pro17 from "./pages/IPhone14Pro17";
 import IPhone14Pro16 from "./pages/IPhone14Pro16";
 import IPhone14Pro15 from "./pages/IPhone14Pro15";
-import IPhone14Pro14 from "./pages/IPhone14Pro14";
 import IPhone14Pro13 from "./pages/IPhone14Pro13";
 import IPhone14Pro12 from "./pages/IPhone14Pro12";
+import IPhone14Pro30 from "./pages/IPhone14Pro30";
 import IPhone14Pro11 from "./pages/IPhone14Pro11";
 import IPhone14Pro10 from "./pages/IPhone14Pro10";
+import IPhone14Pro29 from "./pages/IPhone14Pro29";
 import IPhone14Pro5 from "./pages/IPhone14Pro5";
 import IPhone14Pro4 from "./pages/IPhone14Pro4";
 import IPhone14Pro3 from "./pages/IPhone14Pro3";
 import IPhone14Pro2 from "./pages/IPhone14Pro2";
 import IPhone14Pro1 from "./pages/IPhone14Pro1";
+import IPhone14Pro14 from "./pages/IPhone14Pro14";
 import { useEffect } from "react";
 
 function App() {
@@ -39,13 +41,12 @@ function App() {
     if (action !== "POP") {
       window.scrollTo(0, 0);
     }
-  }, [action]);
+  }, [action, pathname]);
 
   useEffect(() => {
     let title = "";
     let metaDescription = "";
 
-    //TODO: Update meta titles and descriptions below
     switch (pathname) {
       case "/":
         title = "";
@@ -103,10 +104,6 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/iphone-14-pro-14":
-        title = "";
-        metaDescription = "";
-        break;
       case "/iphone-14-pro-13":
         title = "";
         metaDescription = "";
@@ -115,11 +112,19 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/iphone-14-pro-30":
+        title = "";
+        metaDescription = "";
+        break;
       case "/iphone-14-pro-11":
         title = "";
         metaDescription = "";
         break;
       case "/iphone-14-pro-10":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/iphone-14-pro-29":
         title = "";
         metaDescription = "";
         break;
@@ -140,6 +145,10 @@ function App() {
         metaDescription = "";
         break;
       case "/iphone-14-pro-1":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/iphone-14-pro-14":
         title = "";
         metaDescription = "";
         break;
@@ -189,15 +198,17 @@ function App() {
 
       <Route path="/iphone-14-pro-15" element={<IPhone14Pro15 />} />
 
-      <Route path="/iphone-14-pro-14" element={<IPhone14Pro14 />} />
-
       <Route path="/iphone-14-pro-13" element={<IPhone14Pro13 />} />
 
       <Route path="/iphone-14-pro-12" element={<IPhone14Pro12 />} />
 
+      <Route path="/iphone-14-pro-30" element={<IPhone14Pro30 />} />
+
       <Route path="/iphone-14-pro-11" element={<IPhone14Pro11 />} />
 
       <Route path="/iphone-14-pro-10" element={<IPhone14Pro10 />} />
+
+      <Route path="/iphone-14-pro-29" element={<IPhone14Pro29 />} />
 
       <Route path="/iphone-14-pro-5" element={<IPhone14Pro5 />} />
 
@@ -208,6 +219,8 @@ function App() {
       <Route path="/iphone-14-pro-2" element={<IPhone14Pro2 />} />
 
       <Route path="/iphone-14-pro-1" element={<IPhone14Pro1 />} />
+
+      <Route path="/iphone-14-pro-14" element={<IPhone14Pro14 />} />
     </Routes>
   );
 }

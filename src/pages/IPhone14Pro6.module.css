@@ -6,37 +6,60 @@
     opacity: 1;
   }
 }
-.rectangleDiv {
+.image1Icon {
   position: absolute;
-  top: 0;
-  left: 0;
-  background-color: var(--color-gray-400);
-  width: 393px;
-  height: 852px;
+  top: calc(50% - 97px);
+  left: calc(50% - 167.5px);
+  width: 348px;
+  height: 268px;
+  object-fit: cover;
+  opacity: 0;
 }
-.blankLineP {
+.image1Icon.animate,
+.wantToKnow.animate {
+  animation: 2s ease 0s 1 normal forwards fade-in;
+}
+.image1Wrapper,
+.wantToKnow {
+  align-self: stretch;
+  position: relative;
+}
+.image1Wrapper {
+  height: 194px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.wantToKnow {
+  font-weight: 700;
+  opacity: 0;
+}
+.blankLine {
   margin-block-start: 0;
   margin-block-end: 0;
 }
 .youAreIn {
   margin: 0;
 }
-.youAreInTheRightPlace {
-  position: absolute;
-  top: 514px;
-  left: 41px;
+.youAreInContainer {
+  align-self: stretch;
+  position: relative;
   display: inline-block;
   font-weight: 700;
-  width: 284px;
   height: 50px;
+  flex-shrink: 0;
   opacity: 0;
 }
-.youAreInTheRightPlace.animate {
+.youAreInContainer.animate {
   animation: 1s ease 1.5s 1 normal forwards fade-in;
 }
-.rectangleDiv1 {
-  top: 3px;
-  left: 22px;
+.frameChild,
+.getStarted {
+  position: absolute;
+  cursor: pointer;
+}
+.frameChild {
+  top: calc(50% - 17px);
+  left: calc(50% - 67.5px);
   border-radius: var(--br-md);
   background-color: var(--color-gray-400);
   box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
@@ -44,19 +67,12 @@
   height: 31px;
   opacity: 0;
 }
-.rectangleDiv1.animate {
+.frameChild.animate {
   animation: 0s ease 11s 1 normal forwards fade-in;
 }
-.frameDiv,
-.getStartedI,
-.rectangleDiv1 {
-  position: absolute;
-  cursor: pointer;
-}
-.getStartedI {
-  top: 10px;
-  left: 50px;
-  display: inline-block;
+.getStarted {
+  top: calc(50% - 10px);
+  left: calc(50% - 40.5px);
   font-weight: 700;
   background: linear-gradient(
     123.14deg,
@@ -67,48 +83,35 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.frameDiv {
-  top: 671px;
-  left: 107px;
-  width: 179px;
-  height: 40px;
+.iphone14Pro6,
+.rectangleParent {
+  position: relative;
   overflow: hidden;
-  opacity: 0;
 }
-.frameDiv.animate {
+.rectangleParent {
+  align-self: stretch;
+  height: 40px;
+  flex-shrink: 0;
+  opacity: 0;
+  cursor: pointer;
+  text-align: left;
+}
+.rectangleParent.animate {
   animation: 1s ease 2s 1 normal forwards fade-in;
 }
-.wantToKnowAboutTheHottest {
-  position: absolute;
-  top: 426px;
-  left: 41px;
-  display: inline-block;
-  font-weight: 700;
-  width: 311px;
-  height: 103px;
-  opacity: 0;
-}
-.image1Icon.animate,
-.wantToKnowAboutTheHottest.animate {
-  animation: 2s ease 0s 1 normal forwards fade-in;
-}
-.image1Icon {
-  position: absolute;
-  top: 87px;
-  left: 6px;
-  width: 381px;
-  height: 268px;
-  object-fit: cover;
-  opacity: 0;
-}
-.iPhone14Pro6 {
-  position: relative;
+.iphone14Pro6 {
   border-radius: var(--br-md);
-  background: linear-gradient(180deg, #020202, rgba(255, 255, 255, 0));
+  background-color: var(--color-gray-400);
   width: 100%;
-  height: 852px;
-  overflow: hidden;
-  text-align: left;
+  height: 780px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-md);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 54px;
+  text-align: center;
   font-size: var(--font-size-base);
   color: var(--color-white);
   font-family: var(--font-lato);

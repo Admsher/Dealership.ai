@@ -40,37 +40,41 @@ const IPhone14Pro27: FunctionComponent = () => {
   }, []);
 
   return (
-    <div className={styles.iPhone14Pro27}>
-      <div className={styles.rectangleDiv} />
-      <div className={styles.rectangleDiv1} />
-      <img
-        className={styles.image1Icon}
-        alt=""
-        src="../image-11@2x.png"
-        data-animate-on-scroll
-      />
-      <textarea className={styles.rectangleTextarea} />
-      <img className={styles.rectangleIcon} alt="" src="../rectangle-27.svg" />
-      <i className={styles.fFFCollection}>FFF Collection</i>
-      <div className={styles.rectangleDiv2} />
-      <button
-        className={styles.iconChevronLeft}
-        onClick={onIconChevronLeftClick}
-      >
-        <img className={styles.vectorIcon} alt="" src="../vector.svg" />
-      </button>
-      <div className={styles.rectangleDiv3} />
-      <i className={styles.helloIWasWonderingIfYou}>
-        <p className={styles.helloIWas}>
-          Hello. I was wondering if you still have the car listed with you . Im
-          interested to put up an offer
-        </p>
-      </i>
-      <div className={styles.rectangleDiv4} />
-      <i className={styles.sorryWeJustSoldTheRideB}>
-        Sorry we just sold the ride, but we can be in contact for further deals
-        if you would like.
-      </i>
+    <div className={styles.iphone14Pro27}>
+      <div className={styles.iconChevronLeftWrapper}>
+        <button
+          className={styles.iconChevronLeft}
+          onClick={onIconChevronLeftClick}
+        >
+          <img className={styles.vectorIcon} alt="" src="../vector.svg" />
+        </button>
+      </div>
+      <div className={styles.fffCollectionWrapper}>
+        <i className={styles.fffCollection}>FFF Collection</i>
+      </div>
+      <div className={styles.iphone14Pro27Inner}>
+        <div className={styles.image1Parent}>
+          <img
+            className={styles.image1Icon}
+            alt=""
+            src="../image-11@2x.png"
+            data-animate-on-scroll
+          />
+          <div className={styles.frameChild} />
+          <i className={styles.helloIWasContainer}>
+            <p className={styles.helloIWas}>
+              Hello. I was wondering if you still have the car listed with you .
+              Im interested to put up an offer
+            </p>
+          </i>
+          <div className={styles.frameItem} />
+          <textarea className={styles.frameInner} />
+          <i className={styles.sorryWeJust}>
+            Sorry we just sold the ride, but we can be in contact for further
+            deals if you would like.
+          </i>
+        </div>
+      </div>
     </div>
   );
 };

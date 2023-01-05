@@ -1,23 +1,64 @@
-.rectangleDiv {
+.messages {
   position: absolute;
-  top: 0;
+  top: 56px;
   left: 0;
-  background-color: var(--color-gray-400);
-  width: 393px;
-  height: 865px;
-}
-.messagesI {
-  position: absolute;
-  top: 52px;
-  left: 21px;
-  display: inline-block;
   font-weight: 700;
   text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
-.rectangleDiv1 {
+.messagesWrapper {
+  align-self: stretch;
+  position: relative;
+  height: 159px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.frameChild {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
   position: absolute;
-  top: 23px;
-  left: 12px;
+  top: 0;
+  left: 3px;
+  border-radius: var(--br-md);
+  background: linear-gradient(180deg, #040404, rgba(106, 105, 105, 0));
+  box-shadow: 0 4px 4px #fff;
+  width: 360px;
+  height: 144px;
+}
+.frameItem {
+  position: absolute;
+  top: 45.25px;
+  left: 13.25px;
+  width: 53.5px;
+  height: 51.5px;
+}
+.span {
+  font-size: var(--font-size-3xl);
+}
+.sorryWeJust {
+  color: var(--color-white);
+}
+.fffSorryWeContainer {
+  position: absolute;
+  top: 46px;
+  left: 84px;
+  display: inline-block;
+  font-weight: 700;
+  width: 246px;
+}
+.rectangleParent {
+  position: absolute;
+  top: calc(50% - 109px);
+  left: calc(50% - 181.5px);
+  width: 363px;
+  height: 152px;
+  overflow: hidden;
+}
+.frameInner {
+  position: absolute;
+  top: 0;
+  left: 3px;
   border-radius: var(--br-md);
   background: linear-gradient(180deg, #040404, rgba(106, 105, 105, 0));
   box-shadow: 0 4px 4px #fff;
@@ -26,61 +67,25 @@
 }
 .ellipseIcon {
   position: absolute;
-  top: 66.37px;
-  left: 21.75px;
+  top: 43.37px;
+  left: 12.75px;
   width: 53.5px;
   height: 51.5px;
 }
-.span {
-  font-size: var(--font-size-2xl);
-}
-.thatsGreatWe {
-  color: var(--color-white);
-}
-.autimobiliThatsGreatWeW {
+.rectangleGroup {
   position: absolute;
-  top: 69px;
-  left: 93px;
-  display: inline-block;
-  font-weight: 700;
-  width: 246px;
+  top: calc(50% - 295px);
+  left: calc(50% - 181.5px);
+  width: 363px;
+  height: 152px;
+  overflow: hidden;
 }
-.rectangleButton {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  position: absolute;
-  top: 209px;
-  left: 12px;
-  border-radius: var(--br-md);
-  background: linear-gradient(180deg, #040404, rgba(106, 105, 105, 0));
-  box-shadow: 0 4px 4px #fff;
-  width: 360px;
-  height: 144px;
-}
-.ellipseIcon1 {
-  position: absolute;
-  top: 255.25px;
-  left: 22.25px;
-  width: 53.5px;
-  height: 51.5px;
-}
-.fFFSorryWeJustSoldThe {
-  position: absolute;
-  top: 256px;
-  left: 93px;
-  display: inline-block;
-  font-weight: 700;
-  width: 246px;
-}
-.frameDiv {
-  position: absolute;
-  top: 159px;
-  left: -9px;
+.frameParent {
+  align-self: stretch;
+  position: relative;
   background-color: #0d0d0d;
-  width: 393px;
   height: 636px;
+  flex-shrink: 0;
   overflow-y: auto;
   font-size: var(--font-size-lg);
   color: var(--color-gray-100);
@@ -98,15 +103,17 @@
   max-height: 100%;
 }
 .iconCommentSquare,
-.iconHomeButton {
+.iconHome {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
   position: absolute;
+  top: 17.02%;
+}
+.iconHome {
   height: 57.45%;
   width: 8.03%;
-  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
@@ -118,22 +125,23 @@
   bottom: 19.15%;
   left: 8.31%;
 }
+.vectorIcon2 {
+  top: 0;
+  bottom: 90%;
+}
 .vectorIcon2,
 .vectorIcon3,
 .vectorIcon4 {
   position: absolute;
   height: 10%;
   width: 100%;
-  top: 0;
   right: 0;
-  bottom: 90%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vectorIcon3,
-.vectorIcon4 {
+.vectorIcon3 {
   top: 46.54%;
   bottom: 43.46%;
 }
@@ -141,7 +149,7 @@
   top: 90%;
   bottom: 0;
 }
-.iconMenuButton {
+.iconMenu {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -154,23 +162,35 @@
   bottom: 32.69%;
   left: 79.5%;
 }
-.frameDiv1 {
+.iconHomeParent {
   position: absolute;
-  top: 795px;
-  left: 10px;
+  bottom: 10px;
+  left: calc(50% - 186.5px);
   width: 374px;
   height: 47px;
   overflow: hidden;
 }
-.iPhone14Pro12 {
+.iphone14Pro12Inner {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.iphone14Pro12 {
   position: relative;
   border-radius: var(--br-md);
-  background-color: var(--color-white);
+  background-color: var(--color-black);
   width: 100%;
-  height: 852px;
+  height: 860px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-md);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
   text-align: left;
-  font-size: var(--font-size-3xl);
+  font-size: var(--font-size-4xl);
   color: var(--color-white);
   font-family: var(--font-lato);
 }

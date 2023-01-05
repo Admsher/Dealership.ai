@@ -1,5 +1,5 @@
-.rectangleDiv,
-.rectangleDiv1 {
+.iphone14Pro14Child,
+.iphone14Pro14Item {
   position: absolute;
   top: 0;
   left: 0;
@@ -7,14 +7,14 @@
   width: 393px;
   height: 852px;
 }
-.rectangleDiv1 {
+.iphone14Pro14Item {
   top: 316px;
   left: 9px;
   border-radius: var(--br-md);
   width: 213px;
   height: 31px;
 }
-.alfaRomeoI {
+.alfaRomeo {
   position: absolute;
   top: 67px;
   left: 22px;
@@ -25,7 +25,7 @@
   height: 36px;
   mix-blend-mode: normal;
 }
-.ellipseIcon,
+.frameChild,
 .iconUser {
   position: absolute;
   top: 14.25px;
@@ -44,15 +44,17 @@
   overflow: hidden;
   max-height: 100%;
 }
-.ellipseIcon1,
-.frameButton {
+.ellipseParent,
+.frameItem {
   position: absolute;
+  height: 83px;
+}
+.frameItem {
   top: 0;
   left: 3.25px;
   width: 107.75px;
-  height: 83px;
 }
-.frameButton {
+.ellipseParent {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -73,7 +75,7 @@
   height: 23px;
   mix-blend-mode: normal;
 }
-.rectangleIframe {
+.iphone14Pro14Inner {
   border: 0;
   position: absolute;
   top: 151px;
@@ -86,26 +88,26 @@
   width: 302px;
   height: 144px;
 }
-.rectangleDiv2,
-.rectangleDiv3 {
+.iphone14Pro14Child1,
+.rectangleDiv {
   position: absolute;
   left: 24px;
   border-radius: var(--br-md);
   background-color: var(--color-gray-400);
 }
-.rectangleDiv2 {
+.rectangleDiv {
   top: 364px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
     -10px -10px 70px rgba(125, 125, 125, 0.25);
   width: 333px;
   height: 157px;
 }
-.rectangleDiv3 {
+.iphone14Pro14Child1 {
   top: 549px;
   width: 331px;
   height: 246px;
 }
-.ellipseIcon2 {
+.ellipseIcon {
   position: absolute;
   top: 322px;
   left: 96px;
@@ -115,7 +117,6 @@
 .romeoItalia,
 .specsAndPrice {
   position: absolute;
-  display: inline-block;
   font-weight: 700;
 }
 .romeoItalia {
@@ -126,59 +127,60 @@
 .specsAndPrice {
   top: 382px;
   left: 30px;
+  display: inline-block;
   width: 118px;
   height: 15px;
 }
-.crRsI,
 .v6Ti1 {
-  font-size: var(--font-size-xs);
-  width: 135px;
-}
-.v6Ti1 {
-  position: absolute;
   top: 426px;
   left: 37px;
   display: inline-block;
+  width: 135px;
+}
+.crRs,
+.inclusiveOfTaxes,
+.v6Ti1 {
+  position: absolute;
+  font-size: var(--font-size-xs);
   font-weight: 700;
 }
-.crRsI {
+.crRs {
   top: 425px;
   left: 273px;
-  height: 12px;
-}
-.crRsI,
-.dealersNearYou,
-.inclusiveOfTaxes {
-  position: absolute;
   display: inline-block;
-  font-weight: 700;
+  width: 135px;
+  height: 12px;
 }
 .inclusiveOfTaxes {
   top: 443px;
   left: 253px;
-  font-size: var(--font-size-xs);
   background: linear-gradient(#807e7e, #807e7e),
     linear-gradient(#807e7e, #807e7e), #807e7e;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .dealersNearYou {
+  position: absolute;
   top: 579px;
   left: 27px;
+  display: inline-block;
+  font-weight: 700;
   width: 127px;
   height: 18px;
 }
-.rectangleDiv4,
-.rectangleDiv5 {
+.frameInner,
+.iphone14Pro14Child2 {
   position: absolute;
+  background-color: var(--color-gray-400);
+}
+.iphone14Pro14Child2 {
   top: 786px;
   left: 0;
   border-radius: var(--br-sm);
-  background-color: var(--color-gray-400);
   width: 393px;
   height: 66px;
 }
-.rectangleDiv5 {
+.frameInner {
   top: 5px;
   left: 25px;
   border-radius: var(--br-md);
@@ -186,11 +188,11 @@
   width: 122px;
   height: 31px;
 }
-.contactP {
+.contact1 {
   margin-block-start: 0;
   margin-block-end: 0;
 }
-.contactI {
+.contact {
   position: absolute;
   top: 11px;
   left: 56px;
@@ -202,7 +204,7 @@
   width: 56px;
   height: 25px;
 }
-.frameDiv,
+.rectangleParent,
 .vectorIcon {
   position: absolute;
   top: 617px;
@@ -222,15 +224,17 @@
   max-height: 100%;
 }
 .iconCommentSquare,
-.iconHomeButton {
+.iconHome {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
   position: absolute;
+  top: 17.02%;
+}
+.iconHome {
   height: 57.45%;
   width: 8.03%;
-  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
@@ -242,22 +246,23 @@
   bottom: 19.15%;
   left: 8.31%;
 }
+.vectorIcon2 {
+  top: 0;
+  bottom: 90%;
+}
 .vectorIcon2,
 .vectorIcon3,
 .vectorIcon4 {
   position: absolute;
   height: 10%;
   width: 100%;
-  top: 0;
   right: 0;
-  bottom: 90%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vectorIcon3,
-.vectorIcon4 {
+.vectorIcon3 {
   top: 46.54%;
   bottom: 43.46%;
 }
@@ -265,7 +270,7 @@
   top: 90%;
   bottom: 0;
 }
-.iconMenuButton {
+.iconMenu {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -278,7 +283,7 @@
   bottom: 32.69%;
   left: 79.5%;
 }
-.frameDiv1 {
+.iconHomeParent {
   position: absolute;
   top: 795px;
   left: 10px;
@@ -286,7 +291,7 @@
   height: 47px;
   overflow: hidden;
 }
-.iPhone14Pro14 {
+.iphone14Pro14 {
   position: relative;
   border-radius: var(--br-md);
   background: linear-gradient(180deg, #fff, rgba(255, 255, 255, 0));

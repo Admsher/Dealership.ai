@@ -6,6 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 import createCache from "@emotion/cache";
 import { CacheProvider } from "@emotion/react";
+import "./global.css";
 
 const chakraTheme = extendTheme({
   colors: {

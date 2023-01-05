@@ -1,31 +1,14 @@
-.rectangleDiv,
-.rectangleDiv1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: var(--color-gray-400);
-  width: 393px;
-  height: 852px;
-}
-.rectangleDiv1 {
-  top: 316px;
-  left: 9px;
-  border-radius: var(--br-md);
-  width: 213px;
-  height: 31px;
-}
 .audi {
   position: absolute;
   top: 67px;
-  left: 22px;
-  font-size: var(--font-size-5xl);
+  left: 0;
   display: inline-block;
   font-weight: 700;
   width: 200px;
   height: 36px;
   mix-blend-mode: normal;
 }
-.ellipseIcon,
+.frameChild,
 .iconUser {
   position: absolute;
   top: 14.25px;
@@ -44,28 +27,31 @@
   overflow: hidden;
   max-height: 100%;
 }
-.ellipseIcon1,
-.frameButton {
+.ellipseParent,
+.frameItem {
   position: absolute;
+  height: 83px;
+}
+.frameItem {
   top: 0;
   left: 3.25px;
   width: 107.75px;
-  height: 83px;
 }
-.frameButton {
+.ellipseParent {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
-  top: 31px;
-  left: 272px;
+  top: 24px;
+  right: 0;
   width: 111px;
   overflow: hidden;
 }
-.r8LMV10 {
+.r8LmV10 {
   position: absolute;
   top: 106px;
-  left: 29px;
+  left: 0;
+  font-size: var(--font-size-base);
   display: inline-block;
   font-weight: 700;
   color: var(--color-gray-200);
@@ -73,11 +59,11 @@
   height: 23px;
   mix-blend-mode: normal;
 }
-.rectangleIframe {
+.frameInner {
   border: 0;
   position: absolute;
-  top: 151px;
-  left: 40px;
+  top: calc(50% - 7px);
+  left: calc(50% - 157px);
   background: radial-gradient(
     50% 50%at 50% 50%,
     rgba(160, 155, 155, 0.5),
@@ -86,113 +72,134 @@
   width: 302px;
   height: 144px;
 }
-.rectangleDiv2,
-.rectangleDiv3 {
+.frameDiv {
   position: absolute;
-  left: 24px;
+  top: 312px;
+  left: 0;
+  width: 393px;
+  height: 220px;
+  overflow: hidden;
+}
+.audiParent {
+  align-self: stretch;
+  position: relative;
+  height: 316px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.frameChild1,
+.rectangleDiv {
+  position: absolute;
   border-radius: var(--br-md);
   background-color: var(--color-gray-400);
 }
-.rectangleDiv2 {
-  top: 364px;
+.rectangleDiv {
+  top: 4px;
+  left: 9px;
+  width: 213px;
+  height: 31px;
+}
+.frameChild1 {
+  top: calc(50% - 58px);
+  left: calc(50% - 173px);
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
     -10px -10px 70px rgba(125, 125, 125, 0.25);
   width: 333px;
   height: 157px;
 }
-.rectangleDiv3 {
-  top: 549px;
-  width: 331px;
-  height: 237px;
-}
-.ellipseIcon2 {
-  position: absolute;
-  top: 322px;
-  left: 96px;
-  width: 18px;
-  height: 19px;
-}
-.fFFCollection,
 .specsAndPrice {
   position: absolute;
+  top: 12px;
+  left: 11px;
+  font-size: var(--font-size-base);
   display: inline-block;
   font-weight: 700;
-}
-.fFFCollection {
-  top: 627px;
-  left: 27px;
-  width: 105px;
-  height: 22px;
-  opacity: 0.7;
-}
-.specsAndPrice {
-  top: 382px;
-  left: 30px;
   width: 118px;
   height: 15px;
 }
-.crRsI,
 .v6Ti {
-  font-size: var(--font-size-xs);
+  top: 56px;
+  left: 18px;
+  display: inline-block;
   width: 135px;
 }
+.crRs,
+.inclusiveOfTaxes,
 .v6Ti {
   position: absolute;
-  top: 426px;
-  left: 37px;
-  display: inline-block;
-  font-weight: 700;
-}
-.crRsI {
-  top: 425px;
-  left: 273px;
-  height: 12px;
-}
-.crRsI,
-.dealersNearYou,
-.inclusiveOfTaxes {
-  position: absolute;
-  display: inline-block;
   font-weight: 700;
 }
 .inclusiveOfTaxes {
-  top: 443px;
-  left: 253px;
-  font-size: var(--font-size-xs);
+  top: 73px;
+  left: 234px;
   background: linear-gradient(#807e7e, #807e7e),
     linear-gradient(#807e7e, #807e7e), #807e7e;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.crRs {
+  top: 55px;
+  left: 254px;
+  display: inline-block;
+  width: 135px;
+  height: 12px;
+}
+.specsAndPriceParent {
+  position: absolute;
+  top: calc(50% - 52px);
+  left: calc(50% - 178px);
+  width: 338px;
+  height: 151px;
+  overflow: hidden;
+}
+.ellipseIcon {
+  position: absolute;
+  top: 10px;
+  left: 96px;
+  width: 18px;
+  height: 19px;
+}
+.rectangleParent {
+  align-self: stretch;
+  position: relative;
+  height: 220px;
+  flex-shrink: 0;
+  overflow: hidden;
+  font-size: var(--font-size-xs);
+}
+.dealersNearYou,
+.fffCollection {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  font-weight: 700;
+}
+.fffCollection {
+  top: 69px;
+  width: 105px;
+  height: 22px;
+  opacity: 0.7;
+}
 .dealersNearYou {
-  top: 579px;
-  left: 27px;
+  top: 21px;
   width: 127px;
   height: 18px;
 }
-.rectangleDiv4,
-.rectangleDiv5 {
+.frameChild2 {
   position: absolute;
-  top: 786px;
-  left: 0;
-  border-radius: var(--br-sm);
-  background-color: var(--color-gray-400);
-  width: 393px;
-  height: 66px;
-}
-.rectangleDiv5 {
   top: 5px;
   left: 25px;
   border-radius: var(--br-md);
+  background-color: var(--color-gray-400);
   box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
   width: 122px;
   height: 31px;
 }
-.contactP {
+.contact1 {
   margin-block-start: 0;
   margin-block-end: 0;
 }
-.contactI {
+.contact {
   position: absolute;
   top: 11px;
   left: 56px;
@@ -204,16 +211,33 @@
   width: 56px;
   height: 25px;
 }
-.frameDiv,
-.vectorIcon {
+.rectangleGroup {
   position: absolute;
-  top: 617px;
-  left: 197px;
+  top: 59px;
+  right: 0;
   width: 153px;
   height: 42px;
   overflow: hidden;
 }
+.fffCollectionParent {
+  align-self: stretch;
+  position: relative;
+  height: 228px;
+  flex-shrink: 0;
+  overflow: hidden;
+  font-size: var(--font-size-base);
+}
+.frameChild3 {
+  position: absolute;
+  top: -6px;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-gray-400);
+  width: 393px;
+  height: 66px;
+}
 .vectorIcon {
+  position: absolute;
   height: 100%;
   width: 100%;
   top: 0;
@@ -221,18 +245,21 @@
   bottom: 0;
   left: 0;
   max-width: 100%;
+  overflow: hidden;
   max-height: 100%;
 }
 .iconCommentSquare,
-.iconHomeButton {
+.iconHome {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
   position: absolute;
+  top: 17.02%;
+}
+.iconHome {
   height: 57.45%;
   width: 8.03%;
-  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
@@ -244,22 +271,23 @@
   bottom: 19.15%;
   left: 8.31%;
 }
+.vectorIcon2 {
+  top: 0;
+  bottom: 90%;
+}
 .vectorIcon2,
 .vectorIcon3,
 .vectorIcon4 {
   position: absolute;
   height: 10%;
   width: 100%;
-  top: 0;
   right: 0;
-  bottom: 90%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vectorIcon3,
-.vectorIcon4 {
+.vectorIcon3 {
   top: 46.54%;
   bottom: 43.46%;
 }
@@ -267,7 +295,7 @@
   top: 90%;
   bottom: 0;
 }
-.iconMenuButton {
+.iconMenu {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -280,23 +308,36 @@
   bottom: 32.69%;
   left: 79.5%;
 }
-.frameDiv1 {
+.iconHomeParent {
   position: absolute;
-  top: 795px;
-  left: 10px;
+  bottom: 10px;
+  left: calc(50% - 188px);
   width: 374px;
   height: 47px;
   overflow: hidden;
 }
-.iPhone14Pro15 {
+.rectangleContainer {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.iphone14Pro15 {
   position: relative;
   border-radius: var(--br-md);
-  background: linear-gradient(131.43deg, #fff, #000);
+  background-color: var(--color-black);
   width: 100%;
-  height: 852px;
+  height: 851px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-md);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9px;
   text-align: left;
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-5xl);
   color: var(--color-white);
   font-family: var(--font-lato);
 }

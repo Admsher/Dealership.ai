@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap");
+
 body {
   margin: 0;
   line-height: normal;
@@ -12,19 +13,26 @@ body {
   --font-size-sm: 12px;
   --font-size-base: 14px;
   --font-size-lg: 15px;
-  --font-size-xl: 17px;
-  --font-size-2xl: 20px;
-  --font-size-3xl: 29px;
-  --font-size-4xl: 32px;
+  --font-size-xl: 16px;
+  --font-size-2xl: 17px;
+  --font-size-3xl: 20px;
+  --font-size-4xl: 29px;
   --font-size-5xl: 34px;
 
   /* Colors */
-  --color-white: #fff;
   --color-gray-100: #a19b9b;
   --color-gray-200: #988e8e;
   --color-gray-300: #252424;
   --color-gray-400: #050505;
+  --color-white: #fff;
   --color-black: #000;
+
+  /* Gaps */
+  --gap-sm: 1px;
+  --gap-md: 2px;
+
+  /* Paddings */
+  --padding-md: 16px;
 
   /* border radiuses */
   --br-xs: 16px;

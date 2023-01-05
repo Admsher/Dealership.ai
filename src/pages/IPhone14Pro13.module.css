@@ -1,18 +1,27 @@
-.rectangleDiv {
+.about {
   position: absolute;
-  top: 0;
+  top: 42px;
   left: 0;
-  background-color: var(--color-gray-400);
-  width: 393px;
-  height: 865px;
-}
-.aboutI {
-  position: absolute;
-  top: 52px;
-  left: 21px;
-  display: inline-block;
   font-weight: 700;
   text-shadow: 0 0 20px rgba(255, 255, 255, 0.75);
+}
+.aboutWrapper {
+  align-self: stretch;
+  position: relative;
+  height: 139px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.carsDealershipOnline {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.carsDealershipOnlineContainer {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 700;
 }
 .vectorIcon {
   position: absolute;
@@ -27,15 +36,17 @@
   max-height: 100%;
 }
 .iconCommentSquare,
-.iconHomeButton {
+.iconHome {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
   position: absolute;
+  top: 17.02%;
+}
+.iconHome {
   height: 57.45%;
   width: 8.03%;
-  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
@@ -47,7 +58,7 @@
   bottom: 19.15%;
   left: 8.31%;
 }
-.frameDiv,
+.iconHomeParent,
 .iconMenu {
   position: absolute;
   overflow: hidden;
@@ -62,35 +73,35 @@
   max-width: 100%;
   max-height: 100%;
 }
-.frameDiv {
-  top: 795px;
-  left: 10px;
+.iconHomeParent {
+  bottom: 2px;
+  left: calc(50% - 187px);
   width: 374px;
   height: 47px;
 }
-.carsDealershipOnline {
-  margin-block-start: 0;
-  margin-block-end: 0;
+.iphone14Pro13Inner {
+  align-self: stretch;
+  position: relative;
+  height: 63px;
+  flex-shrink: 0;
+  overflow: hidden;
 }
-.carsDealershipOnlineCompany {
-  position: absolute;
-  top: 152px;
-  left: 21px;
-  font-size: 16px;
-  display: inline-block;
-  font-weight: 700;
-  width: 328px;
-  height: 385px;
-}
-.iPhone14Pro13 {
+.iphone14Pro13 {
   position: relative;
   border-radius: var(--br-md);
-  background-color: var(--color-white);
+  background-color: var(--color-black);
   width: 100%;
-  height: 852px;
+  height: 746px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-md);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
   text-align: left;
-  font-size: var(--font-size-3xl);
+  font-size: var(--font-size-4xl);
   color: var(--color-white);
   font-family: var(--font-lato);
 }
