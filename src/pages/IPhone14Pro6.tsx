@@ -5,7 +5,7 @@ import styles from "./IPhone14Pro6.module.css";
 const IPhone14Pro6: FunctionComponent = () => {
   const navigate = useNavigate();
 
-  const onRectangle1Click = useCallback(() => {
+  const onRectangleClick = useCallback(() => {
     navigate("/iphone-14-pro-4");
   }, [navigate]);
 
@@ -13,7 +13,7 @@ const IPhone14Pro6: FunctionComponent = () => {
     navigate("/iphone-14-pro-4");
   }, [navigate]);
 
-  const onFrameContainerClick = useCallback(() => {
+  const onFrameContainer1Click = useCallback(() => {
     navigate("/iphone-14-pro-4");
   }, [navigate]);
 
@@ -48,36 +48,36 @@ const IPhone14Pro6: FunctionComponent = () => {
   }, []);
 
   return (
-    <div className={styles.iPhone14Pro6}>
-      <div className={styles.rectangleDiv} />
-      <i className={styles.youAreInTheRightPlace} data-animate-on-scroll>
-        <p className={styles.blankLineP}>&nbsp;</p>
+    <div className={styles.iphone14Pro6}>
+      <div className={styles.image1Wrapper}>
+        <img
+          className={styles.image1Icon}
+          alt=""
+          src="../image-1@2x.png"
+          data-animate-on-scroll
+        />
+      </div>
+      <i className={styles.wantToKnow} data-animate-on-scroll>
+        Want to know about the hottest deals on exotics/daily drives?
+      </i>
+      <i className={styles.youAreInContainer} data-animate-on-scroll>
+        <p className={styles.blankLine}>&nbsp;</p>
         <p className={styles.youAreIn}>You are in the right place.</p>
       </i>
       <div
-        className={styles.frameDiv}
-        onClick={onFrameContainerClick}
+        className={styles.rectangleParent}
+        onClick={onFrameContainer1Click}
         data-animate-on-scroll
       >
         <div
-          className={styles.rectangleDiv1}
-          onClick={onRectangle1Click}
+          className={styles.frameChild}
+          onClick={onRectangleClick}
           data-animate-on-scroll
         />
-        <i className={styles.getStartedI} onClick={onGetStartedTextClick}>
+        <i className={styles.getStarted} onClick={onGetStartedTextClick}>
           Get Started
         </i>
       </div>
-      <i className={styles.wantToKnowAboutTheHottest} data-animate-on-scroll>
-        Want to know about the hottest deals on exotics/daily drivers for a bang
-        for buck?
-      </i>
-      <img
-        className={styles.image1Icon}
-        alt=""
-        src="../image-1@2x.png"
-        data-animate-on-scroll
-      />
     </div>
   );
 };

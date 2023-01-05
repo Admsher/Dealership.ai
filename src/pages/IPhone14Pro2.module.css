@@ -1,39 +1,14 @@
-.rectangleDiv,
-.rectangleIcon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 393px;
-  height: 852px;
-}
-.rectangleDiv {
-  top: 316px;
-  left: 9px;
-  border-radius: var(--br-md);
-  background-color: var(--color-gray-400);
-  width: 213px;
-  height: 31px;
-}
-.ellipseIcon {
-  position: absolute;
-  top: 322px;
-  left: 96px;
-  width: 18px;
-  height: 19px;
-  opacity: 0.96;
-}
 .audi {
   position: absolute;
   top: 69px;
-  left: 23px;
-  font-size: var(--font-size-5xl);
+  left: 0;
   display: inline-block;
   font-weight: 700;
   width: 117px;
   height: 36px;
   mix-blend-mode: normal;
 }
-.ellipseIcon1,
+.frameChild,
 .iconUser {
   position: absolute;
   top: 14.25px;
@@ -52,29 +27,31 @@
   overflow: hidden;
   max-height: 100%;
 }
-.ellipseIcon2,
-.frameButton {
+.ellipseParent,
+.frameItem {
   position: absolute;
+  height: 83px;
+}
+.frameItem {
   top: 0;
   left: 3.25px;
   width: 107.75px;
-  height: 83px;
 }
-.frameButton {
+.ellipseParent {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
-  top: 28px;
-  left: 272px;
+  top: 31px;
+  right: 0;
   width: 111px;
   overflow: hidden;
 }
-.rectangleIframe {
+.frameInner {
   border: 0;
   position: absolute;
-  top: 146px;
-  left: 40px;
+  top: calc(50% - 12px);
+  left: calc(50% - 152px);
   background: radial-gradient(
     50% 50%at 50% 50%,
     rgba(160, 155, 155, 0.5),
@@ -83,170 +60,7 @@
   width: 302px;
   height: 144px;
 }
-.rectangleDiv1 {
-  position: absolute;
-  top: 364px;
-  left: 24px;
-  border-radius: var(--br-md);
-  background-color: var(--color-gray-400);
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
-    -10px -10px 70px rgba(125, 125, 125, 0.25);
-  width: 333px;
-  height: 157px;
-}
-.audiMumbai,
-.lectroI,
-.sheepeyI {
-  position: absolute;
-  top: 627px;
-  left: 27px;
-  display: inline-block;
-  font-weight: 700;
-  opacity: 0.7;
-}
-.lectroI,
-.sheepeyI {
-  top: 666px;
-  width: 105px;
-  height: 22px;
-}
-.lectroI {
-  top: 705px;
-}
-.v8I {
-  top: 467px;
-  left: 37px;
-  font-size: var(--font-size-xs);
-  width: 135px;
-  height: 12px;
-}
-.crRsI,
-.specsAndPrice,
-.v12I,
-.v8I {
-  position: absolute;
-  display: inline-block;
-  font-weight: 700;
-}
-.specsAndPrice {
-  top: 382px;
-  left: 30px;
-  width: 118px;
-  height: 15px;
-}
-.crRsI,
-.v12I {
-  width: 135px;
-  height: 12px;
-}
-.v12I {
-  top: 426px;
-  left: 37px;
-  font-size: var(--font-size-xs);
-}
-.crRsI {
-  top: 425px;
-  left: 273px;
-}
-.crRsI,
-.crRsI1,
-.inclusiveOfTaxes {
-  font-size: var(--font-size-xs);
-}
-.crRsI1 {
-  position: absolute;
-  top: 468px;
-  left: 278px;
-  display: inline-block;
-  font-weight: 700;
-  width: 135px;
-  height: 12px;
-}
-.inclusiveOfTaxes {
-  top: 443px;
-  left: 253px;
-  background: linear-gradient(#807e7e, #807e7e),
-    linear-gradient(#807e7e, #807e7e), #807e7e;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.dealersNearYou,
-.inclusiveOfTaxes,
-.inclusiveOfTaxes1 {
-  position: absolute;
-  display: inline-block;
-  font-weight: 700;
-}
-.inclusiveOfTaxes1 {
-  top: 486px;
-  left: 247px;
-  font-size: var(--font-size-xs);
-  background: linear-gradient(#807e7e, #807e7e),
-    linear-gradient(#807e7e, #807e7e), #807e7e;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.dealersNearYou {
-  top: 579px;
-  left: 27px;
-  width: 127px;
-  height: 18px;
-}
-.rectangleDiv2,
-.rectangleDiv3 {
-  position: absolute;
-  top: 786px;
-  left: 0;
-  border-radius: var(--br-sm);
-  background-color: var(--color-gray-400);
-  width: 393px;
-  height: 66px;
-}
-.rectangleDiv3 {
-  top: 5px;
-  left: 25px;
-  border-radius: var(--br-md);
-  box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
-  width: 122px;
-  height: 31px;
-}
-.contactP {
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-.contactI {
-  position: absolute;
-  top: 11px;
-  left: 56px;
-  display: inline-block;
-  font-weight: 700;
-  background: linear-gradient(123.14deg, #06b0e5, #fff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  width: 56px;
-  height: 25px;
-}
-.frameDiv,
-.frameDiv1,
-.frameDiv2 {
-  position: absolute;
-  top: 617px;
-  left: 201px;
-  width: 153px;
-  height: 39px;
-  overflow: hidden;
-}
-.frameDiv1,
-.frameDiv2 {
-  top: 656px;
-  left: 202px;
-}
-.frameDiv2 {
-  top: 695px;
-  left: 204px;
-  height: 41px;
-}
-.r8ETronI {
+.r8ETron {
   position: absolute;
   top: 39px;
   left: 15px;
@@ -256,19 +70,219 @@
   height: 23px;
   mix-blend-mode: normal;
 }
-.frameDiv3,
-.vectorIcon {
+.r8ETronWrapper {
   position: absolute;
-  overflow: hidden;
-}
-.frameDiv3 {
   top: 67px;
-  left: 15px;
-  width: 99px;
+  left: 0;
+  width: 84px;
   height: 62px;
+  overflow: hidden;
+  font-size: var(--font-size-base);
   color: var(--color-gray-200);
 }
+.audiParent {
+  align-self: stretch;
+  position: relative;
+  height: 316px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 9px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-400);
+  width: 213px;
+  height: 31px;
+}
+.ellipseIcon {
+  position: absolute;
+  top: 6px;
+  left: 96px;
+  width: 18px;
+  height: 19px;
+  opacity: 0.96;
+}
+.crRs,
+.crRs1 {
+  position: absolute;
+  top: 104px;
+  right: -4px;
+  display: inline-block;
+  font-weight: 700;
+  width: 56px;
+  height: 12px;
+}
+.crRs1 {
+  top: 62px;
+  width: 57px;
+}
+.inclusiveOfTaxes,
+.inclusiveOfTaxes1 {
+  position: absolute;
+  top: 122px;
+  right: 0;
+  font-weight: 700;
+  background: linear-gradient(#807e7e, #807e7e),
+    linear-gradient(#807e7e, #807e7e), #807e7e;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.inclusiveOfTaxes1 {
+  top: 79px;
+}
+.specsAndPrice,
+.v12 {
+  left: 0;
+  display: inline-block;
+  font-weight: 700;
+}
+.specsAndPrice {
+  position: absolute;
+  top: 18px;
+  font-size: var(--font-size-base);
+  width: 118px;
+  height: 15px;
+}
+.v12 {
+  top: 62px;
+  width: 135px;
+  height: 12px;
+}
+.crRsParent,
+.v12,
+.v8 {
+  position: absolute;
+}
+.v8 {
+  top: 103px;
+  left: 0;
+  display: inline-block;
+  font-weight: 700;
+  width: 135px;
+  height: 12px;
+}
+.crRsParent {
+  top: calc(50% - 68.5px);
+  left: calc(50% - 160px);
+  width: 320px;
+  height: 157px;
+}
+.rectangleParent {
+  align-self: stretch;
+  position: relative;
+  height: 233px;
+  flex-shrink: 0;
+  overflow: hidden;
+  font-size: var(--font-size-xs);
+}
+.audiMumbai {
+  position: absolute;
+  top: 78px;
+  left: 0;
+  font-weight: 700;
+  opacity: 0.7;
+}
+.sheepey {
+  top: 117px;
+  width: 105px;
+  height: 22px;
+  opacity: 0.7;
+}
+.dealersNearYou,
+.lectro,
+.sheepey {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  font-weight: 700;
+}
+.lectro {
+  top: 156px;
+  width: 105px;
+  height: 22px;
+  opacity: 0.7;
+}
+.dealersNearYou {
+  top: 30px;
+  width: 127px;
+  height: 18px;
+}
+.frameChild1 {
+  position: absolute;
+  top: 5px;
+  left: 25px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-400);
+  box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
+  width: 122px;
+  height: 31px;
+}
+.contact1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.contact {
+  position: absolute;
+  top: 11px;
+  left: 56px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-weight: 700;
+  font-family: var(--font-lato);
+  background: linear-gradient(123.14deg, #06b0e5, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  width: 56px;
+  height: 25px;
+}
+.frameButton,
+.rectangleContainer,
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+  width: 153px;
+  overflow: hidden;
+}
+.rectangleContainer,
+.rectangleGroup {
+  height: 39px;
+}
+.rectangleGroup {
+  top: 68px;
+}
+.rectangleContainer {
+  top: 107px;
+}
+.frameButton {
+  top: 146px;
+  height: 41px;
+}
+.audiMumbaiParent {
+  align-self: stretch;
+  position: relative;
+  height: 222px;
+  flex-shrink: 0;
+  overflow: hidden;
+  font-size: var(--font-size-base);
+}
+.frameChild4 {
+  position: absolute;
+  top: calc(50% - 33px);
+  left: calc(50% - 197px);
+  border-radius: var(--br-sm);
+  background-color: var(--color-gray-400);
+  width: 393px;
+  height: 66px;
+}
 .vectorIcon {
+  position: absolute;
   height: 100%;
   width: 100%;
   top: 0;
@@ -276,18 +290,21 @@
   bottom: 0;
   left: 0;
   max-width: 100%;
+  overflow: hidden;
   max-height: 100%;
 }
 .iconCommentSquare,
-.iconHomeButton {
+.iconHome {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
   position: absolute;
+  top: 17.02%;
+}
+.iconHome {
   height: 57.45%;
   width: 8.03%;
-  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
@@ -299,22 +316,23 @@
   bottom: 19.15%;
   left: 8.31%;
 }
+.vectorIcon2 {
+  top: 0;
+  bottom: 90%;
+}
 .vectorIcon2,
 .vectorIcon3,
 .vectorIcon4 {
   position: absolute;
   height: 10%;
   width: 100%;
-  top: 0;
   right: 0;
-  bottom: 90%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vectorIcon3,
-.vectorIcon4 {
+.vectorIcon3 {
   top: 46.54%;
   bottom: 43.46%;
 }
@@ -322,7 +340,7 @@
   top: 90%;
   bottom: 0;
 }
-.iconMenuButton {
+.iconMenu {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -335,23 +353,36 @@
   bottom: 32.69%;
   left: 79.5%;
 }
-.frameDiv4 {
+.iconHomeParent {
   position: absolute;
-  top: 795px;
-  left: 10px;
+  top: calc(50% - 24px);
+  left: calc(50% - 187px);
   width: 374px;
   height: 47px;
   overflow: hidden;
 }
-.iPhone14Pro2 {
+.frameDiv,
+.iphone14Pro2 {
   position: relative;
-  border-radius: var(--br-md);
-  background: linear-gradient(180deg, #fff, rgba(255, 255, 255, 0));
-  width: 100%;
-  height: 852px;
   overflow: hidden;
+}
+.frameDiv {
+  align-self: stretch;
+  flex: 1;
+}
+.iphone14Pro2 {
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-400);
+  width: 100%;
+  height: 837px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-md);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
   text-align: left;
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-5xl);
   color: var(--color-white);
   font-family: var(--font-lato);
 }

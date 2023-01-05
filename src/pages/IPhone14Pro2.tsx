@@ -9,7 +9,19 @@ const IPhone14Pro2: FunctionComponent = () => {
     navigate("/iphone-14-pro-11");
   }, [navigate]);
 
-  const onIconHomeButtonClick = useCallback(() => {
+  const onFrameButton1Click = useCallback(() => {
+    navigate("/iphone-14-pro-30");
+  }, [navigate]);
+
+  const onFrameButton2Click = useCallback(() => {
+    navigate("/iphone-14-pro-30");
+  }, [navigate]);
+
+  const onFrameButton3Click = useCallback(() => {
+    navigate("/iphone-14-pro-30");
+  }, [navigate]);
+
+  const onIconHomeClick = useCallback(() => {
     navigate("/iphone-14-pro-4");
   }, [navigate]);
 
@@ -17,80 +29,85 @@ const IPhone14Pro2: FunctionComponent = () => {
     navigate("/iphone-14-pro-12");
   }, [navigate]);
 
-  const onIconMenuButtonClick = useCallback(() => {
+  const onIconMenuClick = useCallback(() => {
     navigate("/iphone-14-pro-13");
   }, [navigate]);
 
   return (
-    <div className={styles.iPhone14Pro2}>
-      <img className={styles.rectangleIcon} alt="" src="../rectangle-12.svg" />
-      <div className={styles.rectangleDiv} />
-      <img className={styles.ellipseIcon} alt="" src="../ellipse-77.svg" />
-      <i className={styles.audi}>Audi</i>
-      <button className={styles.frameButton} onClick={onFrameButtonClick}>
-        <img className={styles.ellipseIcon1} alt="" src="../ellipse-117.svg" />
-        <img className={styles.iconUser} alt="" src="../-icon-user.svg" />
-        <img className={styles.ellipseIcon2} alt="" src="../ellipse-216.svg" />
-      </button>
-      <iframe
-        className={styles.rectangleIframe}
-        src={`https://sketchfab.com/models/807c3c1580ee4ad58903548093a49511/embed?autospin=1&autostart=1>`}
-      />
-      <div className={styles.rectangleDiv1} />
-      <i className={styles.audiMumbai}>Audi Mumbai</i>
-      <i className={styles.sheepeyI}>Sheepey</i>
-      <i className={styles.lectroI}>Lectro</i>
-      <i className={styles.v8I}>V8</i>
-      <i className={styles.specsAndPrice}>Specs and Price</i>
-      <i className={styles.v12I}>V12</i>
-      <i className={styles.crRsI}>2.12 Cr Rs</i>
-      <i className={styles.crRsI1}>1.74Cr Rs</i>
-      <i className={styles.inclusiveOfTaxes}>Inclusive of Taxes</i>
-      <i className={styles.inclusiveOfTaxes1}>Inclusive of Taxes</i>
-      <i className={styles.dealersNearYou}>Dealers Near You</i>
-      <div className={styles.rectangleDiv2} />
+    <div className={styles.iphone14Pro2}>
+      <div className={styles.audiParent}>
+        <i className={styles.audi}>Audi</i>
+        <button className={styles.ellipseParent} onClick={onFrameButtonClick}>
+          <img className={styles.frameChild} alt="" src="../ellipse-117.svg" />
+          <img className={styles.iconUser} alt="" src="../-icon-user.svg" />
+          <img className={styles.frameItem} alt="" src="../ellipse-216.svg" />
+        </button>
+        <iframe
+          className={styles.frameInner}
+          src={`https://sketchfab.com/models/807c3c1580ee4ad58903548093a49511/embed?autospin=1&autostart=1>`}
+        />
+        <div className={styles.r8ETronWrapper}>
+          <i className={styles.r8ETron}>R8 e-Tron</i>
+        </div>
+      </div>
+      <div className={styles.rectangleParent}>
+        <div className={styles.rectangleDiv} />
+        <img className={styles.ellipseIcon} alt="" src="../ellipse-77.svg" />
+        <div className={styles.crRsParent}>
+          <i className={styles.crRs}>1.74Cr Rs</i>
+          <i className={styles.crRs1}>2.12 Cr Rs</i>
+          <i className={styles.inclusiveOfTaxes}>Inclusive of Taxes</i>
+          <i className={styles.inclusiveOfTaxes1}>Inclusive of Taxes</i>
+          <i className={styles.specsAndPrice}>Specs and Price</i>
+          <i className={styles.v12}>V12</i>
+          <i className={styles.v8}>V8</i>
+        </div>
+      </div>
+      <div className={styles.audiMumbaiParent}>
+        <i className={styles.audiMumbai}>Audi Mumbai</i>
+        <i className={styles.sheepey}>Sheepey</i>
+        <i className={styles.lectro}>Lectro</i>
+        <i className={styles.dealersNearYou}>Dealers Near You</i>
+        <button className={styles.rectangleGroup} onClick={onFrameButton1Click}>
+          <div className={styles.frameChild1} />
+          <i className={styles.contact}>
+            <p className={styles.contact1}>Contact</p>
+          </i>
+        </button>
+        <button
+          className={styles.rectangleContainer}
+          onClick={onFrameButton2Click}
+        >
+          <div className={styles.frameChild1} />
+          <i className={styles.contact}>
+            <p className={styles.contact1}>Contact</p>
+          </i>
+        </button>
+        <button className={styles.frameButton} onClick={onFrameButton3Click}>
+          <div className={styles.frameChild1} />
+          <i className={styles.contact}>
+            <p className={styles.contact1}>Contact</p>
+          </i>
+        </button>
+      </div>
       <div className={styles.frameDiv}>
-        <div className={styles.rectangleDiv3} />
-        <i className={styles.contactI}>
-          <p className={styles.contactP}>Contact</p>
-        </i>
-      </div>
-      <div className={styles.frameDiv1}>
-        <div className={styles.rectangleDiv3} />
-        <i className={styles.contactI}>
-          <p className={styles.contactP}>Contact</p>
-        </i>
-      </div>
-      <div className={styles.frameDiv2}>
-        <div className={styles.rectangleDiv3} />
-        <i className={styles.contactI}>
-          <p className={styles.contactP}>Contact</p>
-        </i>
-      </div>
-      <div className={styles.frameDiv3}>
-        <i className={styles.r8ETronI}>R8 e-Tron</i>
-      </div>
-      <div className={styles.frameDiv4}>
-        <button
-          className={styles.iconHomeButton}
-          onClick={onIconHomeButtonClick}
-        >
-          <img className={styles.vectorIcon} alt="" src="../vector94.svg" />
-        </button>
-        <button
-          className={styles.iconCommentSquare}
-          onClick={onIconCommentSquareClick}
-        >
-          <img className={styles.vectorIcon} alt="" src="../vector95.svg" />
-        </button>
-        <button
-          className={styles.iconMenuButton}
-          onClick={onIconMenuButtonClick}
-        >
-          <img className={styles.vectorIcon2} alt="" src="../vector96.svg" />
-          <img className={styles.vectorIcon3} alt="" src="../vector97.svg" />
-          <img className={styles.vectorIcon4} alt="" src="../vector98.svg" />
-        </button>
+        <div className={styles.frameChild4} />
+        <div className={styles.iconHomeParent}>
+          <button className={styles.iconHome} onClick={onIconHomeClick}>
+            <img className={styles.vectorIcon} alt="" src="../vector103.svg" />
+          </button>
+          <button
+            className={styles.iconCommentSquare}
+            onClick={onIconCommentSquareClick}
+          >
+            <img className={styles.vectorIcon} alt="" src="../vector104.svg" />
+          </button>
+          <button className={styles.iconMenu} onClick={onIconMenuClick}>
+            <img className={styles.vectorIcon2} alt="" src="../vector105.svg" />
+            <img className={styles.vectorIcon3} alt="" src="../vector106.svg" />
+            <img className={styles.vectorIcon4} alt="" src="../vector107.svg" />
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -1,49 +1,74 @@
-@keyframes scale-down-center {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  to {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-  }
-}
-.rectangleTextarea {
-  border: 0;
-  background-color: var(--color-gray-400);
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-md);
-  width: 388px;
-  height: 879px;
-}
-.locationP {
+.location {
   margin-block-start: 0;
   margin-block-end: 0;
 }
-.asMentionedP {
+.asMentioned {
   margin: 0;
   font-size: var(--font-size-xs);
 }
-.locationAsMentioned {
-  top: 296px;
+.locationAsMentionedContainer {
+  top: 248px;
 }
-.locationAsMentioned,
-.nameI,
+.locationAsMentionedContainer,
+.name,
 .profile {
   position: absolute;
-  left: 20px;
-  display: inline-block;
+  left: 0;
   font-weight: 700;
 }
 .profile {
-  top: 79px;
-  font-size: var(--font-size-3xl);
+  top: 31px;
+  font-size: var(--font-size-4xl);
   text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
-.nameI {
-  top: 225px;
+.name {
+  top: 177px;
+}
+.frameChild,
+.frameItem {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 237px;
+}
+.frameChild {
+  top: calc(50% - 173.5px);
+  left: calc(50% - 118.5px);
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+  height: 36px;
+}
+.frameItem {
+  top: calc(50% - 98.5px);
+  left: calc(50% - 93.5px);
+  height: 40px;
+  overflow: hidden;
+}
+.notifications {
+  position: absolute;
+  top: 382px;
+  left: 4px;
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+}
+.switchdefault {
+  position: absolute;
+  top: 8px;
+  left: 14px;
+}
+.switchdefaultWrapper {
+  position: absolute;
+  top: 379px;
+  right: 14px;
+  width: 60px;
+  height: 42px;
+  overflow: hidden;
+}
+.locationAsMentionedParent {
+  align-self: stretch;
+  position: relative;
+  height: 677px;
+  flex-shrink: 0;
+  overflow: hidden;
 }
 .vectorIcon {
   position: absolute;
@@ -58,15 +83,18 @@
   max-height: 100%;
 }
 .iconCommentSquare,
-.iconHomeButton {
+.iconHome {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
   position: absolute;
+  top: 17.02%;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.01);
+}
+.iconHome {
   height: 57.45%;
   width: 8.03%;
-  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
@@ -78,22 +106,23 @@
   bottom: 19.15%;
   left: 8.31%;
 }
+.vectorIcon2 {
+  top: 0;
+  bottom: 90%;
+}
 .vectorIcon2,
 .vectorIcon3,
 .vectorIcon4 {
   position: absolute;
   height: 10%;
   width: 100%;
-  top: 0;
   right: 0;
-  bottom: 90%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vectorIcon3,
-.vectorIcon4 {
+.vectorIcon3 {
   top: 46.54%;
   bottom: 43.46%;
 }
@@ -101,7 +130,7 @@
   top: 90%;
   bottom: 0;
 }
-.iconMenuButton {
+.iconMenu {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -113,67 +142,36 @@
   right: 13.3%;
   bottom: 32.69%;
   left: 79.5%;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.01);
 }
-.frameDiv {
+.iconHomeParent {
   position: absolute;
-  top: 795px;
-  left: 10px;
+  top: calc(50% - 19.5px);
+  left: calc(50% - 186.5px);
   width: 374px;
   height: 47px;
+}
+.iphone14Pro11Inner {
+  align-self: stretch;
+  position: relative;
+  height: 55px;
+  flex-shrink: 0;
   overflow: hidden;
 }
-.rectangleTextarea1 {
-  border: 0;
-  background-color: var(--color-black);
-  position: absolute;
-  top: 5px;
-  left: 25px;
-  border-radius: var(--br-md);
-  box-shadow: 0-4px 0#fff inset;
-  width: 194px;
-  height: 31px;
-}
-.rectangleTextarea1:active,
-.rectangleTextarea2:active {
-  animation: 1s ease 0s infinite normal none scale-down-center;
-  opacity: 1;
-}
-.frameDiv1 {
-  position: absolute;
-  top: 213px;
-  left: 127px;
-  width: 237px;
-  height: 36px;
-  overflow: hidden;
-}
-.rectangleTextarea2 {
-  border: 0;
-  background-color: var(--color-black);
-  position: absolute;
-  top: 5px;
-  left: 25px;
-  border-radius: var(--br-md);
-  box-shadow: 0-4px 0#fff inset;
-  width: 194px;
-  height: 35px;
-}
-.frameDiv2 {
-  position: absolute;
-  top: 288px;
-  left: 127px;
-  width: 237px;
-  height: 40px;
-  overflow: hidden;
-}
-.iPhone14Pro11 {
+.iphone14Pro11 {
   position: relative;
   border-radius: var(--br-md);
-  background-color: var(--color-white);
+  background-color: var(--color-black);
   width: 100%;
-  height: 852px;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 10px var(--padding-md);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 62px;
   text-align: left;
-  font-size: var(--font-size-2xl);
+  font-size: var(--font-size-3xl);
   color: var(--color-white);
   font-family: var(--font-lato);
 }

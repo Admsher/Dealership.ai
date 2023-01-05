@@ -9,7 +9,7 @@ const IPhone14Pro12: FunctionComponent = () => {
     navigate("/iphone-14-pro-27");
   }, [navigate]);
 
-  const onIconHomeButtonClick = useCallback(() => {
+  const onIconHomeClick = useCallback(() => {
     navigate("/iphone-14-pro-4");
   }, [navigate]);
 
@@ -17,64 +17,65 @@ const IPhone14Pro12: FunctionComponent = () => {
     navigate("/iphone-14-pro-12");
   }, [navigate]);
 
-  const onIconMenuButtonClick = useCallback(() => {
+  const onIconMenuClick = useCallback(() => {
     navigate("/iphone-14-pro-13");
   }, [navigate]);
 
   return (
-    <div className={styles.iPhone14Pro12}>
-      <div className={styles.rectangleDiv} />
-      <i className={styles.messagesI}>Messages</i>
-      <div className={styles.frameDiv}>
-        <div className={styles.rectangleDiv1} />
-        <img className={styles.ellipseIcon} alt="" src="../ellipse-10.svg" />
-        <i className={styles.autimobiliThatsGreatWeW}>
-          <span>
-            <span>Autimobili..</span>
-            <span className={styles.span}>:</span>
-          </span>
-          <span className={styles.thatsGreatWe}>
-            That’s Great we will meet asap
-          </span>
-        </i>
-        <button
-          className={styles.rectangleButton}
-          onClick={onRectangleButtonClick}
-        />
-        <img className={styles.ellipseIcon1} alt="" src="../ellipse-113.svg" />
-        <i className={styles.fFFSorryWeJustSoldThe}>
-          <span>
-            <span>FFF..</span>
-            <span className={styles.span}>:</span>
-          </span>
-          <span className={styles.thatsGreatWe}>
-            {" "}
-            Sorry we just sold the ride, but we can be in contact for further
-            deals if you would like.
-          </span>
-        </i>
+    <div className={styles.iphone14Pro12}>
+      <div className={styles.messagesWrapper}>
+        <i className={styles.messages}>Messages</i>
       </div>
-      <div className={styles.frameDiv1}>
-        <button
-          className={styles.iconHomeButton}
-          onClick={onIconHomeButtonClick}
-        >
-          <img className={styles.vectorIcon} alt="" src="../vector68.svg" />
-        </button>
-        <button
-          className={styles.iconCommentSquare}
-          onClick={onIconCommentSquareClick}
-        >
-          <img className={styles.vectorIcon} alt="" src="../vector69.svg" />
-        </button>
-        <button
-          className={styles.iconMenuButton}
-          onClick={onIconMenuButtonClick}
-        >
-          <img className={styles.vectorIcon2} alt="" src="../vector70.svg" />
-          <img className={styles.vectorIcon3} alt="" src="../vector71.svg" />
-          <img className={styles.vectorIcon4} alt="" src="../vector72.svg" />
-        </button>
+      <div className={styles.frameParent}>
+        <div className={styles.rectangleParent}>
+          <button
+            className={styles.frameChild}
+            onClick={onRectangleButtonClick}
+          />
+          <img className={styles.frameItem} alt="" src="../ellipse-112.svg" />
+          <i className={styles.fffSorryWeContainer}>
+            <span>
+              <span>FFF..</span>
+              <span className={styles.span}>:</span>
+            </span>
+            <span className={styles.sorryWeJust}>
+              {" "}
+              Sorry we just sold the ride, but we can be in contact for further
+              deals if you would like.
+            </span>
+          </i>
+        </div>
+        <div className={styles.rectangleGroup}>
+          <div className={styles.frameInner} />
+          <img className={styles.ellipseIcon} alt="" src="../ellipse-10.svg" />
+          <i className={styles.fffSorryWeContainer}>
+            <span>
+              <span>Autimobili..</span>
+              <span className={styles.span}>:</span>
+            </span>
+            <span className={styles.sorryWeJust}>
+              That’s Great we will meet asap
+            </span>
+          </i>
+        </div>
+      </div>
+      <div className={styles.iphone14Pro12Inner}>
+        <div className={styles.iconHomeParent}>
+          <button className={styles.iconHome} onClick={onIconHomeClick}>
+            <img className={styles.vectorIcon} alt="" src="../vector64.svg" />
+          </button>
+          <button
+            className={styles.iconCommentSquare}
+            onClick={onIconCommentSquareClick}
+          >
+            <img className={styles.vectorIcon} alt="" src="../vector65.svg" />
+          </button>
+          <button className={styles.iconMenu} onClick={onIconMenuClick}>
+            <img className={styles.vectorIcon2} alt="" src="../vector66.svg" />
+            <img className={styles.vectorIcon3} alt="" src="../vector67.svg" />
+            <img className={styles.vectorIcon4} alt="" src="../vector68.svg" />
+          </button>
+        </div>
       </div>
     </div>
   );

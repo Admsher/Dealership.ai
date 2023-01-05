@@ -1,0 +1,202 @@
+.contact {
+  position: absolute;
+  top: 61px;
+  left: 0;
+  font-size: var(--font-size-4xl);
+  font-weight: 700;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+.frameChild {
+  border: 1px solid var(--color-white);
+  position: absolute;
+  top: calc(50% - 253.5px);
+  left: calc(50% - 145.5px);
+  box-sizing: border-box;
+  width: 293px;
+  height: 189px;
+  overflow: hidden;
+}
+.frameItem,
+.vectorIcon {
+  position: absolute;
+  top: 776px;
+  left: 8px;
+  width: 397px;
+  height: 75px;
+  overflow: hidden;
+}
+.vectorIcon {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.iconChevronLeft {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 3.6%;
+  width: 6.47%;
+  top: 2.7%;
+  right: 93.53%;
+  bottom: 93.69%;
+  left: 0;
+}
+.available700hrsTo,
+.mobile2341409875674 {
+  position: absolute;
+  left: 32px;
+  font-weight: 700;
+}
+.mobile2341409875674 {
+  top: 412px;
+  display: inline-block;
+  width: 159px;
+  height: 25px;
+}
+.available700hrsTo {
+  top: 453px;
+}
+.frameInner {
+  position: absolute;
+  top: 4px;
+  left: 2px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-400);
+  box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
+  width: 122px;
+  height: 29px;
+}
+.message,
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.message {
+  top: 10px;
+  left: 31px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-style: italic;
+  font-weight: 700;
+  font-family: var(--font-lato);
+  background: linear-gradient(123.14deg, #06b0e5, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+}
+.rectangleParent {
+  top: calc(50% + 118.5px);
+  left: 32px;
+  width: 115px;
+  height: 38px;
+  overflow: hidden;
+}
+.contactParent {
+  align-self: stretch;
+  position: relative;
+  height: 777px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.iconCommentSquare,
+.iconHome {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 17.02%;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.01);
+}
+.iconHome {
+  height: 57.45%;
+  width: 8.03%;
+  right: 48.12%;
+  bottom: 25.53%;
+  left: 43.85%;
+}
+.iconCommentSquare {
+  height: 63.83%;
+  width: 6%;
+  right: 85.69%;
+  bottom: 19.15%;
+  left: 8.31%;
+}
+.vectorIcon3 {
+  top: 0;
+  bottom: 90%;
+}
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
+  position: absolute;
+  height: 10%;
+  width: 100%;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon4 {
+  top: 46.54%;
+  bottom: 43.46%;
+}
+.vectorIcon5 {
+  top: 90%;
+  bottom: 0;
+}
+.iconMenu {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 50.29%;
+  width: 7.2%;
+  top: 17.02%;
+  right: 13.3%;
+  bottom: 32.69%;
+  left: 79.5%;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.01);
+}
+.iconHomeParent {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 186.5px);
+  width: 374px;
+  height: 47px;
+}
+.iphone14Pro30Inner {
+  align-self: stretch;
+  position: relative;
+  height: 47px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.iphone14Pro30 {
+  position: relative;
+  border-radius: var(--br-md);
+  background-color: var(--color-black);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-md);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-lato);
+}

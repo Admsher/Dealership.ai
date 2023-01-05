@@ -1,27 +1,12 @@
-.rectangleDiv,
-.rectangleIcon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 393px;
-  height: 852px;
+@keyframes flip-horizontal-bottom {
+  0% {
+    transform: rotateX(0);
+  }
+  to {
+    transform: rotateX(-180deg);
+  }
 }
-.rectangleDiv {
-  top: 316px;
-  left: 9px;
-  border-radius: var(--br-md);
-  background-color: var(--color-gray-400);
-  width: 213px;
-  height: 31px;
-}
-.ellipseIcon {
-  position: absolute;
-  top: 322px;
-  left: 96px;
-  width: 18px;
-  height: 19px;
-}
-.ellipseIcon1,
+.frameChild,
 .iconUser {
   position: absolute;
   top: 14.25px;
@@ -40,196 +25,25 @@
   overflow: hidden;
   max-height: 100%;
 }
-.ellipseIcon2,
-.frameButton {
+.ellipseParent,
+.frameItem {
   position: absolute;
+  height: 83px;
+}
+.frameItem {
   top: 0;
   left: 3.25px;
   width: 107.75px;
-  height: 83px;
 }
-.frameButton {
+.ellipseParent {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
-  top: 31px;
-  left: 272px;
+  top: 15px;
+  right: 0;
   width: 111px;
   overflow: hidden;
-}
-.rectangleIframe {
-  border: 0;
-  position: absolute;
-  top: 146px;
-  left: 40px;
-  background: radial-gradient(
-    50% 50%at 50% 50%,
-    rgba(160, 155, 155, 0.5),
-    rgba(57, 57, 57, 0)
-  );
-  width: 302px;
-  height: 144px;
-}
-.rectangleDiv1,
-.rectangleDiv2 {
-  position: absolute;
-  border-radius: var(--br-md);
-  background-color: var(--color-gray-400);
-}
-.rectangleDiv1 {
-  top: 364px;
-  left: 24px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
-    -10px -10px 70px rgba(125, 125, 125, 0.25);
-  width: 333px;
-  height: 157px;
-}
-.rectangleDiv2 {
-  top: 564px;
-  left: 23px;
-  width: 331px;
-  height: 240px;
-}
-.ferrariMumbai,
-.scuderia {
-  position: absolute;
-  top: 627px;
-  left: 27px;
-  display: inline-block;
-  font-weight: 700;
-  opacity: 0.7;
-}
-.scuderia {
-  top: 666px;
-  width: 105px;
-  height: 22px;
-}
-.v10I {
-  top: 467px;
-  left: 37px;
-  font-size: var(--font-size-xs);
-  width: 135px;
-  height: 12px;
-}
-.crRsI,
-.specsAndPrice,
-.v10I,
-.v12I {
-  position: absolute;
-  display: inline-block;
-  font-weight: 700;
-}
-.specsAndPrice {
-  top: 382px;
-  left: 30px;
-  width: 118px;
-  height: 15px;
-}
-.crRsI,
-.v12I {
-  width: 135px;
-  height: 12px;
-}
-.v12I {
-  top: 426px;
-  left: 37px;
-  font-size: var(--font-size-xs);
-}
-.crRsI {
-  top: 425px;
-  left: 273px;
-}
-.crRsI,
-.crRsI1,
-.inclusiveOfTaxes {
-  font-size: var(--font-size-xs);
-}
-.crRsI1 {
-  position: absolute;
-  top: 468px;
-  left: 278px;
-  display: inline-block;
-  font-weight: 700;
-  width: 135px;
-  height: 12px;
-}
-.inclusiveOfTaxes {
-  top: 443px;
-  left: 253px;
-  background: linear-gradient(#807e7e, #807e7e),
-    linear-gradient(#807e7e, #807e7e), #807e7e;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.dealersNearYou,
-.inclusiveOfTaxes,
-.inclusiveOfTaxes1 {
-  position: absolute;
-  display: inline-block;
-  font-weight: 700;
-}
-.inclusiveOfTaxes1 {
-  top: 486px;
-  left: 247px;
-  font-size: var(--font-size-xs);
-  background: linear-gradient(#807e7e, #807e7e),
-    linear-gradient(#807e7e, #807e7e), #807e7e;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.dealersNearYou {
-  top: 579px;
-  left: 27px;
-  width: 127px;
-  height: 18px;
-}
-.rectangleDiv3,
-.rectangleDiv4 {
-  position: absolute;
-  top: 785px;
-  left: 0;
-  border-radius: var(--br-sm);
-  background-color: var(--color-gray-400);
-  width: 393px;
-  height: 66px;
-}
-.rectangleDiv4 {
-  top: 5px;
-  left: 25px;
-  border-radius: var(--br-md);
-  box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
-  width: 122px;
-  height: 31px;
-}
-.contactP {
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-.contactI {
-  position: absolute;
-  top: 11px;
-  left: 56px;
-  display: inline-block;
-  font-weight: 700;
-  background: linear-gradient(123.14deg, #06b0e5, #fff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  width: 56px;
-  height: 25px;
-}
-.frameDiv,
-.frameDiv1 {
-  position: absolute;
-  top: 617px;
-  left: 197px;
-  width: 153px;
-  height: 39px;
-  overflow: hidden;
-}
-.frameDiv1 {
-  top: 656px;
-  height: 40px;
 }
 .ferrari,
 .italia {
@@ -250,19 +64,316 @@
   width: 76px;
   height: 23px;
 }
-.frameDiv2,
+.ferrariParent {
+  position: absolute;
+  top: 57px;
+  left: 0;
+  width: 139px;
+  height: 59px;
+  overflow: hidden;
+}
+.frameInner {
+  border: 0;
+  position: absolute;
+  top: calc(50% - 72px);
+  left: calc(50% - 145.5px);
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(160, 155, 155, 0.5),
+    rgba(57, 57, 57, 0)
+  );
+  width: 298px;
+  height: 144px;
+}
+.iconsaxboldyoutube,
 .vectorIcon {
   position: absolute;
   overflow: hidden;
 }
-.frameDiv2 {
-  top: 73px;
-  left: 26px;
-  width: 139px;
-  height: 59px;
-  font-size: var(--font-size-5xl);
-}
 .vectorIcon {
+  height: 66.67%;
+  width: 83.33%;
+  top: 16.67%;
+  right: 8.33%;
+  bottom: 16.67%;
+  left: 8.33%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.iconsaxboldyoutube {
+  text-decoration: none;
+  top: 120px;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  opacity: 1;
+}
+.iconsaxboldyoutube.animate {
+  animation: 1s ease-in 0s infinite normal forwards flip-horizontal-bottom;
+}
+.rectangleParent {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 145.5px);
+  width: 291px;
+  height: 144px;
+  overflow: hidden;
+}
+.frameParent {
+  align-self: stretch;
+  position: relative;
+  height: 300px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.rectangleDiv {
+  position: absolute;
+  top: -2px;
+  left: 9px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-400);
+  width: 213px;
+  height: 31px;
+}
+.ellipseIcon {
+  position: absolute;
+  top: 4px;
+  left: 96px;
+  width: 18px;
+  height: 19px;
+}
+.frameChild1 {
+  position: absolute;
+  top: calc(50% - 83.5px);
+  left: calc(50% - 167px);
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-400);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
+    -10px -10px 70px rgba(125, 125, 125, 0.25);
+  width: 333px;
+  height: 157px;
+}
+.v10 {
+  top: 93px;
+  width: 135px;
+  height: 12px;
+}
+.specsAndPrice,
+.v10,
+.v12 {
+  position: absolute;
+  left: 13px;
+  display: inline-block;
+  font-weight: 700;
+}
+.specsAndPrice {
+  top: 8px;
+  font-size: var(--font-size-base);
+  width: 118px;
+  height: 15px;
+}
+.v12 {
+  top: 52px;
+  width: 135px;
+  height: 12px;
+}
+.inclusiveOfTaxes {
+  top: 69px;
+  left: 236px;
+  background: linear-gradient(#807e7e, #807e7e),
+    linear-gradient(#807e7e, #807e7e), #807e7e;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.crRs,
+.crRs1,
+.inclusiveOfTaxes,
+.inclusiveOfTaxes1 {
+  position: absolute;
+  font-weight: 700;
+}
+.inclusiveOfTaxes1 {
+  top: 112px;
+  left: 230px;
+  background: linear-gradient(#807e7e, #807e7e),
+    linear-gradient(#807e7e, #807e7e), #807e7e;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.crRs,
+.crRs1 {
+  top: 94px;
+  left: 242px;
+  display: inline-block;
+  width: 135px;
+  height: 12px;
+}
+.crRs1 {
+  top: 51px;
+  left: 237px;
+}
+.rectangleContainer {
+  position: absolute;
+  top: calc(50% - 67px);
+  left: calc(50% - 160.5px);
+  width: 320px;
+  height: 147px;
+  overflow: hidden;
+}
+.rectangleGroup {
+  align-self: stretch;
+  position: relative;
+  height: 246px;
+  flex-shrink: 0;
+  overflow: hidden;
+  font-size: var(--font-size-xs);
+}
+.frameChild2 {
+  position: absolute;
+  top: 6px;
+  left: 23px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-400);
+  width: 331px;
+  height: 221px;
+}
+.ferrariMumbai {
+  position: absolute;
+  top: 69px;
+  left: 0;
+  font-weight: 700;
+  opacity: 0.7;
+}
+.dealersNearYou,
+.scuderia {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  font-weight: 700;
+}
+.scuderia {
+  top: 108px;
+  width: 105px;
+  height: 22px;
+  opacity: 0.7;
+}
+.dealersNearYou {
+  top: 21px;
+  width: 127px;
+  height: 18px;
+}
+.frameTextarea {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 169px;
+  left: 127px;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+  width: 237px;
+  height: 36px;
+}
+.frameIframe {
+  border: 1px solid var(--color-white);
+  position: absolute;
+  top: calc(50% - 83px);
+  left: calc(50% - 149px);
+  box-sizing: border-box;
+  width: 298px;
+  height: 173px;
+  overflow: hidden;
+}
+.contact {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  display: inline-block;
+  font-weight: 700;
+  width: 118px;
+  height: 41px;
+}
+.frameChild3,
+.frameGroup {
+  position: absolute;
+  overflow: hidden;
+}
+.frameGroup {
+  top: calc(50% - 4327.5px);
+  left: calc(50% + 6312.5px);
+  width: 674px;
+  height: 332px;
+  font-size: var(--font-size-3xl);
+}
+.frameChild3 {
+  top: 227px;
+  left: 0;
+  width: 393px;
+  height: 65px;
+}
+.frameChild4 {
+  position: absolute;
+  top: 5px;
+  left: 25px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-400);
+  box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
+  width: 122px;
+  height: 31px;
+}
+.contact2 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.contact1 {
+  position: absolute;
+  top: 11px;
+  left: 56px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-weight: 700;
+  font-family: var(--font-lato);
+  background: linear-gradient(123.14deg, #06b0e5, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  width: 56px;
+  height: 25px;
+}
+.frameButton,
+.rectangleParent1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 58px;
+  right: 0;
+  width: 153px;
+  height: 39px;
+  overflow: hidden;
+}
+.rectangleParent1 {
+  top: 99px;
+  height: 40px;
+}
+.frameDiv {
+  align-self: stretch;
+  position: relative;
+  height: 203px;
+  flex-shrink: 0;
+  overflow: hidden;
+  font-size: var(--font-size-base);
+}
+.frameChild6 {
+  position: absolute;
+  top: calc(50% - 35.5px);
+  left: calc(50% - 196.5px);
+  border-radius: var(--br-sm);
+  background-color: var(--color-gray-400);
+  width: 393px;
+  height: 66px;
+}
+.vectorIcon1 {
+  position: absolute;
   height: 100%;
   width: 100%;
   top: 0;
@@ -270,18 +381,21 @@
   bottom: 0;
   left: 0;
   max-width: 100%;
+  overflow: hidden;
   max-height: 100%;
 }
 .iconCommentSquare,
-.iconHomeButton {
+.iconHome {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
   position: absolute;
+  top: 17.02%;
+}
+.iconHome {
   height: 57.45%;
   width: 8.03%;
-  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
@@ -293,30 +407,31 @@
   bottom: 19.15%;
   left: 8.31%;
 }
-.vectorIcon2,
+.vectorIcon3 {
+  top: 0;
+  bottom: 90%;
+}
 .vectorIcon3,
-.vectorIcon4 {
+.vectorIcon4,
+.vectorIcon5 {
   position: absolute;
   height: 10%;
   width: 100%;
-  top: 0;
   right: 0;
-  bottom: 90%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vectorIcon3,
 .vectorIcon4 {
   top: 46.54%;
   bottom: 43.46%;
 }
-.vectorIcon4 {
+.vectorIcon5 {
   top: 90%;
   bottom: 0;
 }
-.iconMenuButton {
+.iconMenu {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -329,23 +444,36 @@
   bottom: 32.69%;
   left: 79.5%;
 }
-.frameDiv3 {
+.iconHomeParent {
   position: absolute;
-  top: 794px;
-  left: 10px;
+  top: calc(50% - 32.5px);
+  left: calc(50% - 186.5px);
   width: 374px;
   height: 47px;
   overflow: hidden;
 }
-.iPhone14Pro3 {
+.iphone14Pro3,
+.rectangleParent2 {
   position: relative;
-  border-radius: var(--br-md);
-  background: linear-gradient(180deg, #fff, rgba(255, 255, 255, 0));
-  width: 100%;
-  height: 851px;
   overflow: hidden;
+}
+.rectangleParent2 {
+  align-self: stretch;
+  flex: 1;
+}
+.iphone14Pro3 {
+  border-radius: var(--br-md);
+  background-color: var(--color-black);
+  width: 100%;
+  height: 814px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-md);
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: flex-start;
   text-align: left;
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-5xl);
   color: var(--color-white);
   font-family: var(--font-lato);
 }
