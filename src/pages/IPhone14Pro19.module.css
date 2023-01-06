@@ -1,15 +1,13 @@
 .gWagon,
 .mercedes {
   position: absolute;
+  top: 73px;
   left: -0.5px;
   display: inline-block;
   font-weight: 700;
-  mix-blend-mode: normal;
-}
-.mercedes {
-  top: 73px;
   width: 174px;
   height: 36px;
+  mix-blend-mode: normal;
 }
 .gWagon {
   top: 110px;
@@ -95,8 +93,8 @@
 }
 .frameChild1 {
   position: absolute;
-  top: calc(50% - 44px);
-  left: calc(50% - 167px);
+  top: calc(50% - 56px);
+  left: calc(50% - 166.5px);
   border-radius: var(--br-md);
   background-color: var(--color-gray-400);
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
@@ -146,8 +144,9 @@
 }
 .w12Parent {
   position: absolute;
-  top: calc(50% - 50px);
-  left: calc(50% - 213.5px);
+  top: calc(50% - 53px);
+  left: calc(50% - 167.5px);
+  border-radius: var(--br-md);
   width: 334px;
   height: 155px;
   overflow: hidden;
@@ -244,11 +243,9 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 17.02%;
-}
-.iconHome {
   height: 57.45%;
   width: 8.03%;
+  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
@@ -260,23 +257,22 @@
   bottom: 19.15%;
   left: 8.31%;
 }
-.vectorIcon2 {
-  top: 0;
-  bottom: 90%;
-}
 .vectorIcon2,
 .vectorIcon3,
 .vectorIcon4 {
   position: absolute;
   height: 10%;
   width: 100%;
+  top: 0;
   right: 0;
+  bottom: 90%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vectorIcon3 {
+.vectorIcon3,
+.vectorIcon4 {
   top: 46.54%;
   bottom: 43.46%;
 }
@@ -316,7 +312,7 @@
   border-radius: var(--br-md);
   background-color: var(--color-black);
   width: 100%;
-  height: 918px;
+  height: 852px;
   overflow: hidden;
   display: flex;
   flex-direction: column;

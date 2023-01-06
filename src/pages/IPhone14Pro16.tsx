@@ -44,8 +44,8 @@ const IPhone14Pro16: FunctionComponent = () => {
         <div className={styles.rectangleDiv} />
         <img className={styles.ellipseIcon} alt="" src="../ellipse-91.svg" />
         <div className={styles.frameDiv} />
-        <div className={styles.rectangleGroup}>
-          <div className={styles.frameChild1} />
+        <div className={styles.frameChild1} />
+        <div className={styles.specsAndPriceParent}>
           <i className={styles.specsAndPrice}>Specs and Price</i>
           <i className={styles.v6Ti}>155 V6 Ti</i>
           <i className={styles.inclusiveOfTaxes}>Inclusive of Taxes</i>
@@ -55,32 +55,29 @@ const IPhone14Pro16: FunctionComponent = () => {
       <div className={styles.koshbinGaragesParent}>
         <i className={styles.koshbinGarages}>Koshbin Garages</i>
         <i className={styles.dealersNearYou}>Dealers Near You</i>
-        <button
-          className={styles.rectangleContainer}
-          onClick={onFrameButton1Click}
-        >
+        <button className={styles.rectangleGroup} onClick={onFrameButton1Click}>
           <div className={styles.frameChild2} />
           <i className={styles.contact}>
             <p className={styles.contact1}>Contact</p>
           </i>
         </button>
       </div>
-      <div className={styles.rectangleParent1}>
+      <div className={styles.rectangleContainer}>
         <div className={styles.frameChild3} />
         <div className={styles.iconHomeParent}>
           <button className={styles.iconHome} onClick={onIconHomeClick}>
-            <img className={styles.vectorIcon} alt="" src="../vector52.svg" />
+            <img className={styles.vectorIcon} alt="" src="../vector50.svg" />
           </button>
           <button
             className={styles.iconCommentSquare}
             onClick={onIconCommentSquareClick}
           >
-            <img className={styles.vectorIcon} alt="" src="../vector53.svg" />
+            <img className={styles.vectorIcon} alt="" src="../vector51.svg" />
           </button>
           <button className={styles.iconMenu} onClick={onIconMenuClick}>
-            <img className={styles.vectorIcon2} alt="" src="../vector54.svg" />
-            <img className={styles.vectorIcon3} alt="" src="../vector55.svg" />
-            <img className={styles.vectorIcon4} alt="" src="../vector56.svg" />
+            <img className={styles.vectorIcon2} alt="" src="../vector52.svg" />
+            <img className={styles.vectorIcon3} alt="" src="../vector53.svg" />
+            <img className={styles.vectorIcon4} alt="" src="../vector54.svg" />
           </button>
         </div>
       </div>

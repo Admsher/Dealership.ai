@@ -107,8 +107,8 @@
 }
 .frameChild1 {
   position: absolute;
-  top: calc(50% - 78.5px);
-  left: calc(50% - 167px);
+  top: calc(50% - 73px);
+  left: calc(50% - 166.5px);
   border-radius: var(--br-md);
   background-color: var(--color-gray-400);
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
@@ -153,10 +153,11 @@
   width: 66px;
   height: 12px;
 }
-.rectangleGroup {
+.specsAndPriceParent {
   position: absolute;
-  top: calc(50% - 69px);
+  top: calc(50% - 70px);
   left: calc(50% - 159.5px);
+  border-radius: var(--br-md);
   width: 320px;
   height: 157px;
   overflow: hidden;
@@ -198,7 +199,7 @@
   width: 56px;
   height: 25px;
 }
-.rectangleContainer {
+.rectangleGroup {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -254,11 +255,9 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 17.02%;
-}
-.iconHome {
   height: 57.45%;
   width: 8.03%;
+  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
@@ -270,23 +269,22 @@
   bottom: 19.15%;
   left: 8.31%;
 }
-.vectorIcon2 {
-  top: 0;
-  bottom: 90%;
-}
 .vectorIcon2,
 .vectorIcon3,
 .vectorIcon4 {
   position: absolute;
   height: 10%;
   width: 100%;
+  top: 0;
   right: 0;
+  bottom: 90%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vectorIcon3 {
+.vectorIcon3,
+.vectorIcon4 {
   top: 46.54%;
   bottom: 43.46%;
 }
@@ -308,7 +306,7 @@
   left: 79.5%;
 }
 .iconHomeParent,
-.rectangleParent1 {
+.rectangleContainer {
   position: absolute;
   bottom: 9px;
   left: calc(50% - 187px);
@@ -316,7 +314,7 @@
   height: 47px;
   overflow: hidden;
 }
-.rectangleParent1 {
+.rectangleContainer {
   bottom: 7px;
   left: calc(50% - 196.5px);
   width: 392px;
@@ -336,7 +334,7 @@
   border-radius: var(--br-md);
   background-color: var(--color-black);
   width: 100%;
-  height: 952px;
+  height: 852px;
   display: flex;
   flex-direction: column;
   padding: 0 var(--padding-md);

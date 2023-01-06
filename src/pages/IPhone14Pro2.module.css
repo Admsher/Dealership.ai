@@ -51,7 +51,7 @@
   border: 0;
   position: absolute;
   top: calc(50% - 12px);
-  left: calc(50% - 152px);
+  left: calc(50% - 151.5px);
   background: radial-gradient(
     50% 50%at 50% 50%,
     rgba(160, 155, 155, 0.5),
@@ -87,12 +87,23 @@
   flex-shrink: 0;
   overflow: hidden;
 }
+.frameChild1,
 .rectangleDiv {
   position: absolute;
-  top: 0;
-  left: 9px;
   border-radius: var(--br-md);
   background-color: var(--color-gray-400);
+}
+.rectangleDiv {
+  top: calc(50% - 67.5px);
+  left: calc(50% - 172.5px);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
+    -10px -10px 70px rgba(125, 125, 125, 0.25);
+  width: 345px;
+  height: 157px;
+}
+.frameChild1 {
+  top: 0;
+  left: 9px;
   width: 213px;
   height: 31px;
 }
@@ -165,7 +176,7 @@
 }
 .crRsParent {
   top: calc(50% - 68.5px);
-  left: calc(50% - 160px);
+  left: calc(50% - 159.5px);
   width: 320px;
   height: 157px;
 }
@@ -209,7 +220,7 @@
   width: 127px;
   height: 18px;
 }
-.frameChild1 {
+.frameChild2 {
   position: absolute;
   top: 5px;
   left: 25px;
@@ -246,17 +257,13 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
+  top: 68px;
   right: 0;
   width: 153px;
+  height: 39px;
   overflow: hidden;
 }
-.rectangleContainer,
-.rectangleGroup {
-  height: 39px;
-}
-.rectangleGroup {
-  top: 68px;
-}
+.frameButton,
 .rectangleContainer {
   top: 107px;
 }
@@ -272,10 +279,10 @@
   overflow: hidden;
   font-size: var(--font-size-base);
 }
-.frameChild4 {
+.frameChild5 {
   position: absolute;
-  top: calc(50% - 33px);
-  left: calc(50% - 197px);
+  top: calc(50% - 32.5px);
+  left: calc(50% - 196.5px);
   border-radius: var(--br-sm);
   background-color: var(--color-gray-400);
   width: 393px;
@@ -300,11 +307,9 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 17.02%;
-}
-.iconHome {
   height: 57.45%;
   width: 8.03%;
+  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
@@ -316,23 +321,22 @@
   bottom: 19.15%;
   left: 8.31%;
 }
-.vectorIcon2 {
-  top: 0;
-  bottom: 90%;
-}
 .vectorIcon2,
 .vectorIcon3,
 .vectorIcon4 {
   position: absolute;
   height: 10%;
   width: 100%;
+  top: 0;
   right: 0;
+  bottom: 90%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vectorIcon3 {
+.vectorIcon3,
+.vectorIcon4 {
   top: 46.54%;
   bottom: 43.46%;
 }
@@ -355,8 +359,8 @@
 }
 .iconHomeParent {
   position: absolute;
-  top: calc(50% - 24px);
-  left: calc(50% - 187px);
+  top: calc(50% - 23.5px);
+  left: calc(50% - 186.5px);
   width: 374px;
   height: 47px;
   overflow: hidden;
@@ -374,7 +378,7 @@
   border-radius: var(--br-md);
   background-color: var(--color-gray-400);
   width: 100%;
-  height: 837px;
+  height: 852px;
   display: flex;
   flex-direction: column;
   padding: 0 var(--padding-md);

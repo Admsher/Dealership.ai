@@ -48,8 +48,8 @@ const IPhone14Pro23: FunctionComponent = () => {
       </div>
       <div className={styles.rectangleParent}>
         <div className={styles.rectangleDiv} />
-        <div className={styles.rectangleGroup}>
-          <div className={styles.frameChild1} />
+        <div className={styles.frameChild1} />
+        <div className={styles.v10Parent}>
           <i className={styles.v10}>V10</i>
           <i className={styles.specsAndPrice}>Specs and Price</i>
           <i className={styles.v12}>V12</i>
@@ -60,12 +60,12 @@ const IPhone14Pro23: FunctionComponent = () => {
         </div>
         <img className={styles.ellipseIcon} alt="" src="../ellipse-7.svg" />
       </div>
-      <div className={styles.rectangleContainer}>
+      <div className={styles.rectangleGroup}>
         <div className={styles.frameChild2} />
         <i className={styles.astonMartinIndia}>Aston Martin India</i>
         <i className={styles.amr}>AMR</i>
         <i className={styles.dealersNearYou}>Dealers Near You</i>
-        <div className={styles.frameDiv}>
+        <div className={styles.rectangleContainer}>
           <button
             className={styles.rectangleButton}
             onClick={onRectangleButtonClick}
@@ -74,7 +74,7 @@ const IPhone14Pro23: FunctionComponent = () => {
             <p className={styles.contact1}>Contact</p>
           </i>
         </div>
-        <div className={styles.rectangleParent1}>
+        <div className={styles.frameDiv}>
           <button
             className={styles.rectangleButton}
             onClick={onRectangleButton1Click}
@@ -84,7 +84,7 @@ const IPhone14Pro23: FunctionComponent = () => {
           </i>
         </div>
       </div>
-      <div className={styles.rectangleParent2}>
+      <div className={styles.rectangleParent1}>
         <div className={styles.frameChild4} />
         <div className={styles.iconHomeParent}>
           <button className={styles.iconHome} onClick={onIconHomeClick}>

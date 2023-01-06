@@ -110,8 +110,8 @@
 }
 .frameChild1 {
   position: absolute;
-  top: calc(50% - 77.5px);
-  left: calc(50% - 170.5px);
+  top: calc(50% - 84px);
+  left: calc(50% - 172.5px);
   border-radius: var(--br-md);
   background-color: var(--color-gray-400);
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
@@ -156,10 +156,11 @@
   width: 135px;
   height: 12px;
 }
-.rectangleGroup {
+.specsAndPriceParent {
   position: absolute;
-  top: calc(50% - 84px);
+  top: calc(50% - 81px);
   left: calc(50% - 172.5px);
+  border-radius: var(--br-md);
   width: 341px;
   height: 159px;
   overflow: hidden;
@@ -217,25 +218,26 @@
   width: 56px;
   height: 25px;
 }
-.rectangleContainer {
+.frameChild3,
+.rectangleGroup {
+  position: absolute;
+  overflow: hidden;
+}
+.rectangleGroup {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
-  position: absolute;
   top: 83px;
   right: 0;
   width: 153px;
   height: 41px;
-  overflow: hidden;
 }
 .frameChild3 {
-  position: absolute;
   top: 251px;
   left: 0;
   width: 393px;
   height: 66px;
-  overflow: hidden;
 }
 .racers111Parent {
   align-self: stretch;
@@ -258,40 +260,51 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  top: 0;
+  top: 70.37%;
   right: 0;
-  bottom: 0;
+  bottom: -70.37%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.iconCommentSquare,
 .iconHome {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 17.02%;
-}
-.iconHome {
   height: 57.45%;
   width: 8.03%;
+  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
 }
+.vectorIcon1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 63.33%;
+  right: 0;
+  bottom: -63.33%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
 .iconCommentSquare {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
   height: 63.83%;
   width: 6%;
+  top: 17.02%;
   right: 85.69%;
   bottom: 19.15%;
   left: 8.31%;
-}
-.vectorIcon2 {
-  top: 0;
-  bottom: 90%;
 }
 .vectorIcon2,
 .vectorIcon3,
@@ -299,19 +312,24 @@
   position: absolute;
   height: 10%;
   width: 100%;
-  right: 0;
-  left: 0;
+  top: 33.85%;
+  right: -1103.85%;
+  bottom: 56.15%;
+  left: 1103.85%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vectorIcon3 {
-  top: 46.54%;
-  bottom: 43.46%;
+.vectorIcon3,
+.vectorIcon4 {
+  top: 80.38%;
+  bottom: 9.62%;
 }
 .vectorIcon4 {
   top: 90%;
+  right: 0;
   bottom: 0;
+  left: 0;
 }
 .iconMenu {
   cursor: pointer;
@@ -334,7 +352,7 @@
   height: 47px;
   overflow: hidden;
 }
-.rectangleParent1 {
+.rectangleContainer {
   align-self: stretch;
   flex: 1;
   position: relative;
@@ -345,7 +363,7 @@
   border-radius: var(--br-md);
   background-color: var(--color-black);
   width: 100%;
-  height: 883px;
+  height: 852px;
   overflow: hidden;
   display: flex;
   flex-direction: column;

@@ -63,7 +63,7 @@
   border: 0;
   position: absolute;
   top: calc(50% - 7px);
-  left: calc(50% - 157px);
+  left: calc(50% - 156.5px);
   background: radial-gradient(
     50% 50%at 50% 50%,
     rgba(160, 155, 155, 0.5),
@@ -100,8 +100,8 @@
   height: 31px;
 }
 .frameChild1 {
-  top: calc(50% - 58px);
-  left: calc(50% - 173px);
+  top: calc(50% - 61px);
+  left: calc(50% - 175.5px);
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
     -10px -10px 70px rgba(125, 125, 125, 0.25);
   width: 333px;
@@ -146,8 +146,9 @@
 }
 .specsAndPriceParent {
   position: absolute;
-  top: calc(50% - 52px);
-  left: calc(50% - 178px);
+  top: calc(50% - 58px);
+  left: calc(50% - 177.5px);
+  border-radius: var(--br-md);
   width: 338px;
   height: 151px;
   overflow: hidden;
@@ -255,11 +256,9 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 17.02%;
-}
-.iconHome {
   height: 57.45%;
   width: 8.03%;
+  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
@@ -271,23 +270,22 @@
   bottom: 19.15%;
   left: 8.31%;
 }
-.vectorIcon2 {
-  top: 0;
-  bottom: 90%;
-}
 .vectorIcon2,
 .vectorIcon3,
 .vectorIcon4 {
   position: absolute;
   height: 10%;
   width: 100%;
+  top: 0;
   right: 0;
+  bottom: 90%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vectorIcon3 {
+.vectorIcon3,
+.vectorIcon4 {
   top: 46.54%;
   bottom: 43.46%;
 }
@@ -311,7 +309,7 @@
 .iconHomeParent {
   position: absolute;
   bottom: 10px;
-  left: calc(50% - 188px);
+  left: calc(50% - 187.5px);
   width: 374px;
   height: 47px;
   overflow: hidden;

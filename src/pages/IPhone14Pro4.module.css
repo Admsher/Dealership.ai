@@ -49,8 +49,8 @@
 }
 .frameInner {
   position: absolute;
-  top: 128px;
-  right: 65px;
+  top: 121px;
+  right: 26px;
   border-radius: var(--br-md);
   width: 83px;
   height: 39px;
@@ -62,7 +62,7 @@
   font-weight: 700;
 }
 .location {
-  top: 108px;
+  top: 127px;
   left: 0;
   display: inline-block;
   width: 73px;
@@ -84,16 +84,16 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 131px;
-  right: 80px;
+  top: 128px;
+  right: 41px;
   width: 54px;
   height: 18px;
   overflow: hidden;
 }
 .dropdowndefault {
   position: absolute;
-  top: 100px;
-  left: 77px;
+  top: 118px;
+  left: 66px;
 }
 .frameParent {
   align-self: stretch;
@@ -127,84 +127,72 @@
   padding: 0;
   background-color: var(--color-gray-400);
   position: absolute;
-  left: calc(50% - 198px);
+  top: calc(50% - 16.5px);
+  left: calc(50% - 182.5px);
   border-radius: var(--br-lg);
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
     -10px -10px 70px rgba(125, 125, 125, 0.25);
   width: 364px;
   height: 235px;
 }
-.rectangleButton {
-  top: calc(50% - 122.5px);
-}
-.frameChild1 {
-  top: calc(50% + 140.5px);
+.frameChild1,
+.frameChild2 {
+  top: calc(50% + 229.5px);
 }
 .frameChild2 {
-  top: calc(50% - 375.5px);
+  top: calc(50% - 269.5px);
 }
-.audi {
-  position: absolute;
-  left: 12px;
-  font-weight: 700;
-}
-.ferrari {
-  top: 175px;
-}
+.audi,
 .ferrari,
 .nissan {
   position: absolute;
-  left: 12px;
+  top: calc(50% - 97.5px);
+  left: calc(50% - 28.5px);
   font-weight: 700;
 }
-.audi {
-  top: 439px;
+.audi,
+.nissan {
+  top: calc(50% + 161.5px);
+  left: calc(50% - 20.5px);
 }
 .nissan {
-  top: 696px;
+  top: calc(50% + 414.5px);
+  left: calc(50% - 29.5px);
 }
-.screenshot165Icon {
+.screenshot165Icon,
+.screenshot178Icon,
+.screenshot191Icon {
   position: absolute;
-  top: calc(50% - 358.5px);
-  left: calc(50% - 164px);
+  top: calc(50% - 251.5px);
+  left: calc(50% - 151.5px);
   border-radius: var(--br-xs);
   width: 302px;
   height: 149.2px;
   object-fit: cover;
 }
-.screenshot178Icon {
-  width: 302px;
-}
 .screenshot178Icon,
 .screenshot191Icon {
-  position: absolute;
-  border-radius: var(--br-xs);
-  object-fit: cover;
-}
-.screenshot178Icon {
-  top: calc(50% - 105.5px);
-  left: calc(50% - 169px);
+  top: calc(50% - 1.5px);
   height: 153.44px;
 }
 .screenshot191Icon {
-  top: calc(50% + 163.5px);
-  left: calc(50% - 164px);
+  top: calc(50% + 252.5px);
+  left: calc(50% - 149.5px);
   width: 297.39px;
   height: 144px;
 }
 .rectangleParent {
   position: absolute;
-  top: calc(50% - 241.5px);
-  left: calc(50% - 199.5px);
-  width: 400px;
-  height: 617px;
+  top: calc(50% - 266.5px);
+  left: calc(50% - 196.5px);
+  width: 393px;
+  height: 539px;
   overflow-y: auto;
 }
 .iphone14Pro4Inner {
   align-self: stretch;
   flex: 1;
   position: relative;
-  overflow-y: auto;
   font-size: var(--font-size-2xl);
 }
 .rectangleDiv {
@@ -235,11 +223,9 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 17.02%;
-}
-.iconHome {
   height: 57.45%;
   width: 8.03%;
+  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
@@ -251,23 +237,22 @@
   bottom: 19.15%;
   left: 8.31%;
 }
-.vectorIcon2 {
-  top: 0;
-  bottom: 90%;
-}
 .vectorIcon2,
 .vectorIcon3,
 .vectorIcon4 {
   position: absolute;
   height: 10%;
   width: 100%;
+  top: 0;
   right: 0;
+  bottom: 90%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vectorIcon3 {
+.vectorIcon3,
+.vectorIcon4 {
   top: 46.54%;
   bottom: 43.46%;
 }
@@ -308,7 +293,7 @@
   border-radius: var(--br-md);
   background-color: var(--color-gray-400);
   width: 100%;
-  height: 936px;
+  height: 852px;
   display: flex;
   flex-direction: column;
   padding: 0 var(--padding-md);

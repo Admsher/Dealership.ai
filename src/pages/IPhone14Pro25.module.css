@@ -49,15 +49,15 @@
 }
 .frameInner {
   position: absolute;
-  top: 128px;
-  right: 43px;
+  top: 121px;
+  right: 27px;
   border-radius: var(--br-md);
   width: 83px;
   height: 39px;
 }
 .filters {
   position: absolute;
-  top: 4px;
+  top: 0;
   left: 5px;
   font-size: var(--font-size-base);
   font-weight: 700;
@@ -73,10 +73,10 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 131px;
-  right: 58px;
+  top: 128px;
+  right: 41px;
   width: 54px;
-  height: 18px;
+  height: 17px;
   overflow: hidden;
 }
 .feelLikeBuying {
@@ -98,9 +98,6 @@
   flex-shrink: 0;
   overflow: hidden;
 }
-.frameChild1 {
-  left: 0;
-}
 .frameChild1,
 .frameChild2,
 .frameChild3,
@@ -112,125 +109,126 @@
   padding: 0;
   background-color: var(--color-gray-400);
   position: absolute;
+  top: calc(50% + 993px);
+  left: calc(50% - 181.5px);
   border-radius: var(--br-lg);
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
     -10px -10px 70px rgba(125, 125, 125, 0.25);
   width: 364px;
   height: 235px;
 }
-.rectangleButton {
-  top: 1259px;
-  left: 0;
+.frameChild1,
+.frameChild2,
+.frameChild3,
+.frameChild4,
+.frameChild5 {
+  top: calc(50% + 740px);
 }
-.frameChild1 {
-  top: 1006px;
+.frameChild2,
+.frameChild3,
+.frameChild4,
+.frameChild5 {
+  top: calc(50% + 487px);
 }
-.frameChild2 {
-  top: 753px;
-  left: -10px;
-}
-.frameChild3 {
-  top: 256px;
-  left: 0;
+.frameChild3,
+.frameChild4,
+.frameChild5 {
+  top: calc(50% - 10px);
 }
 .frameChild4,
 .frameChild5 {
-  left: 0;
-}
-.frameChild4 {
-  top: 503px;
+  top: calc(50% + 237px);
 }
 .frameChild5 {
-  top: 0;
+  top: calc(50% - 266px);
 }
 .screenshot190Icon,
 .screenshot191Icon {
   position: absolute;
-  top: 1023px;
-  left: 34px;
+  top: calc(50% + 757px);
+  left: calc(50% - 150.5px);
   border-radius: var(--br-xs);
   width: 302px;
   height: 158px;
   object-fit: cover;
 }
 .screenshot191Icon {
-  top: 19px;
-  left: 28px;
+  top: calc(50% - 247px);
+  left: calc(50% - 148.5px);
   width: 297.39px;
   height: 144px;
-}
-.screenshot180Icon {
-  top: 276px;
-  left: 34px;
-  height: 148px;
 }
 .screenshot180Icon,
 .screenshot181Icon,
 .screenshot182Icon,
 .screenshot186Icon {
   position: absolute;
+  top: calc(50% + 10px);
+  left: calc(50% - 150.5px);
   border-radius: var(--br-xs);
   width: 302px;
+  height: 148px;
   object-fit: cover;
 }
+.screenshot181Icon,
+.screenshot182Icon,
 .screenshot186Icon {
-  top: 773px;
-  left: 21px;
+  top: calc(50% + 507px);
   height: 133px;
 }
-.screenshot181Icon {
-  top: 520px;
-  left: 34px;
+.screenshot181Icon,
+.screenshot182Icon {
+  top: calc(50% + 254px);
   height: 137.35px;
 }
 .screenshot182Icon {
-  left: 34px;
-  top: 1277px;
+  top: calc(50% + 1011px);
   height: 157px;
 }
 .bmw {
-  top: 1434px;
-  left: 8px;
+  position: absolute;
+  top: calc(50% + 1168px);
+  left: calc(50% - 21.5px);
+  font-weight: 700;
 }
-.bmw,
 .honda,
 .mercedes,
 .nissan,
 .tesla,
 .toyota {
   position: absolute;
+  top: calc(50% + 637px);
+  left: calc(50% - 27.5px);
   font-weight: 700;
 }
-.toyota {
-  left: 8px;
-  top: 903px;
+.honda,
+.mercedes,
+.nissan,
+.tesla {
+  top: calc(50% + 915px);
+  left: calc(50% - 41.5px);
 }
-.honda {
-  left: 13px;
-}
-.mercedes {
-  top: 1181px;
-  left: 13px;
-}
-.honda {
-  top: 671px;
+.honda,
+.nissan,
+.tesla {
+  top: calc(50% + 405px);
+  left: calc(50% - 26.5px);
 }
 .nissan,
 .tesla {
-  left: 8px;
-}
-.tesla {
-  top: 439px;
+  top: calc(50% + 173px);
+  left: calc(50% - 21.5px);
 }
 .nissan {
-  top: 175px;
+  top: calc(50% - 91px);
+  left: calc(50% - 27.5px);
 }
 .rectangleParent {
   position: absolute;
-  top: calc(50% - 311px);
-  left: calc(50% - 199.5px);
-  width: 400px;
-  height: 621px;
+  top: 0;
+  left: calc(50% - 196.5px);
+  width: 393px;
+  height: 532px;
   overflow-y: auto;
 }
 .frameWrapper {
@@ -267,11 +265,9 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 17.02%;
-}
-.iconHome {
   height: 57.45%;
   width: 8.03%;
+  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
@@ -283,23 +279,22 @@
   bottom: 19.15%;
   left: 8.31%;
 }
-.vectorIcon2 {
-  top: 0;
-  bottom: 90%;
-}
 .vectorIcon2,
 .vectorIcon3,
 .vectorIcon4 {
   position: absolute;
   height: 10%;
   width: 100%;
+  top: 0;
   right: 0;
+  bottom: 90%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vectorIcon3 {
+.vectorIcon3,
+.vectorIcon4 {
   top: 46.54%;
   bottom: 43.46%;
 }
@@ -351,7 +346,7 @@
   border-radius: var(--br-md);
   background-color: var(--color-black);
   width: 100%;
-  height: 934px;
+  height: 852px;
   padding: 0 var(--padding-md);
   box-sizing: border-box;
   text-align: left;

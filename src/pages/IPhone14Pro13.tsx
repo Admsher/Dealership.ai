@@ -37,13 +37,13 @@ const IPhone14Pro13: FunctionComponent = () => {
       <div className={styles.iphone14Pro13Inner}>
         <div className={styles.iconHomeParent}>
           <button className={styles.iconHome} onClick={onIconHomeClick}>
-            <img className={styles.vectorIcon} alt="" src="../vector62.svg" />
+            <img className={styles.vectorIcon} alt="" src="../vector60.svg" />
           </button>
           <button
             className={styles.iconCommentSquare}
             onClick={onIconCommentSquareClick}
           >
-            <img className={styles.vectorIcon} alt="" src="../vector63.svg" />
+            <img className={styles.vectorIcon} alt="" src="../vector61.svg" />
           </button>
           <img className={styles.iconMenu} alt="" src="../-icon-menu.svg" />
         </div>

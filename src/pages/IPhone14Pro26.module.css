@@ -58,11 +58,11 @@
 }
 .frameInner {
   position: absolute;
-  top: 127px;
-  right: 32px;
+  top: 2px;
+  right: 0;
   border-radius: var(--br-md);
-  width: 83px;
-  height: 39px;
+  width: 79px;
+  height: 35px;
 }
 .filters {
   cursor: pointer;
@@ -70,8 +70,8 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 134px;
-  right: 51px;
+  top: 9px;
+  right: 15px;
   font-size: var(--font-size-base);
   display: inline-block;
   font-style: italic;
@@ -81,6 +81,14 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: left;
+}
+.vectorParent {
+  position: absolute;
+  top: 119px;
+  right: 27px;
+  width: 79px;
+  height: 37px;
+  overflow: hidden;
 }
 .frameParent {
   align-self: stretch;
@@ -98,88 +106,89 @@
   padding: 0;
   background-color: var(--color-gray-400);
   position: absolute;
-  left: 0;
+  top: calc(50% - 16px);
+  left: calc(50% - 181.5px);
   border-radius: var(--br-lg);
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
     -10px -10px 70px rgba(125, 125, 125, 0.25);
+  width: 364px;
   height: 235px;
 }
-.rectangleButton {
-  top: 258px;
-  width: 364px;
-}
-.frameChild1 {
-  top: 5px;
+.frameChild1,
+.frameChild2,
+.frameChild3 {
+  top: calc(50% - 269px);
+  left: calc(50% - 185.5px);
   width: 372px;
 }
-.frameChild2 {
-  top: 508px;
+.frameChild2,
+.frameChild3 {
+  top: calc(50% + 234px);
+  left: calc(50% - 181.5px);
   width: 364px;
 }
 .frameChild3 {
-  width: 364px;
-  top: 758px;
-}
-.alfaRomeo {
-  top: 180px;
+  top: calc(50% + 484px);
 }
 .alfaRomeo,
 .audi,
 .lm2568,
 .nissan {
   position: absolute;
-  left: 8px;
+  top: calc(50% - 94px);
+  left: calc(50% - 47.5px);
   font-weight: 700;
 }
-.audi {
-  top: 444px;
-}
+.audi,
+.lm2568,
 .nissan {
-  top: 701px;
+  top: calc(50% + 170px);
+  left: calc(50% - 18.5px);
+}
+.lm2568,
+.nissan {
+  top: calc(50% + 427px);
+  left: calc(50% - 27.5px);
 }
 .lm2568 {
-  top: 937px;
-}
-.screenshot176Icon {
-  position: absolute;
-  top: 26px;
-  border-radius: var(--br-xs);
-  height: 154.38px;
-  object-fit: cover;
+  top: calc(50% + 663px);
+  left: calc(50% - 34.5px);
 }
 .screenshot176Icon,
-.screenshot177Icon,
-.screenshot179Icon {
-  left: 31px;
-  width: 302px;
-}
 .screenshot177Icon,
 .screenshot179Icon,
 .screenshot183Icon {
   position: absolute;
+  top: calc(50% - 248px);
+  left: calc(50% - 150.5px);
   border-radius: var(--br-xs);
+  width: 302px;
+  height: 154.38px;
   object-fit: cover;
 }
-.screenshot177Icon {
-  top: 276px;
+.screenshot177Icon,
+.screenshot179Icon,
+.screenshot183Icon {
+  top: calc(50% + 2px);
   height: 163.41px;
 }
-.screenshot179Icon {
-  top: 525px;
+.screenshot179Icon,
+.screenshot183Icon {
+  top: calc(50% + 251px);
   height: 145.06px;
 }
 .screenshot183Icon {
-  top: 775px;
-  left: 28px;
+  top: calc(50% + 501px);
+  left: calc(50% - 151.5px);
   width: 304px;
   height: 149.72px;
 }
 .rectangleParent {
   position: absolute;
-  top: calc(50% - 317px);
-  left: calc(50% - 199.5px);
-  width: 400px;
-  height: 644px;
+  top: -15px;
+  left: calc(50% - 196.5px);
+  width: 393px;
+  height: 538px;
   overflow-y: auto;
 }
 .iphone14Pro26Inner {
@@ -216,11 +225,9 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 17.02%;
-}
-.iconHome {
   height: 57.45%;
   width: 8.03%;
+  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
@@ -232,23 +239,22 @@
   bottom: 19.15%;
   left: 8.31%;
 }
-.vectorIcon2 {
-  top: 0;
-  bottom: 90%;
-}
 .vectorIcon2,
 .vectorIcon3,
 .vectorIcon4 {
   position: absolute;
   height: 10%;
   width: 100%;
+  top: 0;
   right: 0;
+  bottom: 90%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vectorIcon3 {
+.vectorIcon3,
+.vectorIcon4 {
   top: 46.54%;
   bottom: 43.46%;
 }
@@ -289,7 +295,7 @@
   border-radius: var(--br-md);
   background-color: var(--color-black);
   width: 100%;
-  height: 983px;
+  height: 852px;
   display: flex;
   flex-direction: column;
   padding: 0 var(--padding-md);

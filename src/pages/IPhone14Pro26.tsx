@@ -49,10 +49,12 @@ const IPhone14Pro26: FunctionComponent = () => {
         <i className={styles.forSeriousCar}>
           For serious car collectors/drivers with a nut loose.
         </i>
-        <img className={styles.frameInner} alt="" src="../rectangle-3.svg" />
-        <button className={styles.filters} onClick={onFiltersClick}>
-          Filters
-        </button>
+        <div className={styles.vectorParent}>
+          <img className={styles.frameInner} alt="" src="../rectangle-3.svg" />
+          <button className={styles.filters} onClick={onFiltersClick}>
+            Filters
+          </button>
+        </div>
       </div>
       <div className={styles.iphone14Pro26Inner}>
         <div className={styles.rectangleParent}>
