@@ -75,7 +75,7 @@ const IPhone14Pro17: FunctionComponent = () => {
             href="https://www.youtube.com/watch?v=Q4VGQPk2Dl8"
             data-animate-on-scroll
           >
-            <img className={styles.vectorIcon} alt="" src="../vector46.svg" />
+            <img className={styles.vectorIcon} alt="" src="../vector44.svg" />
           </a>
         </div>
       </div>
@@ -105,18 +105,18 @@ const IPhone14Pro17: FunctionComponent = () => {
         <div className={styles.frameChild3} />
         <div className={styles.iconHomeParent}>
           <button className={styles.iconHome} onClick={onIconHomeClick}>
-            <img className={styles.vectorIcon1} alt="" src="../vector47.svg" />
+            <img className={styles.vectorIcon1} alt="" src="../vector45.svg" />
           </button>
           <button
             className={styles.iconCommentSquare}
             onClick={onIconCommentSquareClick}
           >
-            <img className={styles.vectorIcon1} alt="" src="../vector48.svg" />
+            <img className={styles.vectorIcon1} alt="" src="../vector46.svg" />
           </button>
           <button className={styles.iconMenu} onClick={onIconMenuClick}>
-            <img className={styles.vectorIcon3} alt="" src="../vector49.svg" />
-            <img className={styles.vectorIcon4} alt="" src="../vector50.svg" />
-            <img className={styles.vectorIcon5} alt="" src="../vector51.svg" />
+            <img className={styles.vectorIcon3} alt="" src="../vector47.svg" />
+            <img className={styles.vectorIcon4} alt="" src="../vector48.svg" />
+            <img className={styles.vectorIcon5} alt="" src="../vector49.svg" />
           </button>
         </div>
       </div>

@@ -139,8 +139,8 @@
 }
 .frameChild1 {
   position: absolute;
-  top: calc(50% - 78.5px);
-  left: calc(50% - 167px);
+  top: calc(50% - 66.5px);
+  left: calc(50% - 166.5px);
   border-radius: var(--br-md);
   background-color: var(--color-gray-400);
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
@@ -177,31 +177,38 @@
   top: 79px;
 }
 .specsAndPrice,
-.v12,
-.v8 {
-  position: absolute;
+.v12 {
   left: 0;
   display: inline-block;
   font-weight: 700;
 }
 .specsAndPrice {
+  position: absolute;
   top: 18px;
   font-size: var(--font-size-base);
   width: 118px;
   height: 15px;
 }
-.v12,
-.v8 {
+.v12 {
   top: 62px;
   width: 135px;
   height: 12px;
 }
+.crRsParent,
+.v12,
+.v8 {
+  position: absolute;
+}
 .v8 {
   top: 103px;
+  left: 0;
+  display: inline-block;
+  font-weight: 700;
+  width: 135px;
+  height: 12px;
 }
-.rectangleGroup {
-  position: absolute;
-  top: calc(50% - 75.5px);
+.crRsParent {
+  top: calc(50% - 63.5px);
   left: calc(50% - 159.5px);
   width: 320px;
   height: 157px;
@@ -280,7 +287,7 @@
   height: 25px;
 }
 .frameButton,
-.rectangleParent1 {
+.rectangleContainer {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -292,11 +299,11 @@
   height: 39px;
   overflow: hidden;
 }
-.rectangleParent1 {
+.frameButton {
   top: 112px;
   height: 40px;
 }
-.rectangleContainer {
+.rectangleGroup {
   align-self: stretch;
   position: relative;
   height: 237px;
@@ -332,11 +339,9 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 17.02%;
-}
-.iconHome {
   height: 57.45%;
   width: 8.03%;
+  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
@@ -348,23 +353,22 @@
   bottom: 19.15%;
   left: 8.31%;
 }
-.vectorIcon3 {
-  top: 0;
-  bottom: 90%;
-}
 .vectorIcon3,
 .vectorIcon4,
 .vectorIcon5 {
   position: absolute;
   height: 10%;
   width: 100%;
+  top: 0;
   right: 0;
+  bottom: 90%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vectorIcon4 {
+.vectorIcon4,
+.vectorIcon5 {
   top: 46.54%;
   bottom: 43.46%;
 }
@@ -406,7 +410,7 @@
   border-radius: var(--br-md);
   background-color: var(--color-gray-400);
   width: 100%;
-  height: 836px;
+  height: 852px;
   display: flex;
   flex-direction: column;
   padding: 0 var(--padding-md);

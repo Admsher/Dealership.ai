@@ -1,4 +1,4 @@
-import { FunctionComponent, useCallback } from "react";
+import { FunctionComponent, useCallback, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./IPhone14Pro1.module.css";
 
@@ -33,22 +33,61 @@ const IPhone14Pro1: FunctionComponent = () => {
     navigate("/iphone-14-pro-13");
   }, [navigate]);
 
+  useEffect(() => {
+    const scrollAnimElements = document.querySelectorAll(
+      "[data-animate-on-scroll]"
+    );
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting || entry.intersectionRatio > 0) {
+            const targetElement = entry.target;
+            targetElement.classList.add(styles.animate);
+            observer.unobserve(targetElement);
+          }
+        }
+      },
+      {
+        threshold: 0.15,
+      }
+    );
+
+    for (let i = 0; i < scrollAnimElements.length; i++) {
+      observer.observe(scrollAnimElements[i]);
+    }
+
+    return () => {
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.unobserve(scrollAnimElements[i]);
+      }
+    };
+  }, []);
+
   return (
     <div className={styles.iphone14Pro1}>
       <div className={styles.nissanParent}>
         <i className={styles.nissan}>Nissan</i>
         <i className={styles.gtrR34}>GTR R-34</i>
-        <iframe
-          className={styles.frameChild}
-          src={`https://sketchfab.com/models/3469dd54aeeb438e899bbc119297bf92/embed?autospin=1&autostart=1&ui_theme=dark>`}
-        />
         <button className={styles.ellipseParent} onClick={onFrameButtonClick}>
-          <img className={styles.frameItem} alt="" src="../ellipse-118.svg" />
+          <img className={styles.frameChild} alt="" src="../ellipse-118.svg" />
           <img className={styles.iconUser} alt="" src="../-icon-user.svg" />
-          <img className={styles.frameInner} alt="" src="../ellipse-217.svg" />
+          <img className={styles.frameItem} alt="" src="../ellipse-217.svg" />
         </button>
+        <div className={styles.rectangleParent}>
+          <iframe
+            className={styles.frameInner}
+            src={`https://sketchfab.com/models/3469dd54aeeb438e899bbc119297bf92/embed?autospin=1&autostart=1&ui_theme=dark>`}
+          />
+          <a
+            className={styles.iconsaxboldyoutube}
+            href="https://www.youtube.com/watch?v=fU64X30dqzc"
+            data-animate-on-scroll
+          >
+            <img className={styles.vectorIcon} alt="" src="../vector44.svg" />
+          </a>
+        </div>
       </div>
-      <div className={styles.rectangleParent}>
+      <div className={styles.rectangleGroup}>
         <div className={styles.rectangleDiv} />
         <img className={styles.ellipseIcon} alt="" src="../ellipse-78.svg" />
         <div className={styles.frameChild1} />
@@ -63,7 +102,10 @@ const IPhone14Pro1: FunctionComponent = () => {
         </div>
       </div>
       <div className={styles.frameParent}>
-        <button className={styles.rectangleGroup} onClick={onFrameButton1Click}>
+        <button
+          className={styles.rectangleContainer}
+          onClick={onFrameButton1Click}
+        >
           <div className={styles.frameChild2} />
           <i className={styles.contact}>
             <p className={styles.contact1}>Contact</p>
@@ -79,10 +121,7 @@ const IPhone14Pro1: FunctionComponent = () => {
             <p className={styles.contact1}>Contact</p>
           </i>
         </button>
-        <button
-          className={styles.rectangleContainer}
-          onClick={onFrameButton3Click}
-        >
+        <button className={styles.frameButton} onClick={onFrameButton3Click}>
           <div className={styles.frameChild2} />
           <i className={styles.contact}>
             <p className={styles.contact1}>Contact</p>
@@ -97,18 +136,18 @@ const IPhone14Pro1: FunctionComponent = () => {
         <div className={styles.frameChild4} />
         <div className={styles.iconHomeParent}>
           <button className={styles.iconHome} onClick={onIconHomeClick}>
-            <img className={styles.vectorIcon} alt="" src="../vector108.svg" />
+            <img className={styles.vectorIcon1} alt="" src="../vector107.svg" />
           </button>
           <button
             className={styles.iconCommentSquare}
             onClick={onIconCommentSquareClick}
           >
-            <img className={styles.vectorIcon} alt="" src="../vector109.svg" />
+            <img className={styles.vectorIcon1} alt="" src="../vector108.svg" />
           </button>
           <button className={styles.iconMenu} onClick={onIconMenuClick}>
-            <img className={styles.vectorIcon2} alt="" src="../vector110.svg" />
-            <img className={styles.vectorIcon3} alt="" src="../vector111.svg" />
-            <img className={styles.vectorIcon4} alt="" src="../vector112.svg" />
+            <img className={styles.vectorIcon3} alt="" src="../vector109.svg" />
+            <img className={styles.vectorIcon4} alt="" src="../vector110.svg" />
+            <img className={styles.vectorIcon5} alt="" src="../vector111.svg" />
           </button>
         </div>
       </div>

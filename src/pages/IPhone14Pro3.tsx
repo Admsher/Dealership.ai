@@ -81,15 +81,15 @@ const IPhone14Pro3: FunctionComponent = () => {
             href="https://www.youtube.com/watch?v=k9Br6f_BCVc"
             data-animate-on-scroll
           >
-            <img className={styles.vectorIcon} alt="" src="../vector46.svg" />
+            <img className={styles.vectorIcon} alt="" src="../vector44.svg" />
           </a>
         </div>
       </div>
       <div className={styles.rectangleGroup}>
         <div className={styles.rectangleDiv} />
         <img className={styles.ellipseIcon} alt="" src="../ellipse-76.svg" />
-        <div className={styles.rectangleContainer}>
-          <div className={styles.frameChild1} />
+        <div className={styles.frameChild1} />
+        <div className={styles.v10Parent}>
           <i className={styles.v10}>V10</i>
           <i className={styles.specsAndPrice}>Specs and Price</i>
           <i className={styles.v12}>V12</i>
@@ -99,7 +99,7 @@ const IPhone14Pro3: FunctionComponent = () => {
           <i className={styles.crRs1}>2.12 Cr Rs</i>
         </div>
       </div>
-      <div className={styles.frameDiv}>
+      <div className={styles.rectangleContainer}>
         <div className={styles.frameChild2} />
         <i className={styles.ferrariMumbai}>Ferrari Mumbai</i>
         <i className={styles.scuderia}>Scuderia</i>
@@ -112,9 +112,9 @@ const IPhone14Pro3: FunctionComponent = () => {
           />
           <i className={styles.contact}>Contact</i>
         </div>
-        <div className={styles.frameChild3} />
+        <div className={styles.frameDiv} />
         <button className={styles.frameButton} onClick={onFrameButton1Click}>
-          <div className={styles.frameChild4} />
+          <div className={styles.frameChild3} />
           <i className={styles.contact1}>
             <p className={styles.contact2}>Contact</p>
           </i>
@@ -123,28 +123,28 @@ const IPhone14Pro3: FunctionComponent = () => {
           className={styles.rectangleParent1}
           onClick={onFrameButton2Click}
         >
-          <div className={styles.frameChild4} />
+          <div className={styles.frameChild3} />
           <i className={styles.contact1}>
             <p className={styles.contact2}>Contact</p>
           </i>
         </button>
       </div>
       <div className={styles.rectangleParent2}>
-        <div className={styles.frameChild6} />
+        <div className={styles.frameChild5} />
         <div className={styles.iconHomeParent}>
           <button className={styles.iconHome} onClick={onIconHomeClick}>
-            <img className={styles.vectorIcon1} alt="" src="../vector98.svg" />
+            <img className={styles.vectorIcon1} alt="" src="../vector96.svg" />
           </button>
           <button
             className={styles.iconCommentSquare}
             onClick={onIconCommentSquareClick}
           >
-            <img className={styles.vectorIcon1} alt="" src="../vector99.svg" />
+            <img className={styles.vectorIcon1} alt="" src="../vector97.svg" />
           </button>
           <button className={styles.iconMenu} onClick={onIconMenuClick}>
-            <img className={styles.vectorIcon3} alt="" src="../vector100.svg" />
-            <img className={styles.vectorIcon4} alt="" src="../vector101.svg" />
-            <img className={styles.vectorIcon5} alt="" src="../vector102.svg" />
+            <img className={styles.vectorIcon3} alt="" src="../vector98.svg" />
+            <img className={styles.vectorIcon4} alt="" src="../vector99.svg" />
+            <img className={styles.vectorIcon5} alt="" src="../vector100.svg" />
           </button>
         </div>
       </div>

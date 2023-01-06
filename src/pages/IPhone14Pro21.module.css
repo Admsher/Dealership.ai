@@ -1,15 +1,13 @@
 .mk4,
 .toyota {
   position: absolute;
-  display: inline-block;
-  font-weight: 700;
-  mix-blend-mode: normal;
-}
-.toyota {
   top: 73px;
   left: 21px;
+  display: inline-block;
+  font-weight: 700;
   width: 174px;
   height: 36px;
+  mix-blend-mode: normal;
 }
 .mk4 {
   top: 110px;
@@ -88,8 +86,7 @@
   width: 213px;
   height: 31px;
 }
-.ellipseIcon,
-.frameChild1 {
+.ellipseIcon {
   position: absolute;
   top: 19px;
   left: 96px;
@@ -97,8 +94,9 @@
   height: 19px;
 }
 .frameChild1 {
-  top: 61px;
-  left: 24px;
+  position: absolute;
+  top: calc(50% - 67.5px);
+  left: calc(50% - 172.5px);
   border-radius: var(--br-md);
   background-color: var(--color-gray-400);
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
@@ -108,8 +106,8 @@
 }
 .specsAndPrice {
   position: absolute;
-  top: 0;
-  left: 1px;
+  top: 16px;
+  left: 0;
   display: inline-block;
   font-weight: 700;
   width: 118px;
@@ -128,8 +126,9 @@
 }
 .specsAndPriceParent {
   position: absolute;
-  top: calc(50% - 37.5px);
-  left: calc(50% - 172.5px);
+  top: calc(50% - 64.5px);
+  left: calc(50% - 160.5px);
+  border-radius: var(--br-md);
   width: 320px;
   height: 139px;
   overflow: hidden;
@@ -226,11 +225,9 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 17.02%;
-}
-.iconHome {
   height: 57.45%;
   width: 8.03%;
+  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
@@ -242,23 +239,22 @@
   bottom: 19.15%;
   left: 8.31%;
 }
-.vectorIcon2 {
-  top: 0;
-  bottom: 90%;
-}
 .vectorIcon2,
 .vectorIcon3,
 .vectorIcon4 {
   position: absolute;
   height: 10%;
   width: 100%;
+  top: 0;
   right: 0;
+  bottom: 90%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vectorIcon3 {
+.vectorIcon3,
+.vectorIcon4 {
   top: 46.54%;
   bottom: 43.46%;
 }

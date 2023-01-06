@@ -38,7 +38,7 @@ const IPhone14Pro10: FunctionComponent = () => {
           className={styles.iconChevronLeft}
           onClick={onIconChevronLeftClick}
         >
-          <img className={styles.vectorIcon} alt="" src="../vector80.svg" />
+          <img className={styles.vectorIcon} alt="" src="../vector78.svg" />
         </button>
         <div className={styles.frameChild} />
       </div>

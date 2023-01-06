@@ -62,18 +62,18 @@ const IPhone14Pro15: FunctionComponent = () => {
         <div className={styles.frameChild3} />
         <div className={styles.iconHomeParent}>
           <button className={styles.iconHome} onClick={onIconHomeClick}>
-            <img className={styles.vectorIcon} alt="" src="../vector57.svg" />
+            <img className={styles.vectorIcon} alt="" src="../vector55.svg" />
           </button>
           <button
             className={styles.iconCommentSquare}
             onClick={onIconCommentSquareClick}
           >
-            <img className={styles.vectorIcon} alt="" src="../vector58.svg" />
+            <img className={styles.vectorIcon} alt="" src="../vector56.svg" />
           </button>
           <button className={styles.iconMenu} onClick={onIconMenuClick}>
-            <img className={styles.vectorIcon2} alt="" src="../vector59.svg" />
-            <img className={styles.vectorIcon3} alt="" src="../vector60.svg" />
-            <img className={styles.vectorIcon4} alt="" src="../vector61.svg" />
+            <img className={styles.vectorIcon2} alt="" src="../vector57.svg" />
+            <img className={styles.vectorIcon3} alt="" src="../vector58.svg" />
+            <img className={styles.vectorIcon4} alt="" src="../vector59.svg" />
           </button>
         </div>
       </div>

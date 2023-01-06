@@ -28,7 +28,7 @@ const IPhone14Pro14: FunctionComponent = () => {
       <i className={styles.alfaRomeo}>Alfa Romeo</i>
       <button className={styles.ellipseParent} onClick={onFrameButtonClick}>
         <img className={styles.frameChild} alt="" src="../ellipse-119.svg" />
-        <img className={styles.iconUser} alt="" src="../-icon-user.svg" />
+        <img className={styles.iconUser} alt="" src="../-icon-user18.svg" />
         <img className={styles.frameItem} alt="" src="../ellipse-218.svg" />
       </button>
       <i className={styles.v6Ti}>155 V6 Ti</i>
@@ -54,18 +54,18 @@ const IPhone14Pro14: FunctionComponent = () => {
       </div>
       <div className={styles.iconHomeParent}>
         <button className={styles.iconHome} onClick={onIconHomeClick}>
-          <img className={styles.vectorIcon} alt="" src="../vector113.svg" />
+          <img className={styles.vectorIcon} alt="" src="../vector112.svg" />
         </button>
         <button
           className={styles.iconCommentSquare}
           onClick={onIconCommentSquareClick}
         >
-          <img className={styles.vectorIcon} alt="" src="../vector114.svg" />
+          <img className={styles.vectorIcon} alt="" src="../vector113.svg" />
         </button>
         <button className={styles.iconMenu} onClick={onIconMenuClick}>
-          <img className={styles.vectorIcon2} alt="" src="../vector115.svg" />
-          <img className={styles.vectorIcon3} alt="" src="../vector116.svg" />
-          <img className={styles.vectorIcon4} alt="" src="../vector117.svg" />
+          <img className={styles.vectorIcon2} alt="" src="../vector114.svg" />
+          <img className={styles.vectorIcon3} alt="" src="../vector115.svg" />
+          <img className={styles.vectorIcon4} alt="" src="../vector116.svg" />
         </button>
       </div>
     </div>

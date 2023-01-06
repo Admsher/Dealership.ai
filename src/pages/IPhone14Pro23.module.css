@@ -41,7 +41,7 @@
   border: 0;
   position: absolute;
   top: calc(50% - 18px);
-  left: calc(50% - 152px);
+  left: calc(50% - 151.5px);
   background: radial-gradient(
     50% 50%at 50% 50%,
     rgba(160, 155, 155, 0.5),
@@ -97,8 +97,8 @@
   height: 31px;
 }
 .frameChild1 {
-  top: calc(50% - 79px);
-  left: calc(50% - 167px);
+  top: calc(50% - 73.5px);
+  left: calc(50% - 166.5px);
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
     -10px -10px 70px rgba(125, 125, 125, 0.25);
   width: 333px;
@@ -163,10 +163,10 @@
   top: 107px;
   width: 51px;
 }
-.rectangleGroup {
+.v10Parent {
   position: absolute;
-  top: calc(50% - 74.5px);
-  left: calc(50% - 160px);
+  top: calc(50% - 70.5px);
+  left: calc(50% - 159.5px);
   width: 320px;
   height: 156px;
   overflow: hidden;
@@ -189,7 +189,7 @@
 .frameChild2 {
   position: absolute;
   top: calc(50% - 112px);
-  left: calc(50% - 173px);
+  left: calc(50% - 172.5px);
   border-radius: var(--br-md);
   background-color: var(--color-gray-400);
   width: 331px;
@@ -246,7 +246,7 @@
   height: 25px;
 }
 .frameDiv,
-.rectangleParent1 {
+.rectangleContainer {
   position: absolute;
   top: 54px;
   right: 0;
@@ -254,11 +254,11 @@
   height: 39px;
   overflow: hidden;
 }
-.rectangleParent1 {
+.frameDiv {
   top: 93px;
   height: 40px;
 }
-.rectangleContainer {
+.rectangleGroup {
   align-self: stretch;
   position: relative;
   height: 222px;
@@ -269,7 +269,7 @@
 .frameChild4 {
   position: absolute;
   top: calc(50% - 35px);
-  left: calc(50% - 197px);
+  left: calc(50% - 196.5px);
   border-radius: var(--br-sm);
   background-color: var(--color-gray-400);
   width: 393px;
@@ -294,11 +294,9 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 17.02%;
-}
-.iconHome {
   height: 57.45%;
   width: 8.03%;
+  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
@@ -310,23 +308,22 @@
   bottom: 19.15%;
   left: 8.31%;
 }
-.vectorIcon2 {
-  top: 0;
-  bottom: 90%;
-}
 .vectorIcon2,
 .vectorIcon3,
 .vectorIcon4 {
   position: absolute;
   height: 10%;
   width: 100%;
+  top: 0;
   right: 0;
+  bottom: 90%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vectorIcon3 {
+.vectorIcon3,
+.vectorIcon4 {
   top: 46.54%;
   bottom: 43.46%;
 }
@@ -350,12 +347,12 @@
 .iconHomeParent {
   position: absolute;
   top: calc(50% - 26px);
-  left: calc(50% - 188px);
+  left: calc(50% - 187.5px);
   width: 374px;
   height: 47px;
   overflow: hidden;
 }
-.rectangleParent2 {
+.rectangleParent1 {
   align-self: stretch;
   flex: 1;
   position: relative;
@@ -366,7 +363,7 @@
   border-radius: var(--br-md);
   background-color: var(--color-black);
   width: 100%;
-  height: 833px;
+  height: 853px;
   overflow: hidden;
   display: flex;
   flex-direction: column;

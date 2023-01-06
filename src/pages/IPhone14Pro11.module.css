@@ -32,14 +32,14 @@
   width: 237px;
 }
 .frameChild {
-  top: calc(50% - 173.5px);
-  left: calc(50% - 118.5px);
+  top: calc(50% - 160.5px);
+  left: calc(50% - 88.5px);
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
   height: 36px;
 }
 .frameItem {
-  top: calc(50% - 98.5px);
-  left: calc(50% - 93.5px);
+  top: calc(50% - 90.5px);
+  left: calc(50% - 74.5px);
   height: 40px;
   overflow: hidden;
 }
@@ -66,7 +66,7 @@
 .locationAsMentionedParent {
   align-self: stretch;
   position: relative;
-  height: 677px;
+  height: 443px;
   flex-shrink: 0;
   overflow: hidden;
 }
@@ -89,15 +89,13 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 17.02%;
-  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.01);
-}
-.iconHome {
   height: 57.45%;
   width: 8.03%;
+  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.01);
 }
 .iconCommentSquare {
   height: 63.83%;
@@ -106,23 +104,22 @@
   bottom: 19.15%;
   left: 8.31%;
 }
-.vectorIcon2 {
-  top: 0;
-  bottom: 90%;
-}
 .vectorIcon2,
 .vectorIcon3,
 .vectorIcon4 {
   position: absolute;
   height: 10%;
   width: 100%;
+  top: 0;
   right: 0;
+  bottom: 90%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vectorIcon3 {
+.vectorIcon3,
+.vectorIcon4 {
   top: 46.54%;
   bottom: 43.46%;
 }
@@ -146,16 +143,15 @@
 }
 .iconHomeParent {
   position: absolute;
-  top: calc(50% - 19.5px);
-  left: calc(50% - 186.5px);
+  bottom: 18px;
+  left: calc(50% - 187.5px);
   width: 374px;
   height: 47px;
 }
 .iphone14Pro11Inner {
   align-self: stretch;
+  flex: 1;
   position: relative;
-  height: 55px;
-  flex-shrink: 0;
   overflow: hidden;
 }
 .iphone14Pro11 {
@@ -163,13 +159,13 @@
   border-radius: var(--br-md);
   background-color: var(--color-black);
   width: 100%;
+  height: 852px;
   display: flex;
   flex-direction: column;
-  padding: 10px var(--padding-md);
+  padding: 10px var(--padding-md) 0;
   box-sizing: border-box;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 62px;
   text-align: left;
   font-size: var(--font-size-3xl);
   color: var(--color-white);

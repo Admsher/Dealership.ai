@@ -144,8 +144,8 @@
 }
 .frameChild1 {
   position: absolute;
-  top: calc(50% - 83.5px);
-  left: calc(50% - 167px);
+  top: calc(50% - 74px);
+  left: calc(50% - 167.5px);
   border-radius: var(--br-md);
   background-color: var(--color-gray-400);
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
@@ -212,9 +212,9 @@
   top: 51px;
   left: 237px;
 }
-.rectangleContainer {
+.v10Parent {
   position: absolute;
-  top: calc(50% - 67px);
+  top: calc(50% - 71px);
   left: calc(50% - 160.5px);
   width: 320px;
   height: 147px;
@@ -291,7 +291,7 @@
   width: 118px;
   height: 41px;
 }
-.frameChild3,
+.frameDiv,
 .frameGroup {
   position: absolute;
   overflow: hidden;
@@ -303,13 +303,13 @@
   height: 332px;
   font-size: var(--font-size-3xl);
 }
-.frameChild3 {
+.frameDiv {
   top: 227px;
   left: 0;
   width: 393px;
   height: 65px;
 }
-.frameChild4 {
+.frameChild3 {
   position: absolute;
   top: 5px;
   left: 25px;
@@ -355,7 +355,7 @@
   top: 99px;
   height: 40px;
 }
-.frameDiv {
+.rectangleContainer {
   align-self: stretch;
   position: relative;
   height: 203px;
@@ -363,7 +363,7 @@
   overflow: hidden;
   font-size: var(--font-size-base);
 }
-.frameChild6 {
+.frameChild5 {
   position: absolute;
   top: calc(50% - 35.5px);
   left: calc(50% - 196.5px);
@@ -391,11 +391,9 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 17.02%;
-}
-.iconHome {
   height: 57.45%;
   width: 8.03%;
+  top: 17.02%;
   right: 48.12%;
   bottom: 25.53%;
   left: 43.85%;
@@ -407,23 +405,22 @@
   bottom: 19.15%;
   left: 8.31%;
 }
-.vectorIcon3 {
-  top: 0;
-  bottom: 90%;
-}
 .vectorIcon3,
 .vectorIcon4,
 .vectorIcon5 {
   position: absolute;
   height: 10%;
   width: 100%;
+  top: 0;
   right: 0;
+  bottom: 90%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vectorIcon4 {
+.vectorIcon4,
+.vectorIcon5 {
   top: 46.54%;
   bottom: 43.46%;
 }
@@ -465,7 +462,7 @@
   border-radius: var(--br-md);
   background-color: var(--color-black);
   width: 100%;
-  height: 814px;
+  height: 852px;
   display: flex;
   flex-direction: column;
   padding: 0 var(--padding-md);
